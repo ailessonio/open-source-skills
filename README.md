@@ -7,8 +7,10 @@ An open collection of practical Agent Skills, curated from existing upstream pro
 ## What belongs here
 
 - Complete, redistributable upstream Skill folders, with their original authors and licenses preserved.
-- Public English and Simplified Chinese descriptions, task categories, prerequisites, and first-use guidance.
+- Public English descriptions, task categories, prerequisites, and first-use guidance.
 - Source repository, path, pinned commit, license evidence, and verification status for every entry.
+
+Repository documentation and catalog content are maintained in English only.
 
 We curate existing Skills; we do not create original Skills in this phase. Inclusion does not imply universal compatibility or a security certification.
 
@@ -16,7 +18,7 @@ We curate existing Skills; we do not create original Skills in this phase. Inclu
 
 ```text
 catalog/index.json         # Published catalog; empty until entries pass review
-catalog/entries/           # Planned: bilingual entry metadata
+catalog/entries/           # Planned: English entry metadata
 catalog/collections/       # Planned: task-based collections
 skills/<source>/<name>/    # Planned: complete upstream Skill folders
 ```
@@ -36,9 +38,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Use an issue to suggest an existing upst
 ## Licensing
 
 AILesson-authored catalog descriptions and repository maintenance materials are provided under the [MIT License](LICENSE). Third-party Skills and their accompanying resources retain their own licenses; the root license does not relicense them. Each imported directory must include its applicable license and notices. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-## 中文说明
-
-这是 AILesson 的公开 Agent Skills 内容仓库，收集互联网上已有、允许再分发的实用 Skills，并维护中英文介绍、使用条件和来源记录。
-
-目前仅完成仓库初始化，尚未导入或验证任何 Skill。后续网站负责搜索、筛选与使用指导，内容与下载直接链接 GitHub。欢迎通过 Issue 推荐来源，或通过 Pull Request 改进内容。第三方内容保留各自许可证，不统一改为 MIT。
