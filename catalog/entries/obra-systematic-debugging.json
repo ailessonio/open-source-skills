@@ -56,5 +56,11 @@
         "包内诊断脚本会执行项目测试，使用前应检查命令；其他 Superpowers 流程需单独安装。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05",
+    "file": "obra-systematic-debugging.zip",
+    "sha256": "764fd689a1666897d2de2a332f5f67cd7cb1db7d2a995a3765000cfab969534b",
+    "bytes": 21004
   }
 }

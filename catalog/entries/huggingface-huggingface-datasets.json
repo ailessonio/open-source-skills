@@ -54,5 +54,11 @@
         "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05",
+    "file": "huggingface-huggingface-datasets.zip",
+    "sha256": "20c515782327ae88d18c0d77713d4ba1abeb357775748335ee1138fdc521bfc7",
+    "bytes": 6476
   }
 }

@@ -52,5 +52,11 @@
         "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05",
+    "file": "anthropics-internal-comms.zip",
+    "sha256": "d1668bd2d5b7d0c04f5fc0060e34eaf5e96b53487caf8a843205e836ec214380",
+    "bytes": 25861
   }
 }

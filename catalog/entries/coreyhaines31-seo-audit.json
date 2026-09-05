@@ -56,5 +56,11 @@
         "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05",
+    "file": "coreyhaines31-seo-audit.zip",
+    "sha256": "175917ca495d3edd520f04f556fb170f9af07ed2b7427062ea7c53e37b0967da",
+    "bytes": 20030
   }
 }

@@ -54,5 +54,11 @@
         "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05",
+    "file": "anthropics-frontend-design.zip",
+    "sha256": "3bdf6b69dcbfeaacd208e51f9b76a03f3da3526b00af60505b05944e3ceba6d2",
+    "bytes": 23737
   }
 }

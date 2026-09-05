@@ -1,4 +1,973 @@
 {
   "schemaVersion": 1,
-  "entries": []
+  "revision": "1a3aca039c601a166ea20ed271569202811df49d",
+  "updatedAt": "2026-09-05",
+  "entries": [
+    {
+      "slug": "anthropics-frontend-design",
+      "name": "frontend-design",
+      "category": "design",
+      "language": "en",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "sourceRepository": "anthropics/skills",
+      "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "sourcePath": "skills/frontend-design",
+      "path": "skills/anthropics/frontend-design",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Frontend design",
+          "description": "Build an intentional visual direction for a new or existing interface.",
+          "tags": [
+            "frontend-design",
+            "design"
+          ],
+          "tasks": [
+            "Build an intentional visual direction for a new or existing interface."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials.",
+            "A local code project and an agent with file editing and command execution capabilities."
+          ],
+          "example": "Use frontend-design for this task: Build an intentional visual direction for a new or existing interface. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed."
+          ]
+        },
+        "zh": {
+          "title": "前端界面设计",
+          "description": "为新界面或现有页面确定清晰的视觉方向并落地。",
+          "tags": [
+            "frontend-design",
+            "design"
+          ],
+          "tasks": [
+            "为新界面或现有页面确定清晰的视觉方向并落地。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+            "本地代码项目，以及可编辑文件和执行命令的 Agent。"
+          ],
+          "example": "请使用 frontend-design 完成以下任务：为新界面或现有页面确定清晰的视觉方向并落地。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "anthropics-frontend-design.zip",
+        "sha256": "3bdf6b69dcbfeaacd208e51f9b76a03f3da3526b00af60505b05944e3ceba6d2",
+        "bytes": 23737
+      }
+    },
+    {
+      "slug": "anthropics-internal-comms",
+      "name": "internal-comms",
+      "category": "writing",
+      "language": "en",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "sourceRepository": "anthropics/skills",
+      "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "sourcePath": "skills/internal-comms",
+      "path": "skills/anthropics/internal-comms",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Internal communications",
+          "description": "Turn project notes into concise team updates, newsletters, or FAQ answers.",
+          "tags": [
+            "internal-comms",
+            "writing"
+          ],
+          "tasks": [
+            "Turn project notes into concise team updates, newsletters, or FAQ answers."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials."
+          ],
+          "example": "Use internal-comms for this task: Turn project notes into concise team updates, newsletters, or FAQ answers. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed."
+          ]
+        },
+        "zh": {
+          "title": "内部沟通",
+          "description": "将项目记录整理为团队更新、内部简报或常见问题答复。",
+          "tags": [
+            "internal-comms",
+            "writing"
+          ],
+          "tasks": [
+            "将项目记录整理为团队更新、内部简报或常见问题答复。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。"
+          ],
+          "example": "请使用 internal-comms 完成以下任务：将项目记录整理为团队更新、内部简报或常见问题答复。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "anthropics-internal-comms.zip",
+        "sha256": "d1668bd2d5b7d0c04f5fc0060e34eaf5e96b53487caf8a843205e836ec214380",
+        "bytes": 25861
+      }
+    },
+    {
+      "slug": "anthropics-webapp-testing",
+      "name": "webapp-testing",
+      "category": "development",
+      "language": "en",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "sourceRepository": "anthropics/skills",
+      "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "sourcePath": "skills/webapp-testing",
+      "path": "skills/anthropics/webapp-testing",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Web app testing",
+          "description": "Inspect a local website and write Playwright checks for real user flows.",
+          "tags": [
+            "webapp-testing",
+            "development"
+          ],
+          "tasks": [
+            "Inspect a local website and write Playwright checks for real user flows."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials.",
+            "Python, Playwright with Chromium, and a local app you are authorized to test."
+          ],
+          "example": "Use webapp-testing for this task: Inspect a local website and write Playwright checks for real user flows. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed."
+          ]
+        },
+        "zh": {
+          "title": "网页应用测试",
+          "description": "检查本地网站，用 Playwright 验证真实用户操作流程。",
+          "tags": [
+            "webapp-testing",
+            "development"
+          ],
+          "tasks": [
+            "检查本地网站，用 Playwright 验证真实用户操作流程。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+            "Python、已安装 Chromium 的 Playwright，以及有权限测试的本地应用。"
+          ],
+          "example": "请使用 webapp-testing 完成以下任务：检查本地网站，用 Playwright 验证真实用户操作流程。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "anthropics-webapp-testing.zip",
+        "sha256": "91a4dab8c9728d3234036684696ff25e592b0b9394020eb33667f9c216e0608b",
+        "bytes": 25466
+      }
+    },
+    {
+      "slug": "coreyhaines31-competitor-profiling",
+      "name": "competitor-profiling",
+      "category": "research",
+      "language": "en",
+      "author": "Corey Haines",
+      "license": "MIT",
+      "sourceRepository": "coreyhaines31/marketingskills",
+      "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/competitor-profiling",
+      "path": "skills/coreyhaines31/competitor-profiling",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Competitor research",
+          "description": "Turn competitor websites into structured profiles with traceable sources.",
+          "tags": [
+            "competitor-profiling",
+            "research"
+          ],
+          "tasks": [
+            "Turn competitor websites into structured profiles with traceable sources."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials.",
+            "The upstream workflow uses Firecrawl and DataForSEO MCP tools; configure those services and account access first."
+          ],
+          "example": "Use competitor-profiling for this task: Turn competitor websites into structured profiles with traceable sources. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+            "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+          ]
+        },
+        "zh": {
+          "title": "竞品调研",
+          "description": "将竞品网站资料整理为可追溯的结构化档案。",
+          "tags": [
+            "competitor-profiling",
+            "research"
+          ],
+          "tasks": [
+            "将竞品网站资料整理为可追溯的结构化档案。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+            "上游流程使用 Firecrawl 和 DataForSEO MCP 工具，需要提前配置服务与账号权限。"
+          ],
+          "example": "请使用 competitor-profiling 完成以下任务：将竞品网站资料整理为可追溯的结构化档案。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+            "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "coreyhaines31-competitor-profiling.zip",
+        "sha256": "bc2a223f6bc0c1eba19ed08780bf4a4863828bf6aa8b24e5b3b3c8b835cccd9a",
+        "bytes": 14710
+      }
+    },
+    {
+      "slug": "coreyhaines31-content-strategy",
+      "name": "content-strategy",
+      "category": "marketing",
+      "language": "en",
+      "author": "Corey Haines",
+      "license": "MIT",
+      "sourceRepository": "coreyhaines31/marketingskills",
+      "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/content-strategy",
+      "path": "skills/coreyhaines31/content-strategy",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Content strategy",
+          "description": "Plan useful content topics around your audience, goals, and distribution channels.",
+          "tags": [
+            "content-strategy",
+            "marketing"
+          ],
+          "tasks": [
+            "Plan useful content topics around your audience, goals, and distribution channels."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials."
+          ],
+          "example": "Use content-strategy for this task: Plan useful content topics around your audience, goals, and distribution channels. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+            "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+          ]
+        },
+        "zh": {
+          "title": "内容策略",
+          "description": "围绕受众、目标和分发渠道规划内容主题。",
+          "tags": [
+            "content-strategy",
+            "marketing"
+          ],
+          "tasks": [
+            "围绕受众、目标和分发渠道规划内容主题。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。"
+          ],
+          "example": "请使用 content-strategy 完成以下任务：围绕受众、目标和分发渠道规划内容主题。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+            "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "coreyhaines31-content-strategy.zip",
+        "sha256": "13f18feb9e2962206e9a1ea971b08f070528a62aff6d4e123d621e0b1d66b08b",
+        "bytes": 19547
+      }
+    },
+    {
+      "slug": "coreyhaines31-copy-editing",
+      "name": "copy-editing",
+      "category": "writing",
+      "language": "en",
+      "author": "Corey Haines",
+      "license": "MIT",
+      "sourceRepository": "coreyhaines31/marketingskills",
+      "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/copy-editing",
+      "path": "skills/coreyhaines31/copy-editing",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Copy editing",
+          "description": "Review existing copy through focused editing passes for clarity and consistency.",
+          "tags": [
+            "copy-editing",
+            "writing"
+          ],
+          "tasks": [
+            "Review existing copy through focused editing passes for clarity and consistency."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials."
+          ],
+          "example": "Use copy-editing for this task: Review existing copy through focused editing passes for clarity and consistency. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+            "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+          ]
+        },
+        "zh": {
+          "title": "文案编辑",
+          "description": "分轮检查已有文案，改进清晰度和表达一致性。",
+          "tags": [
+            "copy-editing",
+            "writing"
+          ],
+          "tasks": [
+            "分轮检查已有文案，改进清晰度和表达一致性。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。"
+          ],
+          "example": "请使用 copy-editing 完成以下任务：分轮检查已有文案，改进清晰度和表达一致性。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+            "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "coreyhaines31-copy-editing.zip",
+        "sha256": "8a1f086eaf083c89b819dfee6c145ed0156b75f067f89d1fd5eb70740c53ed4c",
+        "bytes": 16221
+      }
+    },
+    {
+      "slug": "coreyhaines31-copywriting",
+      "name": "copywriting",
+      "category": "writing",
+      "language": "en",
+      "author": "Corey Haines",
+      "license": "MIT",
+      "sourceRepository": "coreyhaines31/marketingskills",
+      "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/copywriting",
+      "path": "skills/coreyhaines31/copywriting",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Marketing copywriting",
+          "description": "Draft clear landing-page copy with headline and call-to-action alternatives.",
+          "tags": [
+            "copywriting",
+            "writing"
+          ],
+          "tasks": [
+            "Draft clear landing-page copy with headline and call-to-action alternatives."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials."
+          ],
+          "example": "Use copywriting for this task: Draft clear landing-page copy with headline and call-to-action alternatives. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+            "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+          ]
+        },
+        "zh": {
+          "title": "营销文案写作",
+          "description": "起草清晰的落地页文案，提供标题与行动按钮的备选方案。",
+          "tags": [
+            "copywriting",
+            "writing"
+          ],
+          "tasks": [
+            "起草清晰的落地页文案，提供标题与行动按钮的备选方案。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。"
+          ],
+          "example": "请使用 copywriting 完成以下任务：起草清晰的落地页文案，提供标题与行动按钮的备选方案。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+            "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "coreyhaines31-copywriting.zip",
+        "sha256": "43597d109f56ac05ad9c75561364cf53a7386f47cd542c5dcfebacc742c5462b",
+        "bytes": 17754
+      }
+    },
+    {
+      "slug": "coreyhaines31-customer-research",
+      "name": "customer-research",
+      "category": "research",
+      "language": "en",
+      "author": "Corey Haines",
+      "license": "MIT",
+      "sourceRepository": "coreyhaines31/marketingskills",
+      "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/customer-research",
+      "path": "skills/coreyhaines31/customer-research",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Customer research",
+          "description": "Organize customer evidence into audience insights and research questions.",
+          "tags": [
+            "customer-research",
+            "research"
+          ],
+          "tasks": [
+            "Organize customer evidence into audience insights and research questions."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials.",
+            "Website content or research evidence; live collection needs suitable browsing tools."
+          ],
+          "example": "Use customer-research for this task: Organize customer evidence into audience insights and research questions. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+            "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+          ]
+        },
+        "zh": {
+          "title": "客户研究",
+          "description": "将客户证据整理为受众洞察和待研究问题。",
+          "tags": [
+            "customer-research",
+            "research"
+          ],
+          "tasks": [
+            "将客户证据整理为受众洞察和待研究问题。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+            "网站内容或研究证据；实时采集需要可用的网页工具。"
+          ],
+          "example": "请使用 customer-research 完成以下任务：将客户证据整理为受众洞察和待研究问题。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+            "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "coreyhaines31-customer-research.zip",
+        "sha256": "f1d943e9c7ef60521978d24a5f11c26116dba0dbf3f0c2b2b3c27b38c9b5df52",
+        "bytes": 22610
+      }
+    },
+    {
+      "slug": "coreyhaines31-marketing-ideas",
+      "name": "marketing-ideas",
+      "category": "marketing",
+      "language": "en",
+      "author": "Corey Haines",
+      "license": "MIT",
+      "sourceRepository": "coreyhaines31/marketingskills",
+      "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/marketing-ideas",
+      "path": "skills/coreyhaines31/marketing-ideas",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Marketing ideas",
+          "description": "Find marketing experiments that fit your audience, resources, and stage.",
+          "tags": [
+            "marketing-ideas",
+            "marketing"
+          ],
+          "tasks": [
+            "Find marketing experiments that fit your audience, resources, and stage."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials."
+          ],
+          "example": "Use marketing-ideas for this task: Find marketing experiments that fit your audience, resources, and stage. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+            "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+          ]
+        },
+        "zh": {
+          "title": "营销创意",
+          "description": "根据受众、资源和产品阶段筛选可尝试的营销实验。",
+          "tags": [
+            "marketing-ideas",
+            "marketing"
+          ],
+          "tasks": [
+            "根据受众、资源和产品阶段筛选可尝试的营销实验。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。"
+          ],
+          "example": "请使用 marketing-ideas 完成以下任务：根据受众、资源和产品阶段筛选可尝试的营销实验。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+            "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "coreyhaines31-marketing-ideas.zip",
+        "sha256": "dcbc8bd00e65c8b0200354ddb6b55da261439bffdf0d294f482c1fbdcdfc15bf",
+        "bytes": 15738
+      }
+    },
+    {
+      "slug": "coreyhaines31-pricing",
+      "name": "pricing",
+      "category": "marketing",
+      "language": "en",
+      "author": "Corey Haines",
+      "license": "MIT",
+      "sourceRepository": "coreyhaines31/marketingskills",
+      "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/pricing",
+      "path": "skills/coreyhaines31/pricing",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Pricing and packaging",
+          "description": "Compare pricing models and package options against customer value.",
+          "tags": [
+            "pricing",
+            "marketing"
+          ],
+          "tasks": [
+            "Compare pricing models and package options against customer value."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials."
+          ],
+          "example": "Use pricing for this task: Compare pricing models and package options against customer value. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+            "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+          ]
+        },
+        "zh": {
+          "title": "定价与套餐",
+          "description": "围绕客户价值比较定价模式和套餐结构。",
+          "tags": [
+            "pricing",
+            "marketing"
+          ],
+          "tasks": [
+            "围绕客户价值比较定价模式和套餐结构。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。"
+          ],
+          "example": "请使用 pricing 完成以下任务：围绕客户价值比较定价模式和套餐结构。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+            "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "coreyhaines31-pricing.zip",
+        "sha256": "6a4f25972fa2f921539d4bceadb1cf3910ac95d7230ba93ca937e2d461dac8f3",
+        "bytes": 21633
+      }
+    },
+    {
+      "slug": "coreyhaines31-product-marketing",
+      "name": "product-marketing",
+      "category": "marketing",
+      "language": "en",
+      "author": "Corey Haines",
+      "license": "MIT",
+      "sourceRepository": "coreyhaines31/marketingskills",
+      "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/product-marketing",
+      "path": "skills/coreyhaines31/product-marketing",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Product positioning",
+          "description": "Build a reusable brief covering your product, audience, positioning, and evidence.",
+          "tags": [
+            "product-marketing",
+            "marketing"
+          ],
+          "tasks": [
+            "Build a reusable brief covering your product, audience, positioning, and evidence."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials."
+          ],
+          "example": "Use product-marketing for this task: Build a reusable brief covering your product, audience, positioning, and evidence. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+            "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+          ]
+        },
+        "zh": {
+          "title": "产品定位",
+          "description": "梳理产品、受众、定位和证据，形成可复用的营销背景说明。",
+          "tags": [
+            "product-marketing",
+            "marketing"
+          ],
+          "tasks": [
+            "梳理产品、受众、定位和证据，形成可复用的营销背景说明。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。"
+          ],
+          "example": "请使用 product-marketing 完成以下任务：梳理产品、受众、定位和证据，形成可复用的营销背景说明。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+            "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "coreyhaines31-product-marketing.zip",
+        "sha256": "c381731038fc1fdd8b0fbaa327cd43462307f84e75fffab180c4c66bbea7d353",
+        "bytes": 7826
+      }
+    },
+    {
+      "slug": "coreyhaines31-seo-audit",
+      "name": "seo-audit",
+      "category": "marketing",
+      "language": "en",
+      "author": "Corey Haines",
+      "license": "MIT",
+      "sourceRepository": "coreyhaines31/marketingskills",
+      "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "sourcePath": "skills/seo-audit",
+      "path": "skills/coreyhaines31/seo-audit",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "SEO audit",
+          "description": "Review a website for search visibility issues and prioritize improvements.",
+          "tags": [
+            "seo-audit",
+            "marketing"
+          ],
+          "tasks": [
+            "Review a website for search visibility issues and prioritize improvements."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials.",
+            "Website content or research evidence; live collection needs suitable browsing tools."
+          ],
+          "example": "Use seo-audit for this task: Review a website for search visibility issues and prioritize improvements. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+            "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+          ]
+        },
+        "zh": {
+          "title": "SEO 检查",
+          "description": "检查网站的搜索可见性问题，并排列改进优先级。",
+          "tags": [
+            "seo-audit",
+            "marketing"
+          ],
+          "tasks": [
+            "检查网站的搜索可见性问题，并排列改进优先级。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+            "网站内容或研究证据；实时采集需要可用的网页工具。"
+          ],
+          "example": "请使用 seo-audit 完成以下任务：检查网站的搜索可见性问题，并排列改进优先级。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+            "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "coreyhaines31-seo-audit.zip",
+        "sha256": "175917ca495d3edd520f04f556fb170f9af07ed2b7427062ea7c53e37b0967da",
+        "bytes": 20030
+      }
+    },
+    {
+      "slug": "huggingface-huggingface-datasets",
+      "name": "huggingface-datasets",
+      "category": "data",
+      "language": "en",
+      "author": "Hugging Face",
+      "license": "Apache-2.0",
+      "sourceRepository": "huggingface/skills",
+      "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "sourcePath": "skills/huggingface-datasets",
+      "path": "skills/huggingface/huggingface-datasets",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Explore Hugging Face datasets",
+          "description": "Inspect dataset splits, preview rows, and query the Dataset Viewer API.",
+          "tags": [
+            "huggingface-datasets",
+            "data"
+          ],
+          "tasks": [
+            "Inspect dataset splits, preview rows, and query the Dataset Viewer API."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials.",
+            "Network access to the Hugging Face Dataset Viewer API; restricted datasets may require access."
+          ],
+          "example": "Use huggingface-datasets for this task: Inspect dataset splits, preview rows, and query the Dataset Viewer API. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed."
+          ]
+        },
+        "zh": {
+          "title": "探索 Hugging Face 数据集",
+          "description": "查看数据集分区、预览记录并查询 Dataset Viewer API。",
+          "tags": [
+            "huggingface-datasets",
+            "data"
+          ],
+          "tasks": [
+            "查看数据集分区、预览记录并查询 Dataset Viewer API。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+            "可访问 Hugging Face Dataset Viewer API；受限数据集可能需要额外权限。"
+          ],
+          "example": "请使用 huggingface-datasets 完成以下任务：查看数据集分区、预览记录并查询 Dataset Viewer API。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "huggingface-huggingface-datasets.zip",
+        "sha256": "20c515782327ae88d18c0d77713d4ba1abeb357775748335ee1138fdc521bfc7",
+        "bytes": 6476
+      }
+    },
+    {
+      "slug": "huggingface-huggingface-gradio",
+      "name": "huggingface-gradio",
+      "category": "data",
+      "language": "en",
+      "author": "Hugging Face",
+      "license": "Apache-2.0",
+      "sourceRepository": "huggingface/skills",
+      "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "sourcePath": "skills/huggingface-gradio",
+      "path": "skills/huggingface/huggingface-gradio",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Build a Gradio demo",
+          "description": "Create a Python interface for an AI demo with Gradio components and events.",
+          "tags": [
+            "huggingface-gradio",
+            "data"
+          ],
+          "tasks": [
+            "Create a Python interface for an AI demo with Gradio components and events."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials.",
+            "Python and Gradio; network access to the relevant documentation."
+          ],
+          "example": "Use huggingface-gradio for this task: Create a Python interface for an AI demo with Gradio components and events. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed."
+          ]
+        },
+        "zh": {
+          "title": "构建 Gradio 演示",
+          "description": "使用 Gradio 组件和事件，为 AI 演示构建 Python 界面。",
+          "tags": [
+            "huggingface-gradio",
+            "data"
+          ],
+          "tasks": [
+            "使用 Gradio 组件和事件，为 AI 演示构建 Python 界面。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+            "Python 和 Gradio；可访问相关在线文档。"
+          ],
+          "example": "请使用 huggingface-gradio 完成以下任务：使用 Gradio 组件和事件，为 AI 演示构建 Python 界面。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "huggingface-huggingface-gradio.zip",
+        "sha256": "3e2082e522f50c2a968295d99e4bcc945747d2854b6b3e17c1a2a752224127aa",
+        "bytes": 14766
+      }
+    },
+    {
+      "slug": "obra-systematic-debugging",
+      "name": "systematic-debugging",
+      "category": "development",
+      "language": "en",
+      "author": "Jesse Vincent",
+      "license": "MIT",
+      "sourceRepository": "obra/superpowers",
+      "sourceCommit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+      "sourcePath": "skills/systematic-debugging",
+      "path": "skills/obra/systematic-debugging",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Systematic debugging",
+          "description": "Trace unexpected behavior to a reproducible cause before changing code.",
+          "tags": [
+            "systematic-debugging",
+            "development"
+          ],
+          "tasks": [
+            "Trace unexpected behavior to a reproducible cause before changing code."
+          ],
+          "prerequisites": [
+            "An AI agent that can read local Skill files. Provide your task context and source materials.",
+            "A local code project and an agent with file editing and command execution capabilities."
+          ],
+          "example": "Use systematic-debugging for this task: Trace unexpected behavior to a reproducible cause before changing code. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+          "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+          "limitations": [
+            "Review factual claims and proposed actions before relying on the output.",
+            "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+            "The bundled diagnostic script runs project tests; review commands before using it. Other Superpowers workflows are separate installs."
+          ]
+        },
+        "zh": {
+          "title": "系统化排错",
+          "description": "先复现问题并定位根因，再修改代码。",
+          "tags": [
+            "systematic-debugging",
+            "development"
+          ],
+          "tasks": [
+            "先复现问题并定位根因，再修改代码。"
+          ],
+          "prerequisites": [
+            "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+            "本地代码项目，以及可编辑文件和执行命令的 Agent。"
+          ],
+          "example": "请使用 systematic-debugging 完成以下任务：先复现问题并定位根因，再修改代码。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+          "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+          "limitations": [
+            "使用输出前核对事实依据和建议操作。",
+            "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+            "包内诊断脚本会执行项目测试，使用前应检查命令；其他 Superpowers 流程需单独安装。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05",
+        "file": "obra-systematic-debugging.zip",
+        "sha256": "764fd689a1666897d2de2a332f5f67cd7cb1db7d2a995a3765000cfab969534b",
+        "bytes": 21004
+      }
+    }
+  ]
 }

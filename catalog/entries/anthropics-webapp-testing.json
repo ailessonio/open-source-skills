@@ -54,5 +54,11 @@
         "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05",
+    "file": "anthropics-webapp-testing.zip",
+    "sha256": "91a4dab8c9728d3234036684696ff25e592b0b9394020eb33667f9c216e0608b",
+    "bytes": 25466
   }
 }

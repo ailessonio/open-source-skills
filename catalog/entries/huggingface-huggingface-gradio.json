@@ -54,5 +54,11 @@
         "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05",
+    "file": "huggingface-huggingface-gradio.zip",
+    "sha256": "3e2082e522f50c2a968295d99e4bcc945747d2854b6b3e17c1a2a752224127aa",
+    "bytes": 14766
   }
 }

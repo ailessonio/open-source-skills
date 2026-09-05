@@ -54,5 +54,11 @@
         "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05",
+    "file": "coreyhaines31-marketing-ideas.zip",
+    "sha256": "dcbc8bd00e65c8b0200354ddb6b55da261439bffdf0d294f482c1fbdcdfc15bf",
+    "bytes": 15738
   }
 }
