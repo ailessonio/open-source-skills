@@ -1,0 +1,60 @@
+{
+  "slug": "openai-pdf",
+  "name": "pdf",
+  "category": "writing",
+  "language": "en",
+  "author": "OpenAI",
+  "license": "Apache-2.0",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/pdf",
+  "path": "skills/openai/pdf",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Create and inspect PDFs",
+      "description": "Generate, extract, and visually inspect PDFs with Python and page rendering.",
+      "tags": [
+        "pdf",
+        "writing"
+      ],
+      "tasks": [
+        "Generate, extract, and visually inspect PDFs with Python and page rendering."
+      ],
+      "prerequisites": [
+        "Python with reportlab, pdfplumber, pypdf; Poppler for rendering."
+      ],
+      "example": "Use pdf. Create a two-page summary PDF from these notes and render both pages to check the layout.",
+      "expectedResult": "A PDF plus rendered page previews with layout issues identified.",
+      "limitations": [
+        "Text extraction alone cannot verify layout; scanned documents may need separate OCR."
+      ]
+    },
+    "zh": {
+      "title": "创建与检查 PDF",
+      "description": "使用 Python 和页面渲染创建、提取与检查 PDF。",
+      "tags": [
+        "pdf",
+        "办公"
+      ],
+      "tasks": [
+        "使用 Python 和页面渲染创建、提取与检查 PDF。"
+      ],
+      "prerequisites": [
+        "Python 与 reportlab、pdfplumber、pypdf；页面渲染需 Poppler。"
+      ],
+      "example": "请使用 pdf：根据这些笔记制作两页摘要 PDF，并渲染两页检查版式。",
+      "expectedResult": "PDF 文件、页面预览及发现的版式问题。",
+      "limitations": [
+        "文本提取无法验证版式；扫描文档可能需要额外 OCR。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-pdf.zip",
+    "sha256": "b9a5ba66d642db7854f4d6dfce005e9c07e0b17ce49d942eee4e395b2f328b9e",
+    "bytes": 7632
+  }
+}

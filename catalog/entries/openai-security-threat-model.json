@@ -1,0 +1,60 @@
+{
+  "slug": "openai-security-threat-model",
+  "name": "security-threat-model",
+  "category": "development",
+  "language": "en",
+  "author": "OpenAI",
+  "license": "Apache-2.0",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/security-threat-model",
+  "path": "skills/openai/security-threat-model",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Model application threats",
+      "description": "Map assets, trust boundaries, abuse paths, and mitigations using repository evidence.",
+      "tags": [
+        "security-threat-model",
+        "development"
+      ],
+      "tasks": [
+        "Map assets, trust boundaries, abuse paths, and mitigations using repository evidence."
+      ],
+      "prerequisites": [
+        "An authorized source repository plus deployment and authentication context."
+      ],
+      "example": "Use security-threat-model. Threat-model this file-upload service, identifying trust boundaries and the highest-impact abuse paths.",
+      "expectedResult": "A repository-grounded Markdown threat model with explicit assumptions.",
+      "limitations": [
+        "The result depends on supplied architecture and deployment information."
+      ]
+    },
+    "zh": {
+      "title": "应用威胁建模",
+      "description": "依据仓库证据梳理资产、信任边界、滥用途径与缓解措施。",
+      "tags": [
+        "security-threat-model",
+        "开发"
+      ],
+      "tasks": [
+        "依据仓库证据梳理资产、信任边界、滥用途径与缓解措施。"
+      ],
+      "prerequisites": [
+        "获授权源代码仓库，以及部署和鉴权背景。"
+      ],
+      "example": "请使用 security-threat-model：为此文件上传服务建立威胁模型，识别信任边界与高影响滥用途径。",
+      "expectedResult": "基于仓库、明确列出假设的 Markdown 威胁模型。",
+      "limitations": [
+        "结果受所提供架构与部署信息完整性影响。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-security-threat-model.zip",
+    "sha256": "ad293655d58cd2d8918c9601248a150dffc450c4431a94df036971ed729e90f7",
+    "bytes": 14114
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "openai-screenshot",
+  "name": "screenshot",
+  "category": "design",
+  "language": "en",
+  "author": "OpenAI",
+  "license": "Apache-2.0",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/screenshot",
+  "path": "skills/openai/screenshot",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Capture desktop screenshots",
+      "description": "Capture a screen, app window, or region using platform-specific helpers.",
+      "tags": [
+        "screenshot",
+        "design"
+      ],
+      "tasks": [
+        "Capture a screen, app window, or region using platform-specific helpers."
+      ],
+      "prerequisites": [
+        "Python and OS screenshot tools; screen-recording permission on macOS."
+      ],
+      "example": "Use screenshot. Capture only this application window and save a PNG to the folder I specify.",
+      "expectedResult": "A screenshot file with the intended window or region captured.",
+      "limitations": [
+        "Desktop permissions and supported tools differ across operating systems."
+      ]
+    },
+    "zh": {
+      "title": "截取桌面画面",
+      "description": "通过平台专用工具截取屏幕、应用窗口或指定区域。",
+      "tags": [
+        "screenshot",
+        "设计"
+      ],
+      "tasks": [
+        "通过平台专用工具截取屏幕、应用窗口或指定区域。"
+      ],
+      "prerequisites": [
+        "Python 与操作系统截图工具；macOS 需要录屏权限。"
+      ],
+      "example": "请使用 screenshot：只截取这个应用窗口，把 PNG 保存到我指定的文件夹。",
+      "expectedResult": "覆盖指定窗口或区域的截图文件。",
+      "limitations": [
+        "不同操作系统的桌面权限和可用工具不同。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-screenshot.zip",
+    "sha256": "b13f6e8f7f6dc3f167764681a22e38e8dc92bfb8f2f7a3b3366c68c5554ac4b2",
+    "bytes": 19628
+  }
+}

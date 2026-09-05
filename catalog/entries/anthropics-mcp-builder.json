@@ -1,0 +1,60 @@
+{
+  "slug": "anthropics-mcp-builder",
+  "name": "mcp-builder",
+  "category": "development",
+  "language": "en",
+  "author": "Anthropic",
+  "license": "Apache-2.0",
+  "sourceRepository": "anthropics/skills",
+  "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "sourcePath": "skills/mcp-builder",
+  "path": "skills/anthropics/mcp-builder",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Build MCP integrations",
+      "description": "Design and implement MCP servers that expose useful external-service tools.",
+      "tags": [
+        "mcp-builder",
+        "development"
+      ],
+      "tasks": [
+        "Design and implement MCP servers that expose useful external-service tools."
+      ],
+      "prerequisites": [
+        "Python or Node.js, the MCP SDK, API documentation, and test credentials."
+      ],
+      "example": "Use mcp-builder. Design an MCP server for our read-only issue-search API, then implement and test one tool.",
+      "expectedResult": "A tool schema, server implementation, error handling, and test cases.",
+      "limitations": [
+        "Service authentication and deployment are separate setup steps."
+      ]
+    },
+    "zh": {
+      "title": "构建 MCP 集成",
+      "description": "为外部服务设计并实现可调用的 MCP 工具。",
+      "tags": [
+        "mcp-builder",
+        "开发"
+      ],
+      "tasks": [
+        "为外部服务设计并实现可调用的 MCP 工具。"
+      ],
+      "prerequisites": [
+        "Python 或 Node.js、MCP SDK、服务 API 文档与测试凭据。"
+      ],
+      "example": "请使用 mcp-builder：为只读工单搜索 API 设计 MCP 服务，然后实现并测试一个工具。",
+      "expectedResult": "工具结构、服务代码、错误处理与测试案例。",
+      "limitations": [
+        "服务鉴权与部署需单独配置。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "anthropics-mcp-builder.zip",
+    "sha256": "507c1268e57d07622e0758bd0def5efed3c82367e1722ba220046ac089f54910",
+    "bytes": 58438
+  }
+}

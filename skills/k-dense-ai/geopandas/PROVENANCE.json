@@ -1,0 +1,23 @@
+{
+  "repository": "K-Dense-AI/scientific-agent-skills",
+  "commit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "path": "skills/geopandas",
+  "license": "MIT",
+  "changes": "Upstream files unchanged. Applicable root license, notices, and provenance added where needed. Executable file modes preserved.",
+  "sha256": {
+    "SKILL.md": "98450a46bf64f60210ddb28c561b764c904a50ca54e414b3901ccd6853c200e3",
+    "references/crs-management.md": "c86db70e56d27727e8e4e159bfe063c81ccb0b79764d8c60aa7d594c61373ee2",
+    "references/data-io.md": "5da20aa9279fd6349b0301a89646040bf9361b5460feb8e1864849f099643ed0",
+    "references/data-structures.md": "00a6d89c53d860c9e81bc5864e46e804cefb74c7f5a643297c495a7235f3f38c",
+    "references/geometric-operations.md": "e68ad33ec5181fd39630ee9c98229b96098c1fe7f9a8f59807371a6cdeb9a00e",
+    "references/spatial-analysis.md": "16c86d764ff8c738ec1b691bc741f016b155639de5da1e9771dc20e0fb91332a",
+    "references/visualization.md": "e93f6c9e9418fbae3dad78e4b537839c83140c5081aa332f84caf12e442c5368",
+    "scripts/_common.py": "f4ef80f3259a4f1da6d8fa4c7b9cab63673aedf637c81727c1822a70ada3423c",
+    "scripts/crs_reprojection_plan.py": "f4490bac304b735835c8986620e76e64ea142e655e241908565dd17834e5e314",
+    "scripts/export_plan.py": "77aa0bae19d1a60128a7dc2a24d06d4f9288d882d960905b154d46c76ebab3d4",
+    "scripts/geometry_validity_report.py": "d1727489a97f8b5941fecb9e7612da727416f4bc3c91a6bc5a8b86052e62f798",
+    "scripts/sensitive_coordinates_checklist.py": "b53830e89bae6c359d237895d8836df29f11b0220facb97eda444d0d98b89079",
+    "scripts/spatial_join_audit.py": "91911e184de4aeb48371134b77c034497026163172b4fdcc2ae2a038ba287672",
+    "scripts/vector_inventory.py": "5b69d0c0f1e99cb9c7c663e4286f703c797b0d150711e1e4c293f6082767483f"
+  }
+}

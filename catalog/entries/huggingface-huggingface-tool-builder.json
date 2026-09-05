@@ -1,0 +1,60 @@
+{
+  "slug": "huggingface-huggingface-tool-builder",
+  "name": "huggingface-tool-builder",
+  "category": "development",
+  "language": "en",
+  "author": "Hugging Face",
+  "license": "Apache-2.0",
+  "sourceRepository": "huggingface/skills",
+  "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "sourcePath": "skills/huggingface-tool-builder",
+  "path": "skills/huggingface/huggingface-tool-builder",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Build reusable Hub API tools",
+      "description": "Combine Hugging Face API calls into reusable scripts with clear inputs and outputs.",
+      "tags": [
+        "huggingface-tool-builder",
+        "development"
+      ],
+      "tasks": [
+        "Combine Hugging Face API calls into reusable scripts with clear inputs and outputs."
+      ],
+      "prerequisites": [
+        "A shell or Python/Node runtime, network access, and HF_TOKEN when required."
+      ],
+      "example": "Use huggingface-tool-builder. Build a script that finds models linked to this paper and exports their metadata as JSON.",
+      "expectedResult": "A reusable script with --help, authentication handling, and explicit output structure.",
+      "limitations": [
+        "Rate limits and private-resource permissions still apply."
+      ]
+    },
+    "zh": {
+      "title": "构建 Hub API 工具",
+      "description": "把 Hugging Face API 调用组合成输入输出清晰的可复用脚本。",
+      "tags": [
+        "huggingface-tool-builder",
+        "开发"
+      ],
+      "tasks": [
+        "把 Hugging Face API 调用组合成输入输出清晰的可复用脚本。"
+      ],
+      "prerequisites": [
+        "Shell 或 Python/Node 环境、网络，以及必要时的 HF_TOKEN。"
+      ],
+      "example": "请使用 huggingface-tool-builder：编写脚本查找与此论文关联的模型，并导出 JSON 元数据。",
+      "expectedResult": "带 --help、鉴权处理和明确输出结构的脚本。",
+      "limitations": [
+        "仍受 API 限流与私有资源权限限制。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-huggingface-tool-builder.zip",
+    "sha256": "91a30d1374f3cb5b550cad5c0e14a57786d9c9eb23b6f32c894c7fdadbbe83be",
+    "bytes": 17358
+  }
+}

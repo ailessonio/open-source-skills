@@ -1,0 +1,365 @@
+{
+  "reviewedAt": "2026-09-05",
+  "accepted": [
+    {
+      "repo": "anthropics/skills",
+      "sha": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "folder": "skills/algorithmic-art",
+      "files": 4,
+      "bytes": 59784,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "anthropics/skills",
+      "sha": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "folder": "skills/mcp-builder",
+      "files": 10,
+      "bytes": 121756,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "anthropics/skills",
+      "sha": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "folder": "skills/slack-gif-creator",
+      "files": 7,
+      "bytes": 43697,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "anthropics/skills",
+      "sha": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "folder": "skills/theme-factory",
+      "files": 13,
+      "bytes": 144094,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/gh-address-comments",
+      "files": 6,
+      "bytes": 22166,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/gh-fix-ci",
+      "files": 6,
+      "bytes": 32642,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/jupyter-notebook",
+      "files": 12,
+      "bytes": 30864,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/notion-knowledge-capture",
+      "files": 18,
+      "bytes": 72755,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/notion-meeting-intelligence",
+      "files": 19,
+      "bytes": 70019,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/notion-research-documentation",
+      "files": 23,
+      "bytes": 77253,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/notion-spec-to-implementation",
+      "files": 19,
+      "bytes": 85644,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/pdf",
+      "files": 4,
+      "bytes": 14824,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/playwright",
+      "files": 9,
+      "bytes": 22850,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/screenshot",
+      "files": 11,
+      "bytes": 51996,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/security-best-practices",
+      "files": 13,
+      "bytes": 411749,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/security-threat-model",
+      "files": 5,
+      "bytes": 30913,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/speech",
+      "files": 16,
+      "bytes": 48773,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "openai/skills",
+      "sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "folder": "skills/.curated/transcribe",
+      "files": 7,
+      "bytes": 25203,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "huggingface/skills",
+      "sha": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "folder": "skills/hf-cli",
+      "files": 1,
+      "bytes": 32708,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "huggingface/skills",
+      "sha": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "folder": "skills/huggingface-local-models",
+      "files": 4,
+      "bytes": 15849,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "huggingface/skills",
+      "sha": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "folder": "skills/huggingface-paper-publisher",
+      "files": 8,
+      "bytes": 75401,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "huggingface/skills",
+      "sha": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "folder": "skills/huggingface-papers",
+      "files": 1,
+      "bytes": 9348,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "huggingface/skills",
+      "sha": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "folder": "skills/huggingface-spaces",
+      "files": 15,
+      "bytes": 152457,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "huggingface/skills",
+      "sha": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "folder": "skills/huggingface-tool-builder",
+      "files": 8,
+      "bytes": 28596,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "huggingface/skills",
+      "sha": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "folder": "skills/transformers-js",
+      "files": 8,
+      "bytes": 95308,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/citation-management",
+      "files": 21,
+      "bytes": 278612,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/exploratory-data-analysis",
+      "files": 21,
+      "bytes": 206436,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/geopandas",
+      "files": 14,
+      "bytes": 143714,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/markitdown",
+      "files": 11,
+      "bytes": 103944,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/scientific-brainstorming",
+      "files": 10,
+      "bytes": 129660,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/scientific-critical-thinking",
+      "files": 8,
+      "bytes": 106788,
+      "unresolvedLinks": []
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/statistical-analysis",
+      "files": 7,
+      "bytes": 117931,
+      "unresolvedLinks": []
+    }
+  ],
+  "deferred": [
+    {
+      "repo": "anthropics/skills",
+      "sha": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "folder": "skills/doc-coauthoring",
+      "reason": "No per-Skill license found in this mixed-license repository."
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "folder": "skills/composition-patterns",
+      "reason": "No complete upstream license text found; keep as a research candidate pending attribution/redistribution clarification."
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "folder": "skills/react-best-practices",
+      "reason": "No complete upstream license text found; keep as a research candidate pending attribution/redistribution clarification."
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "folder": "skills/react-native-skills",
+      "reason": "No complete upstream license text found; keep as a research candidate pending attribution/redistribution clarification."
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "folder": "skills/web-design-guidelines",
+      "reason": "No complete upstream license text found; keep as a research candidate pending attribution/redistribution clarification."
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "folder": "skills/writing-guidelines",
+      "reason": "No complete upstream license text found; keep as a research candidate pending attribution/redistribution clarification."
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/dask",
+      "reason": "Per-Skill license differs from the repository MIT license; requires a separate license-text and attribution review."
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/matplotlib",
+      "reason": "Per-Skill license differs from the repository MIT license; requires a separate license-text and attribution review."
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/networkx",
+      "reason": "Per-Skill license differs from the repository MIT license; requires a separate license-text and attribution review."
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/polars",
+      "reason": "Per-Skill license differs from the repository MIT license; requires a separate license-text and attribution review."
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/scikit-learn",
+      "reason": "Per-Skill license differs from the repository MIT license; requires a separate license-text and attribution review."
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/seaborn",
+      "reason": "Per-Skill license differs from the repository MIT license; requires a separate license-text and attribution review."
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/statsmodels",
+      "reason": "Per-Skill license differs from the repository MIT license; requires a separate license-text and attribution review."
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "sha": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "folder": "skills/sympy",
+      "reason": "Per-Skill license differs from the repository MIT license; requires a separate license-text and attribution review."
+    },
+    {
+      "repo": "remotion-dev/skills",
+      "sha": "54e9b19a612897171e0b3b242e01c2badba4a272",
+      "folder": "skills/remotion-best-practices",
+      "reason": "No complete upstream license text found; keep as a research candidate pending attribution/redistribution clarification."
+    },
+    {
+      "repo": "huggingface/skills",
+      "sha": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "folder": "skills/huggingface-trackio",
+      "files": 4,
+      "bytes": 25361,
+      "unresolvedLinks": [
+        "references/retrieving_metrics.md: docs/source/cli_commands.md",
+        "references/retrieving_metrics.md: docs/source/api_mcp_server.md"
+      ],
+      "reason": "Two supporting documentation links do not resolve inside the complete upstream folder; defer until references are clarified."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "openai-speech",
+  "name": "speech",
+  "category": "design",
+  "language": "en",
+  "author": "OpenAI",
+  "license": "Apache-2.0",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/speech",
+  "path": "skills/openai/speech",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Generate spoken narration",
+      "description": "Turn approved text into narration with the bundled OpenAI Audio API client.",
+      "tags": [
+        "speech",
+        "design"
+      ],
+      "tasks": [
+        "Turn approved text into narration with the bundled OpenAI Audio API client."
+      ],
+      "prerequisites": [
+        "Python, the openai package, OPENAI_API_KEY, and API billing access."
+      ],
+      "example": "Use speech. Generate a calm narration of this 150-word script and save an MP3 for review.",
+      "expectedResult": "An audio file with the requested text, delivery, and output format.",
+      "limitations": [
+        "API calls incur usage costs; custom voice creation is outside this Skill’s scope."
+      ]
+    },
+    "zh": {
+      "title": "生成语音旁白",
+      "description": "通过包内 OpenAI Audio API 客户端把确认后的文本转成旁白。",
+      "tags": [
+        "speech",
+        "设计"
+      ],
+      "tasks": [
+        "通过包内 OpenAI Audio API 客户端把确认后的文本转成旁白。"
+      ],
+      "prerequisites": [
+        "Python、openai 包、OPENAI_API_KEY 与 API 计费权限。"
+      ],
+      "example": "请使用 speech：为这段 150 字文稿生成平静的旁白，并保存 MP3 供检查。",
+      "expectedResult": "符合指定文本、表达方式与格式的音频文件。",
+      "limitations": [
+        "API 调用产生费用；此 Skill 不负责创建自定义声音。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-speech.zip",
+    "sha256": "d074820c8cc8dda90bf3acabd28c80fd4848b6e9539cd3ec78f73136d26c0557",
+    "bytes": 22950
+  }
+}

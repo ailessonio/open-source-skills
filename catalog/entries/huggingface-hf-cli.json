@@ -1,0 +1,60 @@
+{
+  "slug": "huggingface-hf-cli",
+  "name": "hf-cli",
+  "category": "data",
+  "language": "en",
+  "author": "Hugging Face",
+  "license": "Apache-2.0",
+  "sourceRepository": "huggingface/skills",
+  "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "sourcePath": "skills/hf-cli",
+  "path": "skills/huggingface/hf-cli",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Work with Hugging Face Hub",
+      "description": "Find, download, and manage Hub models, datasets, and repositories with hf.",
+      "tags": [
+        "hf-cli",
+        "data"
+      ],
+      "tasks": [
+        "Find, download, and manage Hub models, datasets, and repositories with hf."
+      ],
+      "prerequisites": [
+        "The hf CLI, network access, and Hub authentication for private or write operations."
+      ],
+      "example": "Use hf-cli. List the files in this model repository and download only the configuration and tokenizer.",
+      "expectedResult": "A file inventory and a scoped download with clear paths and revision.",
+      "limitations": [
+        "Uploads, deletions, deployments, and paid jobs are separate consequential operations."
+      ]
+    },
+    "zh": {
+      "title": "使用 Hugging Face Hub CLI",
+      "description": "通过 hf 查找、下载和管理 Hub 模型、数据集及仓库。",
+      "tags": [
+        "hf-cli",
+        "数据"
+      ],
+      "tasks": [
+        "通过 hf 查找、下载和管理 Hub 模型、数据集及仓库。"
+      ],
+      "prerequisites": [
+        "hf CLI、网络连接；私有资源和写入操作需要 Hub 登录。"
+      ],
+      "example": "请使用 hf-cli：列出此模型仓库的文件，只下载配置与分词器。",
+      "expectedResult": "文件清单、范围明确的下载及路径和版本记录。",
+      "limitations": [
+        "上传、删除、部署和付费任务属于需单独核对的操作。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-hf-cli.zip",
+    "sha256": "54de602bf81ec2dd7f12bdee5faf702b254b7dc37e872d7e9b59e8f49e584e59",
+    "bytes": 11536
+  }
+}

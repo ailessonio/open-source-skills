@@ -1,0 +1,60 @@
+{
+  "slug": "anthropics-theme-factory",
+  "name": "theme-factory",
+  "category": "design",
+  "language": "en",
+  "author": "Anthropic",
+  "license": "Apache-2.0",
+  "sourceRepository": "anthropics/skills",
+  "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "sourcePath": "skills/theme-factory",
+  "path": "skills/anthropics/theme-factory",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Style documents with themes",
+      "description": "Choose a coordinated color and typography theme for an existing artifact.",
+      "tags": [
+        "theme-factory",
+        "design"
+      ],
+      "tasks": [
+        "Choose a coordinated color and typography theme for an existing artifact."
+      ],
+      "prerequisites": [
+        "An existing document or page and a tool able to edit its format and view PDFs."
+      ],
+      "example": "Use theme-factory. Show the theme options, then apply my selected theme to this report without changing the content.",
+      "expectedResult": "A consistently styled artifact with a documented palette and font pairing.",
+      "limitations": [
+        "This package supplies themes; it does not include a slide or document editing application."
+      ]
+    },
+    "zh": {
+      "title": "文档主题配色",
+      "description": "为已有文档或页面选择协调的颜色与字体主题。",
+      "tags": [
+        "theme-factory",
+        "设计"
+      ],
+      "tasks": [
+        "为已有文档或页面选择协调的颜色与字体主题。"
+      ],
+      "prerequisites": [
+        "已有文档或页面，以及可编辑该格式、查看 PDF 的工具。"
+      ],
+      "example": "请使用 theme-factory：展示主题选项，再把我选中的主题应用到报告，保持正文内容不变。",
+      "expectedResult": "风格一致的成品及配色、字体搭配说明。",
+      "limitations": [
+        "此包提供主题，不包含幻灯片或文档编辑应用。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "anthropics-theme-factory.zip",
+    "sha256": "b4dd99f47b9e2c510219ae3f10b00b4ff2cacc964ece7ba98d7d2202ca8a62fb",
+    "bytes": 139619
+  }
+}

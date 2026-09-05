@@ -1,0 +1,60 @@
+{
+  "slug": "openai-playwright",
+  "name": "playwright",
+  "category": "development",
+  "language": "en",
+  "author": "OpenAI",
+  "license": "Apache-2.0",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/playwright",
+  "path": "skills/openai/playwright",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Automate browser workflows",
+      "description": "Drive a browser using Playwright CLI snapshots, locators, and a bundled wrapper.",
+      "tags": [
+        "playwright",
+        "development"
+      ],
+      "tasks": [
+        "Drive a browser using Playwright CLI snapshots, locators, and a bundled wrapper."
+      ],
+      "prerequisites": [
+        "Node.js/npm and browser binaries. Upstream wrapper uses $CODEX_HOME/skills/playwright/."
+      ],
+      "example": "Use playwright. Open my local app, search for an item, and capture the resulting page without submitting purchases.",
+      "expectedResult": "A reproducible interaction sequence and screenshots or extracted page state.",
+      "limitations": [
+        "Requires a host that allows browser control and terminal execution."
+      ]
+    },
+    "zh": {
+      "title": "自动化浏览器流程",
+      "description": "使用 Playwright CLI 快照、定位器和包内封装驱动浏览器。",
+      "tags": [
+        "playwright",
+        "开发"
+      ],
+      "tasks": [
+        "使用 Playwright CLI 快照、定位器和包内封装驱动浏览器。"
+      ],
+      "prerequisites": [
+        "Node.js/npm 与浏览器组件。上游封装使用 $CODEX_HOME/skills/playwright/。"
+      ],
+      "example": "请使用 playwright：打开我的本地应用，搜索一个条目并截图，不提交购买操作。",
+      "expectedResult": "可复现的操作序列、截图或页面状态。",
+      "limitations": [
+        "需要宿主允许浏览器控制与终端执行。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-playwright.zip",
+    "sha256": "47034c05cddc35872d21883e5ce2394a893d03fcee2424ecaa8ef6d4b01630d1",
+    "bytes": 12249
+  }
+}

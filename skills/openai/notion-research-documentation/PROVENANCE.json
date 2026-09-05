@@ -1,0 +1,32 @@
+{
+  "repository": "openai/skills",
+  "commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "path": "skills/.curated/notion-research-documentation",
+  "license": "MIT",
+  "changes": "Upstream files unchanged. Applicable root license, notices, and provenance added where needed. Executable file modes preserved.",
+  "sha256": {
+    "LICENSE.txt": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+    "SKILL.md": "e88a46da978cf6f088a788fa92ee736df699a355a72f41f14bdc258bf3ef57e7",
+    "agents/openai.yaml": "4b30833ad6a110f63a7809ee1f11f2154f2301f4ae845d0432208f386d97f3d3",
+    "assets/notion-small.svg": "00f5e4b758cc5c3e36e783dca2fabfafd05169c2f2175063e56d2e1fb6a55f81",
+    "assets/notion.png": "5eef1e62d96a3d09bc9d18e4140486c22799145b017033bd0924c2c49d741cd4",
+    "evaluations/README.md": "3b4e26d61cf17f9357e5a80f90da662f3d858294f69cad5e94c620bf1ce29455",
+    "evaluations/basic-research.json": "41077f0746f28d4e6a12d88c6c2a23ceb5590dc448df4ed8c1335165d0ac6bb9",
+    "evaluations/research-to-database.json": "a442c3a60b864f98c2de80bc2e55176773fe31f87feab59b9d1bfd029966496d",
+    "examples/competitor-analysis.md": "e51bf2f471d928c4c908f85c86fba81a1b42ceba468bb46024e33adf5c29e4ca",
+    "examples/market-research.md": "cb4ed96c9763fe2309354a40a7822c4770a7952909c01b890b3962e0e01adc4d",
+    "examples/technical-investigation.md": "2db3f3a1664e6bff4b196b0e96d76e8048fc641722f570cb156f36aed8e74d85",
+    "examples/trip-planning.md": "3e2f7f8fc31fb2244af76a09649b8ecf2691ef737398ddef66d5da6e515c350b",
+    "reference/advanced-search.md": "f9c70a3b731ce76f35aee7caa53888cc8b22dadc17dd0f54cce95933a0cbbe91",
+    "reference/citations.md": "fc81043a5220a350ec17d818c43814f0a5fd466c6cbaaf732fc487d21833a5a6",
+    "reference/comparison-format.md": "e80f6ca6573d5d776e24454df04b4a038498dcd2aa93d97edb4113cfdbd88851",
+    "reference/comparison-template.md": "4c3af7b72a704beb22ab8741e97d26830421dbb5f489fdc53509fdcbe4000f2f",
+    "reference/comprehensive-report-format.md": "956da824ce2e9c5a167dcca8322b18e29c0438ca91109f7e2cbede6785541979",
+    "reference/comprehensive-report-template.md": "043096d757ab5cb681c8e0abc3783663dbc5afe544012f8a9a230b0c31d62882",
+    "reference/format-selection-guide.md": "6280f5219e141b3e284fbe47e550a1bed1831de044eb0b1b145b43ac86f38133",
+    "reference/quick-brief-format.md": "de02fca650fb676db4e2dd5772c9393b91fc9467edc2d4e33ca57df7ccd58d13",
+    "reference/quick-brief-template.md": "280912ecdb1c1543038a883d6341587aa8afc8f699952b7449e314dbe68c9243",
+    "reference/research-summary-format.md": "29308d84318a717c8f8550bbfaded1826d4f7372f658c68638380d6a2b58f89b",
+    "reference/research-summary-template.md": "c1e704d6b28b4414fd8d37b07095859704e34ce92041fa872b15e53da15dfa2a"
+  }
+}

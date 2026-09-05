@@ -1,0 +1,60 @@
+{
+  "slug": "k-dense-ai-markitdown",
+  "name": "markitdown",
+  "category": "writing",
+  "language": "en",
+  "author": "K-Dense",
+  "license": "MIT",
+  "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+  "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "sourcePath": "skills/markitdown",
+  "path": "skills/k-dense-ai/markitdown",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Convert files to Markdown",
+      "description": "Convert supported documents into Markdown for analysis, search, and retrieval workflows.",
+      "tags": [
+        "markitdown",
+        "writing"
+      ],
+      "tasks": [
+        "Convert supported documents into Markdown for analysis, search, and retrieval workflows."
+      ],
+      "prerequisites": [
+        "Python 3.10+, uv, and MarkItDown with format-specific optional dependencies."
+      ],
+      "example": "Use markitdown. Convert these local documents to Markdown, preserve source filenames, and report conversion failures.",
+      "expectedResult": "Markdown files and a conversion log with source-to-output mapping.",
+      "limitations": [
+        "OCR, URLs, audio, and cloud extraction may require additional services and credentials."
+      ]
+    },
+    "zh": {
+      "title": "将文件转换为 Markdown",
+      "description": "将支持的文档转为 Markdown，用于分析、搜索和检索流程。",
+      "tags": [
+        "markitdown",
+        "办公"
+      ],
+      "tasks": [
+        "将支持的文档转为 Markdown，用于分析、搜索和检索流程。"
+      ],
+      "prerequisites": [
+        "Python 3.10+、uv、MarkItDown 及目标格式的可选依赖。"
+      ],
+      "example": "请使用 markitdown：把这些本地文档转成 Markdown，保留来源文件名并报告转换失败项。",
+      "expectedResult": "Markdown 文件与包含输入输出映射的转换日志。",
+      "limitations": [
+        "OCR、网址、音频和云端提取可能需要额外服务与凭据。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-markitdown.zip",
+    "sha256": "f75af4491423c58db0b3395ae018f2708b993cc29637663277403e10f6812cde",
+    "bytes": 43123
+  }
+}

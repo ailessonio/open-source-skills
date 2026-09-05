@@ -1,0 +1,62 @@
+{
+  "slug": "openai-notion-meeting-intelligence",
+  "name": "notion-meeting-intelligence",
+  "category": "writing",
+  "language": "en",
+  "author": "Notion Labs",
+  "license": "MIT",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/notion-meeting-intelligence",
+  "path": "skills/openai/notion-meeting-intelligence",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Prepare meetings from Notion",
+      "description": "Build agendas and pre-reads from relevant Notion context.",
+      "tags": [
+        "notion-meeting-intelligence",
+        "writing"
+      ],
+      "tasks": [
+        "Build agendas and pre-reads from relevant Notion context."
+      ],
+      "prerequisites": [
+        "Notion MCP access to relevant project pages; research tools for external context."
+      ],
+      "example": "Use notion-meeting-intelligence. Prepare a 30-minute project review agenda using these Notion pages and list unresolved decisions.",
+      "expectedResult": "A timed agenda, linked pre-read, and questions matched to meeting goals.",
+      "limitations": [
+        "Attendee context and private workspace material must be supplied through authorized access.",
+        "Upstream Codex connector setup commands are version-specific; use your current host’s Notion connection settings."
+      ]
+    },
+    "zh": {
+      "title": "使用 Notion 准备会议",
+      "description": "根据相关 Notion 内容准备议程和会前阅读材料。",
+      "tags": [
+        "notion-meeting-intelligence",
+        "办公"
+      ],
+      "tasks": [
+        "根据相关 Notion 内容准备议程和会前阅读材料。"
+      ],
+      "prerequisites": [
+        "Notion MCP 可访问相关项目页；外部背景研究需要研究工具。"
+      ],
+      "example": "请使用 notion-meeting-intelligence：根据这些 Notion 页面准备 30 分钟项目复盘议程，列出待定决策。",
+      "expectedResult": "带时间安排的议程、会前阅读链接和对应会议目标的问题。",
+      "limitations": [
+        "参会人背景和私有工作区材料需要有授权的访问。",
+        "上游 Codex 连接配置命令有版本差异，请使用当前宿主的 Notion 连接设置。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-notion-meeting-intelligence.zip",
+    "sha256": "65e21f331e8372c80f571b846b26a86aecabf7fe8e1d335e90e2e7fe3e4b1d9a",
+    "bytes": 44078
+  }
+}

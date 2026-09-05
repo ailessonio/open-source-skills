@@ -1,0 +1,60 @@
+{
+  "slug": "k-dense-ai-citation-management",
+  "name": "citation-management",
+  "category": "research",
+  "language": "en",
+  "author": "K-Dense",
+  "license": "MIT",
+  "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+  "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "sourcePath": "skills/citation-management",
+  "path": "skills/k-dense-ai/citation-management",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Manage academic citations",
+      "description": "Find paper metadata, validate references, and prepare BibTeX entries.",
+      "tags": [
+        "citation-management",
+        "research"
+      ],
+      "tasks": [
+        "Find paper metadata, validate references, and prepare BibTeX entries."
+      ],
+      "prerequisites": [
+        "Python 3.9+, requests, and network access; scholarly for optional Google Scholar search."
+      ],
+      "example": "Use citation-management. Check these ten DOIs, identify incomplete references, and export a verified BibTeX file.",
+      "expectedResult": "A bibliography with validation notes and unresolved metadata clearly marked.",
+      "limitations": [
+        "Database coverage and rate limits vary; optional NCBI credentials raise request limits."
+      ]
+    },
+    "zh": {
+      "title": "管理学术引用",
+      "description": "查找论文元数据、核验参考文献并准备 BibTeX 条目。",
+      "tags": [
+        "citation-management",
+        "研究"
+      ],
+      "tasks": [
+        "查找论文元数据、核验参考文献并准备 BibTeX 条目。"
+      ],
+      "prerequisites": [
+        "Python 3.9+、requests 与网络；可选 Google Scholar 搜索需 scholarly。"
+      ],
+      "example": "请使用 citation-management：核对这十个 DOI，找出不完整引用，并导出已核对的 BibTeX 文件。",
+      "expectedResult": "参考文献库、核验记录及明确标注的元数据缺口。",
+      "limitations": [
+        "数据库覆盖与限流不同；可选 NCBI 凭据可提高请求额度。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-citation-management.zip",
+    "sha256": "9bdbfb4d8c5cff14f916d68a2441ec906d968ff862f4d4df4045686e4f77fe35",
+    "bytes": 97809
+  }
+}

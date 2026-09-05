@@ -1,0 +1,60 @@
+{
+  "slug": "huggingface-huggingface-local-models",
+  "name": "huggingface-local-models",
+  "category": "data",
+  "language": "en",
+  "author": "Hugging Face",
+  "license": "Apache-2.0",
+  "sourceRepository": "huggingface/skills",
+  "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "sourcePath": "skills/huggingface-local-models",
+  "path": "skills/huggingface/huggingface-local-models",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Run local language models",
+      "description": "Choose GGUF models and quantizations that fit local hardware with llama.cpp.",
+      "tags": [
+        "huggingface-local-models",
+        "data"
+      ],
+      "tasks": [
+        "Choose GGUF models and quantizations that fit local hardware with llama.cpp."
+      ],
+      "prerequisites": [
+        "llama.cpp, sufficient RAM/disk space, and network access for model downloads."
+      ],
+      "example": "Use huggingface-local-models. Compare suitable GGUF options for my 16 GB machine and show how to run the smallest viable model.",
+      "expectedResult": "Hardware-aware model choices and a command using a verified model filename.",
+      "limitations": [
+        "Model licenses, gated access, memory needs, and speed vary independently of this Skill."
+      ]
+    },
+    "zh": {
+      "title": "运行本地语言模型",
+      "description": "选择适合本地硬件的 GGUF 模型和量化版本，并使用 llama.cpp。",
+      "tags": [
+        "huggingface-local-models",
+        "数据"
+      ],
+      "tasks": [
+        "选择适合本地硬件的 GGUF 模型和量化版本，并使用 llama.cpp。"
+      ],
+      "prerequisites": [
+        "llama.cpp、足够内存和磁盘，以及下载模型所需网络。"
+      ],
+      "example": "请使用 huggingface-local-models：为我的 16 GB 内存电脑比较 GGUF 选项，并给出运行最小可行模型的方法。",
+      "expectedResult": "结合硬件的模型选择及使用已核对文件名的命令。",
+      "limitations": [
+        "模型许可、访问限制、内存需求与速度需单独核对。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-huggingface-local-models.zip",
+    "sha256": "ec02457e027481e2011ec506a0d2e498299942a2fd150331e9eec774e961556e",
+    "bytes": 11758
+  }
+}

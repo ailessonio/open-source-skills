@@ -2,7 +2,7 @@
 
 An open collection of practical Agent Skills, curated from existing upstream projects for [AILesson](https://ailesson.io).
 
-**Status:** 15 curated Skills with complete source folders, en/zh catalog metadata, and reproducible download packages. Source and package checks are complete; end-to-end Agent task verification is not claimed.
+**Status:** 47 curated Skills with complete source folders, en/zh catalog metadata, and reproducible download packages. Source and package checks are complete; end-to-end Agent task verification is not claimed.
 
 ## What belongs here
 
@@ -17,10 +17,10 @@ We curate existing Skills; we do not create original Skills in this phase. Inclu
 ## Repository structure
 
 ```text
-catalog/index.json         # Published catalog; empty until entries pass review
-catalog/entries/           # Planned: Localized entry metadata
-catalog/collections/       # Planned: task-based collections
-skills/<source>/<name>/    # Planned: complete upstream Skill folders
+catalog/index.json         # Published catalog
+catalog/entries/           # Localized entry metadata
+catalog/research/          # Intake evidence and deferred candidates
+skills/<source>/<name>/    # Complete upstream Skill folders
 ```
 
 Use a source namespace to distinguish authors while retaining each Skill's original directory name. Never install every folder by default.
@@ -29,7 +29,7 @@ Use a source namespace to distinguish authors while retaining each Skill's origi
 
 Browse [catalog/index.json](catalog/index.json) for source folders and usage guidance. Individual ZIP files are provided as GitHub Release assets, with a pinned source revision and checksum. GitHub's **Code → Download ZIP** downloads the whole repository, not one ready-to-upload Skill.
 
-Downloads will link directly to GitHub. AILesson does not need a separate Skill file hosting service.
+Downloads link directly to GitHub. AILesson does not need a separate Skill file hosting service.
 
 ## Contribute
 
@@ -41,6 +41,10 @@ AILesson-authored catalog descriptions and repository maintenance materials are 
 
 ## Maintain the catalog
 
-`python3 scripts/build-catalog.py` checks provenance and builds ZIP files in `dist/`. Publish the ZIPs to the matching GitHub Release before syncing their metadata.
+`python3 scripts/build-catalog.py --release catalog-YYYY-MM-DD --date YYYY-MM-DD` checks provenance and builds ZIP files in `dist/`. Publish the ZIPs to the matching GitHub Release before syncing their metadata.
 
 The website reads metadata from D1; Skill files stay on GitHub. Set `CONTENT_API_BASE_URL` and `CONTENT_API_TOKEN` securely in your environment. Run `node scripts/sync.mjs` for a read-only dry run, then add `--apply` to write. Use `--slug=<slug>` for one entry; combine with `--withdraw` to unpublish it. Never remove D1 entries merely because a local file is absent. Staging and production must be synced separately after the application migration is deployed.
+
+New or changed packages require a new Release tag. Unchanged packages keep their existing download URLs and checksums. Source scripts are never executed by the builder; executable file permissions are preserved in the ZIP.
+
+The September 5 expansion reviewed 48 candidates from six repositories, imported 32, and deferred 16 for unresolved licensing or supporting references. See [the intake record](catalog/research/2026-09-05-expansion.json).

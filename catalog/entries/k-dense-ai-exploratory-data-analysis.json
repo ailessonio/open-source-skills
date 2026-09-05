@@ -1,0 +1,60 @@
+{
+  "slug": "k-dense-ai-exploratory-data-analysis",
+  "name": "exploratory-data-analysis",
+  "category": "data",
+  "language": "en",
+  "author": "K-Dense",
+  "license": "MIT",
+  "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+  "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "sourcePath": "skills/exploratory-data-analysis",
+  "path": "skills/k-dense-ai/exploratory-data-analysis",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Audit and explore datasets",
+      "description": "Profile supported local data files and document missingness, leakage, and outlier risks.",
+      "tags": [
+        "exploratory-data-analysis",
+        "data"
+      ],
+      "tasks": [
+        "Profile supported local data files and document missingness, leakage, and outlier risks."
+      ],
+      "prerequisites": [
+        "Python 3.11+ for core CLIs; optional formats need the packages listed upstream."
+      ],
+      "example": "Use exploratory-data-analysis. Profile this redacted CSV and report missing values, duplicate rows, and suspicious target leakage.",
+      "expectedResult": "A bounded data profile and report with explicit supported-format limitations.",
+      "limitations": [
+        "Unknown formats are not automatically supported; upstream core tools intentionally fail closed."
+      ]
+    },
+    "zh": {
+      "title": "审查与探索数据集",
+      "description": "分析支持的本地数据文件，记录缺失、泄漏和异常值风险。",
+      "tags": [
+        "exploratory-data-analysis",
+        "数据"
+      ],
+      "tasks": [
+        "分析支持的本地数据文件，记录缺失、泄漏和异常值风险。"
+      ],
+      "prerequisites": [
+        "核心 CLI 需 Python 3.11+；可选格式需安装上游列出的包。"
+      ],
+      "example": "请使用 exploratory-data-analysis：分析此已脱敏 CSV，报告缺失值、重复行和疑似目标泄漏。",
+      "expectedResult": "范围明确的数据概况与报告，并说明支持格式的限制。",
+      "limitations": [
+        "未知格式不会自动得到支持；上游核心工具会拒绝不支持的输入。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-exploratory-data-analysis.zip",
+    "sha256": "82cf4ad9ba46e6d372772a3e85e95c13851cd0b098aa8338297c940db4f19b2a",
+    "bytes": 75849
+  }
+}

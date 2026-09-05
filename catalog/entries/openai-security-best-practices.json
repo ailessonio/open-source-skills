@@ -1,0 +1,60 @@
+{
+  "slug": "openai-security-best-practices",
+  "name": "security-best-practices",
+  "category": "development",
+  "language": "en",
+  "author": "OpenAI",
+  "license": "Apache-2.0",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/security-best-practices",
+  "path": "skills/openai/security-best-practices",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Review application security",
+      "description": "Review supported Python, JavaScript/TypeScript, and Go code against security guidance.",
+      "tags": [
+        "security-best-practices",
+        "development"
+      ],
+      "tasks": [
+        "Review supported Python, JavaScript/TypeScript, and Go code against security guidance."
+      ],
+      "prerequisites": [
+        "Read access to an authorized codebase and its framework/configuration files."
+      ],
+      "example": "Use security-best-practices. Review this API’s authentication and input handling, citing file locations and prioritizing fixes.",
+      "expectedResult": "A scoped findings report with evidence, severity, and concrete remediation.",
+      "limitations": [
+        "A guided review is not a penetration test or a guarantee that all vulnerabilities are found."
+      ]
+    },
+    "zh": {
+      "title": "检查应用安全实践",
+      "description": "依据安全指南检查 Python、JavaScript/TypeScript 与 Go 代码。",
+      "tags": [
+        "security-best-practices",
+        "开发"
+      ],
+      "tasks": [
+        "依据安全指南检查 Python、JavaScript/TypeScript 与 Go 代码。"
+      ],
+      "prerequisites": [
+        "获授权代码库及框架、配置文件的读取权限。"
+      ],
+      "example": "请使用 security-best-practices：检查此 API 的鉴权和输入处理，标注代码位置并排列修复优先级。",
+      "expectedResult": "包含范围、证据、严重程度和具体修复建议的报告。",
+      "limitations": [
+        "此流程不等于渗透测试，也不保证发现所有漏洞。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-security-best-practices.zip",
+    "sha256": "67972899c97a693932a1811e7ead8c76d83c6bebe253ffe18d12658255c413ec",
+    "bytes": 141739
+  }
+}

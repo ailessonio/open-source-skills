@@ -1,0 +1,60 @@
+{
+  "slug": "anthropics-algorithmic-art",
+  "name": "algorithmic-art",
+  "category": "design",
+  "language": "en",
+  "author": "Anthropic",
+  "license": "Apache-2.0",
+  "sourceRepository": "anthropics/skills",
+  "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "sourcePath": "skills/algorithmic-art",
+  "path": "skills/anthropics/algorithmic-art",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Generative art with p5.js",
+      "description": "Create seeded generative artwork with controls for exploring visual variations.",
+      "tags": [
+        "algorithmic-art",
+        "design"
+      ],
+      "tasks": [
+        "Create seeded generative artwork with controls for exploring visual variations."
+      ],
+      "prerequisites": [
+        "An agent that writes files, a browser, and access to p5.js."
+      ],
+      "example": "Use algorithmic-art. Create a flow-field sketch with a fixed seed, adjustable density, and a reset control.",
+      "expectedResult": "An HTML viewer and JavaScript sketch with reproducible variations.",
+      "limitations": [
+        "Preview rendering and performance in your browser; external libraries require network access."
+      ]
+    },
+    "zh": {
+      "title": "p5.js 生成艺术",
+      "description": "用固定随机种子和可调参数创作生成式图形。",
+      "tags": [
+        "algorithmic-art",
+        "设计"
+      ],
+      "tasks": [
+        "用固定随机种子和可调参数创作生成式图形。"
+      ],
+      "prerequisites": [
+        "可写文件的 Agent、浏览器及 p5.js。"
+      ],
+      "example": "请使用 algorithmic-art：制作流场图形，提供固定种子、密度调节和重置按钮。",
+      "expectedResult": "HTML 查看器与 JavaScript 图形，相同种子可复现。",
+      "limitations": [
+        "需在浏览器检查画面和性能；外部库可能需要联网。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "anthropics-algorithmic-art.zip",
+    "sha256": "9c3f6c8804e06e82f0148277be813eda5d0fe9dfe685eaf8a00ab80e30a05377",
+    "bytes": 34950
+  }
+}

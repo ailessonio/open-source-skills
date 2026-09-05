@@ -1,0 +1,60 @@
+{
+  "slug": "k-dense-ai-scientific-critical-thinking",
+  "name": "scientific-critical-thinking",
+  "category": "research",
+  "language": "en",
+  "author": "K-Dense",
+  "license": "MIT",
+  "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+  "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "sourcePath": "skills/scientific-critical-thinking",
+  "path": "skills/k-dense-ai/scientific-critical-thinking",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Evaluate scientific evidence",
+      "description": "Examine claims, confounders, bias, and the strength of scientific evidence.",
+      "tags": [
+        "scientific-critical-thinking",
+        "research"
+      ],
+      "tasks": [
+        "Examine claims, confounders, bias, and the strength of scientific evidence."
+      ],
+      "prerequisites": [
+        "Source papers or study descriptions; core analysis does not require network access."
+      ],
+      "example": "Use scientific-critical-thinking. Evaluate this study’s claim and explain which design choices weaken causal interpretation.",
+      "expectedResult": "A structured evidence critique with assumptions and unanswered questions.",
+      "limitations": [
+        "Optional diagrams refer to a separate scientific-schematics Skill and OpenRouter credentials, not bundled here."
+      ]
+    },
+    "zh": {
+      "title": "评估科学证据",
+      "description": "检查科学主张、混杂因素、偏差与证据强度。",
+      "tags": [
+        "scientific-critical-thinking",
+        "研究"
+      ],
+      "tasks": [
+        "检查科学主张、混杂因素、偏差与证据强度。"
+      ],
+      "prerequisites": [
+        "论文原文或研究说明；核心分析不要求联网。"
+      ],
+      "example": "请使用 scientific-critical-thinking：评估此研究的主张，解释哪些设计选择削弱了因果解释。",
+      "expectedResult": "结构化证据评述，列出假设和未解决问题。",
+      "limitations": [
+        "可选图示依赖独立 scientific-schematics Skill 与 OpenRouter 凭据，本包未包含。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-scientific-critical-thinking.zip",
+    "sha256": "11f5357674eb0e716b17a4442ef45a2143b17491cf3b1bf1216b9e6b4b8a3f8c",
+    "bytes": 43497
+  }
+}

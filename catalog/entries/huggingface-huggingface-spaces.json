@@ -1,0 +1,60 @@
+{
+  "slug": "huggingface-huggingface-spaces",
+  "name": "huggingface-spaces",
+  "category": "development",
+  "language": "en",
+  "author": "Hugging Face",
+  "license": "Apache-2.0",
+  "sourceRepository": "huggingface/skills",
+  "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "sourcePath": "skills/huggingface-spaces",
+  "path": "skills/huggingface/huggingface-spaces",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Build Hugging Face Spaces",
+      "description": "Plan, build, and debug Gradio, Docker, or static apps on Spaces.",
+      "tags": [
+        "huggingface-spaces",
+        "development"
+      ],
+      "tasks": [
+        "Plan, build, and debug Gradio, Docker, or static apps on Spaces."
+      ],
+      "prerequisites": [
+        "hf CLI, a Hub account, app runtime, and access to the chosen hosting hardware."
+      ],
+      "example": "Use huggingface-spaces. Inspect this Gradio app and propose a Space configuration with its dependencies and hosting needs.",
+      "expectedResult": "A Space configuration, dependency list, and deployment/debugging steps.",
+      "limitations": [
+        "Hosting eligibility, hardware availability, and charges must be checked before deployment."
+      ]
+    },
+    "zh": {
+      "title": "构建 Hugging Face Spaces",
+      "description": "规划、构建与调试 Spaces 上的 Gradio、Docker 或静态应用。",
+      "tags": [
+        "huggingface-spaces",
+        "开发"
+      ],
+      "tasks": [
+        "规划、构建与调试 Spaces 上的 Gradio、Docker 或静态应用。"
+      ],
+      "prerequisites": [
+        "hf CLI、Hub 账号、应用运行环境，以及目标托管硬件权限。"
+      ],
+      "example": "请使用 huggingface-spaces：检查此 Gradio 应用，提出 Space 配置并列出依赖与托管需求。",
+      "expectedResult": "Space 配置、依赖清单及部署和调试步骤。",
+      "limitations": [
+        "部署前需核对托管资格、硬件可用性与费用。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-huggingface-spaces.zip",
+    "sha256": "a38cfe119c4392220fbc00edc711fee76483b0fc343afc92d9a0c91da58a8cf5",
+    "bytes": 76434
+  }
+}

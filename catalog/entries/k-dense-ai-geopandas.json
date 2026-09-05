@@ -1,0 +1,60 @@
+{
+  "slug": "k-dense-ai-geopandas",
+  "name": "geopandas",
+  "category": "data",
+  "language": "en",
+  "author": "K-Dense",
+  "license": "MIT",
+  "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+  "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "sourcePath": "skills/geopandas",
+  "path": "skills/k-dense-ai/geopandas",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Analyze vector geospatial data",
+      "description": "Inspect and transform vector datasets with GeoPandas and coordinate-system checks.",
+      "tags": [
+        "geopandas",
+        "data"
+      ],
+      "tasks": [
+        "Inspect and transform vector datasets with GeoPandas and coordinate-system checks."
+      ],
+      "prerequisites": [
+        "Python 3.10+, uv, and the upstream pinned GeoPandas stack."
+      ],
+      "example": "Use geopandas. Inspect these GeoJSON files, verify their CRS, and calculate overlaps in an appropriate projection.",
+      "expectedResult": "Validated geometry/CRS notes and a reproducible spatial-analysis output.",
+      "limitations": [
+        "Planar operations need a suitable projection; invalid geometries require explicit handling."
+      ]
+    },
+    "zh": {
+      "title": "分析地理空间矢量数据",
+      "description": "通过 GeoPandas 与坐标系检查处理地理空间矢量数据。",
+      "tags": [
+        "geopandas",
+        "数据"
+      ],
+      "tasks": [
+        "通过 GeoPandas 与坐标系检查处理地理空间矢量数据。"
+      ],
+      "prerequisites": [
+        "Python 3.10+、uv 与上游固定的 GeoPandas 依赖组合。"
+      ],
+      "example": "请使用 geopandas：检查这些 GeoJSON 文件及坐标系，使用合适投影计算重叠范围。",
+      "expectedResult": "几何与坐标系核验记录，以及可复现的空间分析输出。",
+      "limitations": [
+        "平面运算需要合适投影；无效几何必须显式处理。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-geopandas.zip",
+    "sha256": "19184cd34f70f421a0465c534e48ef8c1b7340c438a8f4ee893ebf620f5e447a",
+    "bytes": 56224
+  }
+}

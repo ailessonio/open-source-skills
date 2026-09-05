@@ -1,0 +1,60 @@
+{
+  "slug": "k-dense-ai-scientific-brainstorming",
+  "name": "scientific-brainstorming",
+  "category": "research",
+  "language": "en",
+  "author": "K-Dense",
+  "license": "MIT",
+  "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+  "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "sourcePath": "skills/scientific-brainstorming",
+  "path": "skills/k-dense-ai/scientific-brainstorming",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Explore research directions",
+      "description": "Generate and compare research ideas with explicit assumptions and evaluation criteria.",
+      "tags": [
+        "scientific-brainstorming",
+        "research"
+      ],
+      "tasks": [
+        "Generate and compare research ideas with explicit assumptions and evaluation criteria."
+      ],
+      "prerequisites": [
+        "A research question and background evidence; optional local helpers need Python 3.11+."
+      ],
+      "example": "Use scientific-brainstorming. Propose five testable directions for this research question, then compare feasibility and evidence gaps.",
+      "expectedResult": "An idea set, transparent comparison, and decision log for follow-up work.",
+      "limitations": [
+        "Ideation does not establish empirical validity or replace study-design review."
+      ]
+    },
+    "zh": {
+      "title": "探索研究方向",
+      "description": "生成并比较研究想法，明确假设与评估标准。",
+      "tags": [
+        "scientific-brainstorming",
+        "研究"
+      ],
+      "tasks": [
+        "生成并比较研究想法，明确假设与评估标准。"
+      ],
+      "prerequisites": [
+        "研究问题与背景证据；可选本地工具需 Python 3.11+。"
+      ],
+      "example": "请使用 scientific-brainstorming：为此研究问题提出五个可检验方向，并比较可行性与证据缺口。",
+      "expectedResult": "候选想法、透明的对比过程及后续决策记录。",
+      "limitations": [
+        "构思不等于实证成立，也不能替代研究设计审查。"
+      ]
+    }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-scientific-brainstorming.zip",
+    "sha256": "64c95296b58a5c3104d3fe5792a8016c54b61e28940e904e317d084f94fa14c2",
+    "bytes": 49548
+  }
+}
