@@ -1,0 +1,54 @@
+{
+  "slug": "openai-gh-fix-ci",
+  "name": "gh-fix-ci",
+  "category": "development",
+  "language": "en",
+  "author": "OpenAI",
+  "license": "Apache-2.0",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/gh-fix-ci",
+  "path": "skills/openai/gh-fix-ci",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Diagnose GitHub Actions failures",
+      "description": "Inspect failing PR checks and GitHub Actions logs to identify actionable failures.",
+      "tags": [
+        "gh-fix-ci",
+        "development"
+      ],
+      "tasks": [
+        "Inspect failing PR checks and GitHub Actions logs to identify actionable failures."
+      ],
+      "prerequisites": [
+        "Authenticated GitHub CLI, a local checkout, and access to workflow logs."
+      ],
+      "example": "Use gh-fix-ci. Investigate the failing checks on this PR, summarize the cause, and propose a minimal fix.",
+      "expectedResult": "Failure evidence, a proposed patch, and a relevant verification command.",
+      "limitations": [
+        "External CI providers are outside this Skill’s scope; upstream asks for approval before implementing."
+      ]
+    },
+    "zh": {
+      "title": "诊断 GitHub CI 失败",
+      "description": "检查 PR 失败检查项与 GitHub Actions 日志，定位可修复原因。",
+      "tags": [
+        "gh-fix-ci",
+        "开发"
+      ],
+      "tasks": [
+        "检查 PR 失败检查项与 GitHub Actions 日志，定位可修复原因。"
+      ],
+      "prerequisites": [
+        "已登录 GitHub CLI、本地仓库及工作流日志权限。"
+      ],
+      "example": "请使用 gh-fix-ci：调查此 PR 的失败检查，概括原因并提出最小修复方案。",
+      "expectedResult": "失败证据、建议补丁及对应验证命令。",
+      "limitations": [
+        "不负责外部 CI 服务；上游流程要求修改前确认。"
+      ]
+    }
+  }
+}

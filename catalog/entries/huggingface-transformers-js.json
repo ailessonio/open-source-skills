@@ -1,0 +1,54 @@
+{
+  "slug": "huggingface-transformers-js",
+  "name": "transformers-js",
+  "category": "development",
+  "language": "en",
+  "author": "Hugging Face",
+  "license": "Apache-2.0",
+  "sourceRepository": "huggingface/skills",
+  "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "sourcePath": "skills/transformers-js",
+  "path": "skills/huggingface/transformers-js",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Run ML in JavaScript",
+      "description": "Use Transformers.js pipelines for browser or server-side inference.",
+      "tags": [
+        "transformers-js",
+        "development"
+      ],
+      "tasks": [
+        "Use Transformers.js pipelines for browser or server-side inference."
+      ],
+      "prerequisites": [
+        "A supported JavaScript runtime, Transformers.js, and access to model files."
+      ],
+      "example": "Use transformers-js. Build a small browser demo that classifies text and shows loading and error states.",
+      "expectedResult": "A working inference example with model loading and resource cleanup.",
+      "limitations": [
+        "WebGPU support, model size, licensing, and browser memory vary."
+      ]
+    },
+    "zh": {
+      "title": "在 JavaScript 中运行模型",
+      "description": "使用 Transformers.js 在浏览器或服务端执行模型推理。",
+      "tags": [
+        "transformers-js",
+        "开发"
+      ],
+      "tasks": [
+        "使用 Transformers.js 在浏览器或服务端执行模型推理。"
+      ],
+      "prerequisites": [
+        "受支持的 JavaScript 环境、Transformers.js 及模型文件访问。"
+      ],
+      "example": "请使用 transformers-js：制作浏览器文本分类演示，展示加载和错误状态。",
+      "expectedResult": "包含模型加载和资源释放的推理示例。",
+      "limitations": [
+        "WebGPU 支持、模型体积、许可和浏览器内存各异。"
+      ]
+    }
+  }
+}

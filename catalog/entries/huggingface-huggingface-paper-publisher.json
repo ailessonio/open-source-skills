@@ -1,0 +1,54 @@
+{
+  "slug": "huggingface-huggingface-paper-publisher",
+  "name": "huggingface-paper-publisher",
+  "category": "research",
+  "language": "en",
+  "author": "Hugging Face",
+  "license": "Apache-2.0",
+  "sourceRepository": "huggingface/skills",
+  "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "sourcePath": "skills/huggingface-paper-publisher",
+  "path": "skills/huggingface/huggingface-paper-publisher",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Manage research paper pages",
+      "description": "Prepare and manage paper pages and model/dataset links on Hugging Face.",
+      "tags": [
+        "huggingface-paper-publisher",
+        "research"
+      ],
+      "tasks": [
+        "Prepare and manage paper pages and model/dataset links on Hugging Face."
+      ],
+      "prerequisites": [
+        "Python/uv, Hub account, and write-scoped HF_TOKEN for publishing actions."
+      ],
+      "example": "Use huggingface-paper-publisher. Prepare metadata linking my arXiv paper to this model repository; show the proposed changes first.",
+      "expectedResult": "Validated paper metadata and a reviewable linking or publication plan.",
+      "limitations": [
+        "Publishing and claiming authorship change public records and require appropriate permissions."
+      ]
+    },
+    "zh": {
+      "title": "管理研究论文页面",
+      "description": "准备并管理 Hugging Face 论文页面及模型、数据集关联。",
+      "tags": [
+        "huggingface-paper-publisher",
+        "研究"
+      ],
+      "tasks": [
+        "准备并管理 Hugging Face 论文页面及模型、数据集关联。"
+      ],
+      "prerequisites": [
+        "Python/uv、Hub 账号；发布操作需要有写入权限的 HF_TOKEN。"
+      ],
+      "example": "请使用 huggingface-paper-publisher：准备把我的 arXiv 论文关联到此模型仓库的元数据，先展示拟修改内容。",
+      "expectedResult": "核对后的论文元数据及可审阅的关联或发布计划。",
+      "limitations": [
+        "发布与认领作者身份会改变公开记录，需具备相应权限。"
+      ]
+    }
+  }
+}

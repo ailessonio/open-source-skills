@@ -1,0 +1,54 @@
+{
+  "slug": "k-dense-ai-statistical-analysis",
+  "name": "statistical-analysis",
+  "category": "data",
+  "language": "en",
+  "author": "K-Dense",
+  "license": "MIT",
+  "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+  "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "sourcePath": "skills/statistical-analysis",
+  "path": "skills/k-dense-ai/statistical-analysis",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Plan statistical analyses",
+      "description": "Choose tests, check assumptions, and report effect sizes and uncertainty.",
+      "tags": [
+        "statistical-analysis",
+        "data"
+      ],
+      "tasks": [
+        "Choose tests, check assumptions, and report effect sizes and uncertainty."
+      ],
+      "prerequisites": [
+        "Python and analysis packages such as scipy, statsmodels, pingouin, and pandas."
+      ],
+      "example": "Use statistical-analysis. Compare these two groups, explain the test assumptions, and report effect size with uncertainty.",
+      "expectedResult": "An analysis rationale, assumption checks, and interpretable result tables.",
+      "limitations": [
+        "Data quality and study design determine validity; significance alone is not a useful conclusion."
+      ]
+    },
+    "zh": {
+      "title": "规划统计分析",
+      "description": "选择检验方法、检查假设，并报告效应量与不确定性。",
+      "tags": [
+        "statistical-analysis",
+        "数据"
+      ],
+      "tasks": [
+        "选择检验方法、检查假设，并报告效应量与不确定性。"
+      ],
+      "prerequisites": [
+        "Python 及 scipy、statsmodels、pingouin、pandas 等分析包。"
+      ],
+      "example": "请使用 statistical-analysis：比较这两组数据，解释检验假设，并报告效应量和不确定性。",
+      "expectedResult": "分析依据、假设检查及可解释的结果表。",
+      "limitations": [
+        "结果有效性取决于数据质量与研究设计，显著性本身不足以构成结论。"
+      ]
+    }
+  }
+}

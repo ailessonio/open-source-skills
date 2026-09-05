@@ -1,0 +1,54 @@
+{
+  "slug": "openai-jupyter-notebook",
+  "name": "jupyter-notebook",
+  "category": "data",
+  "language": "en",
+  "author": "OpenAI",
+  "license": "Apache-2.0",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/jupyter-notebook",
+  "path": "skills/openai/jupyter-notebook",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Create Jupyter notebooks",
+      "description": "Scaffold clean experiment and tutorial notebooks with bundled templates.",
+      "tags": [
+        "jupyter-notebook",
+        "data"
+      ],
+      "tasks": [
+        "Scaffold clean experiment and tutorial notebooks with bundled templates."
+      ],
+      "prerequisites": [
+        "Python; Jupyter to run notebooks. Upstream helpers use $CODEX_HOME/skills/jupyter-notebook/."
+      ],
+      "example": "Use jupyter-notebook. Create a notebook that loads this CSV, checks missing values, and plots three useful summaries.",
+      "expectedResult": "An .ipynb with ordered cells, explanations, and explicit data assumptions.",
+      "limitations": [
+        "Scaffolding does not execute or validate every cell; run the notebook in your environment."
+      ]
+    },
+    "zh": {
+      "title": "创建 Jupyter Notebook",
+      "description": "通过包内模板创建结构清晰的实验或教程 Notebook。",
+      "tags": [
+        "jupyter-notebook",
+        "数据"
+      ],
+      "tasks": [
+        "通过包内模板创建结构清晰的实验或教程 Notebook。"
+      ],
+      "prerequisites": [
+        "Python；运行 Notebook 需 Jupyter。上游脚本路径使用 $CODEX_HOME/skills/jupyter-notebook/。"
+      ],
+      "example": "请使用 jupyter-notebook：创建 Notebook，读取此 CSV、检查缺失值并绘制三项摘要图。",
+      "expectedResult": "单元顺序清晰、含解释与数据假设的 .ipynb 文件。",
+      "limitations": [
+        "创建骨架不代表所有单元已执行，需在自己的环境运行。"
+      ]
+    }
+  }
+}

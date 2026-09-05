@@ -1,0 +1,54 @@
+{
+  "slug": "huggingface-huggingface-papers",
+  "name": "huggingface-papers",
+  "category": "research",
+  "language": "en",
+  "author": "Hugging Face",
+  "license": "Apache-2.0",
+  "sourceRepository": "huggingface/skills",
+  "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "sourcePath": "skills/huggingface-papers",
+  "path": "skills/huggingface/huggingface-papers",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Read AI research papers",
+      "description": "Retrieve paper text and structured metadata from Hugging Face paper pages.",
+      "tags": [
+        "huggingface-papers",
+        "research"
+      ],
+      "tasks": [
+        "Retrieve paper text and structured metadata from Hugging Face paper pages."
+      ],
+      "prerequisites": [
+        "Network access to Hugging Face; authentication only for write endpoints."
+      ],
+      "example": "Use huggingface-papers. Summarize this paper’s method, evaluation, limitations, and links to released models.",
+      "expectedResult": "A source-linked summary separating paper claims from interpretation.",
+      "limitations": [
+        "Missing paper text or artifacts must remain explicit gaps rather than inferred results."
+      ]
+    },
+    "zh": {
+      "title": "阅读 AI 研究论文",
+      "description": "从 Hugging Face 论文页获取正文与结构化元数据。",
+      "tags": [
+        "huggingface-papers",
+        "研究"
+      ],
+      "tasks": [
+        "从 Hugging Face 论文页获取正文与结构化元数据。"
+      ],
+      "prerequisites": [
+        "可访问 Hugging Face 的网络；写入接口才需要登录。"
+      ],
+      "example": "请使用 huggingface-papers：概括此论文的方法、评估、限制及已发布模型链接。",
+      "expectedResult": "带来源链接、区分论文声明与解读的摘要。",
+      "limitations": [
+        "缺失正文或附件应明确标注，不推测实验结果。"
+      ]
+    }
+  }
+}

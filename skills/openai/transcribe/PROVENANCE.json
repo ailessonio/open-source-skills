@@ -1,0 +1,16 @@
+{
+  "repository": "openai/skills",
+  "commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "path": "skills/.curated/transcribe",
+  "license": "Apache-2.0",
+  "changes": "Upstream files unchanged. Applicable root license, notices, and provenance added where needed. Executable file modes preserved.",
+  "sha256": {
+    "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+    "SKILL.md": "f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09",
+    "agents/openai.yaml": "fe7a20b9c03ce027e2f3023a4fd363c2d958ceeae1b7daaef77d1f6d055d97a4",
+    "assets/transcribe-small.svg": "7d67890abf0f145a77f5fb87752bb6337b394fd4e26f5969c57d82d40e369a14",
+    "assets/transcribe.png": "0860df58af6b9e58f4445a81baca7bfd94029a447742ae9b9e896e7c5b748688",
+    "references/api.md": "a2bf7e59d69aa127b176255c5c01afbafda4e3029b12b4413e75074233ffb36d",
+    "scripts/transcribe_diarize.py": "d623b1fed1491b7ca4b7b5b393089165e3581a83d90d5a57868241f1b2a5d951"
+  }
+}

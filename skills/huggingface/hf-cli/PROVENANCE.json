@@ -1,0 +1,10 @@
+{
+  "repository": "huggingface/skills",
+  "commit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "path": "skills/hf-cli",
+  "license": "Apache-2.0",
+  "changes": "Upstream files unchanged. Applicable root license, notices, and provenance added where needed. Executable file modes preserved.",
+  "sha256": {
+    "SKILL.md": "22a29c9c00755a3d4a74fd5607f5963215f60e4f2fe925261026f93161af2a9e"
+  }
+}

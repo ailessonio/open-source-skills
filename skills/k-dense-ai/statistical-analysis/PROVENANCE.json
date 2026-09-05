@@ -1,0 +1,16 @@
+{
+  "repository": "K-Dense-AI/scientific-agent-skills",
+  "commit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "path": "skills/statistical-analysis",
+  "license": "MIT",
+  "changes": "Upstream files unchanged. Applicable root license, notices, and provenance added where needed. Executable file modes preserved.",
+  "sha256": {
+    "SKILL.md": "1b1d63fd667ef454a8e0cadf32457a511883d3308dcc79c47c48bc565d9a23f7",
+    "references/assumptions_and_diagnostics.md": "b8fdccb2d2f160c78bd11415e30c50a0dea755f046e936b8c85b23333d1b47f8",
+    "references/bayesian_statistics.md": "c6b994b512c38009f26aed3913884aa85fef2bdcefd8a9858b124deed3a05f70",
+    "references/effect_sizes_and_power.md": "6de003ff25fe3613322f5cfbd4d042327b17a381c034bc2dbbe068212ecce732",
+    "references/reporting_standards.md": "6854623fb5e8080e7d02b6c713ee44cb4a4cf03757d97840764118af54137a88",
+    "references/test_selection_guide.md": "64f5d93f87d83431b767a24d6b32c0ed82f2cbd32b1bd07476b49b5ac6a858a5",
+    "scripts/assumption_checks.py": "3fabf359ab0128bbfc498dadb53a4782431cde473c0a6681ea7298a605757018"
+  }
+}

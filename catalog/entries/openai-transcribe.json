@@ -1,0 +1,54 @@
+{
+  "slug": "openai-transcribe",
+  "name": "transcribe",
+  "category": "writing",
+  "language": "en",
+  "author": "OpenAI",
+  "license": "Apache-2.0",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/transcribe",
+  "path": "skills/openai/transcribe",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Transcribe recordings",
+      "description": "Convert audio to text with optional speaker labels using OpenAI’s API.",
+      "tags": [
+        "transcribe",
+        "writing"
+      ],
+      "tasks": [
+        "Convert audio to text with optional speaker labels using OpenAI’s API."
+      ],
+      "prerequisites": [
+        "Python, openai, OPENAI_API_KEY. Upstream CLI uses $CODEX_HOME/skills/transcribe/."
+      ],
+      "example": "Use transcribe. Transcribe this interview with speaker labels and flag words that need manual review.",
+      "expectedResult": "A transcript or diarized JSON aligned with the supplied recording.",
+      "limitations": [
+        "Audio is sent to the API and incurs usage costs; verify names and speaker attribution."
+      ]
+    },
+    "zh": {
+      "title": "转录录音",
+      "description": "通过 OpenAI API 将音频转为文本，并可添加说话人标签。",
+      "tags": [
+        "transcribe",
+        "办公"
+      ],
+      "tasks": [
+        "通过 OpenAI API 将音频转为文本，并可添加说话人标签。"
+      ],
+      "prerequisites": [
+        "Python、openai、OPENAI_API_KEY。上游 CLI 使用 $CODEX_HOME/skills/transcribe/。"
+      ],
+      "example": "请使用 transcribe：转录这段访谈，标注说话人并指出需要人工核对的词语。",
+      "expectedResult": "与录音对应的转录稿或带说话人信息的 JSON。",
+      "limitations": [
+        "音频会发送至 API 并计费；需核对姓名和说话人归属。"
+      ]
+    }
+  }
+}

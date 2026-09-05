@@ -1,0 +1,56 @@
+{
+  "slug": "openai-notion-knowledge-capture",
+  "name": "notion-knowledge-capture",
+  "category": "writing",
+  "language": "en",
+  "author": "Notion Labs",
+  "license": "MIT",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/notion-knowledge-capture",
+  "path": "skills/openai/notion-knowledge-capture",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Capture knowledge in Notion",
+      "description": "Turn notes and conversations into linked wiki pages, decisions, or FAQs.",
+      "tags": [
+        "notion-knowledge-capture",
+        "writing"
+      ],
+      "tasks": [
+        "Turn notes and conversations into linked wiki pages, decisions, or FAQs."
+      ],
+      "prerequisites": [
+        "A connected Notion MCP integration with access to the target pages and databases."
+      ],
+      "example": "Use notion-knowledge-capture. Turn these meeting notes into a decision page with owners, dates, and links to supporting pages.",
+      "expectedResult": "A structured Notion draft with source links and the target database properties.",
+      "limitations": [
+        "The ZIP does not install the Notion connector; creating pages changes your workspace.",
+        "Upstream Codex connector setup commands are version-specific; use your current host’s Notion connection settings."
+      ]
+    },
+    "zh": {
+      "title": "整理 Notion 知识库",
+      "description": "将笔记与对话整理为带关联的知识页、决策或 FAQ。",
+      "tags": [
+        "notion-knowledge-capture",
+        "办公"
+      ],
+      "tasks": [
+        "将笔记与对话整理为带关联的知识页、决策或 FAQ。"
+      ],
+      "prerequisites": [
+        "已连接 Notion MCP，且可访问目标页面与数据库。"
+      ],
+      "example": "请使用 notion-knowledge-capture：把这些会议笔记整理为决策页，列明负责人、日期及依据页面链接。",
+      "expectedResult": "结构化 Notion 草稿、来源链接和目标数据库属性。",
+      "limitations": [
+        "ZIP 不会安装 Notion 连接器；创建页面会修改工作区。",
+        "上游 Codex 连接配置命令有版本差异，请使用当前宿主的 Notion 连接设置。"
+      ]
+    }
+  }
+}

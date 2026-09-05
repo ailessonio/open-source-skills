@@ -1,0 +1,56 @@
+{
+  "slug": "openai-notion-research-documentation",
+  "name": "notion-research-documentation",
+  "category": "research",
+  "language": "en",
+  "author": "Notion Labs",
+  "license": "MIT",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/notion-research-documentation",
+  "path": "skills/openai/notion-research-documentation",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Research across Notion pages",
+      "description": "Synthesize multiple Notion sources into a cited brief or comparison.",
+      "tags": [
+        "notion-research-documentation",
+        "research"
+      ],
+      "tasks": [
+        "Synthesize multiple Notion sources into a cited brief or comparison."
+      ],
+      "prerequisites": [
+        "Connected Notion MCP and read access to the source pages."
+      ],
+      "example": "Use notion-research-documentation. Compare the three proposals in these Notion pages and cite the evidence for each trade-off.",
+      "expectedResult": "A comparison or report with traceable page links and explicit gaps.",
+      "limitations": [
+        "Unavailable pages cannot be researched; citations must be checked against current source content.",
+        "Upstream Codex connector setup commands are version-specific; use your current host’s Notion connection settings."
+      ]
+    },
+    "zh": {
+      "title": "跨 Notion 页面调研",
+      "description": "综合多个 Notion 来源，撰写带引用的简报或对比。",
+      "tags": [
+        "notion-research-documentation",
+        "研究"
+      ],
+      "tasks": [
+        "综合多个 Notion 来源，撰写带引用的简报或对比。"
+      ],
+      "prerequisites": [
+        "已连接 Notion MCP，并具备来源页面读取权限。"
+      ],
+      "example": "请使用 notion-research-documentation：对比这些 Notion 页面中的三个方案，并为各项取舍标注依据。",
+      "expectedResult": "含可追溯页面链接和资料缺口的对比或报告。",
+      "limitations": [
+        "无法访问的页面不能纳入研究，引用需与当前原文核对。",
+        "上游 Codex 连接配置命令有版本差异，请使用当前宿主的 Notion 连接设置。"
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "openai-notion-spec-to-implementation",
+  "name": "notion-spec-to-implementation",
+  "category": "development",
+  "language": "en",
+  "author": "Notion Labs",
+  "license": "MIT",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/notion-spec-to-implementation",
+  "path": "skills/openai/notion-spec-to-implementation",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Turn Notion specs into tasks",
+      "description": "Translate a product specification into an implementation plan and trackable tasks.",
+      "tags": [
+        "notion-spec-to-implementation",
+        "development"
+      ],
+      "tasks": [
+        "Translate a product specification into an implementation plan and trackable tasks."
+      ],
+      "prerequisites": [
+        "Notion MCP with access to the specification and the destination task database."
+      ],
+      "example": "Use notion-spec-to-implementation. Break this feature spec into one- or two-day tasks with acceptance criteria and dependencies.",
+      "expectedResult": "A linked implementation plan, task breakdown, and progress fields.",
+      "limitations": [
+        "Database schemas vary; review mappings and task creation before writing to Notion.",
+        "Upstream Codex connector setup commands are version-specific; use your current host’s Notion connection settings."
+      ]
+    },
+    "zh": {
+      "title": "将 Notion 需求拆成任务",
+      "description": "将产品需求转为实施计划和可跟踪任务。",
+      "tags": [
+        "notion-spec-to-implementation",
+        "开发"
+      ],
+      "tasks": [
+        "将产品需求转为实施计划和可跟踪任务。"
+      ],
+      "prerequisites": [
+        "Notion MCP 可访问需求页及目标任务数据库。"
+      ],
+      "example": "请使用 notion-spec-to-implementation：把这个功能需求拆成一至两天的任务，写明验收标准与依赖。",
+      "expectedResult": "关联需求的实施计划、任务拆分和进度字段。",
+      "limitations": [
+        "数据库结构各异，写入前需核对字段映射和任务内容。",
+        "上游 Codex 连接配置命令有版本差异，请使用当前宿主的 Notion 连接设置。"
+      ]
+    }
+  }
+}

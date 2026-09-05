@@ -1,0 +1,10 @@
+{
+  "repository": "huggingface/skills",
+  "commit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "path": "skills/huggingface-papers",
+  "license": "Apache-2.0",
+  "changes": "Upstream files unchanged. Applicable root license, notices, and provenance added where needed. Executable file modes preserved.",
+  "sha256": {
+    "SKILL.md": "985c2d5c7261aba2b157811cde0c2b30134663694a4ab701280de28f941eb3b2"
+  }
+}

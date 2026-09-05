@@ -1,0 +1,54 @@
+{
+  "slug": "anthropics-slack-gif-creator",
+  "name": "slack-gif-creator",
+  "category": "design",
+  "language": "en",
+  "author": "Anthropic",
+  "license": "Apache-2.0",
+  "sourceRepository": "anthropics/skills",
+  "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "sourcePath": "skills/slack-gif-creator",
+  "path": "skills/anthropics/slack-gif-creator",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Create compact Slack GIFs",
+      "description": "Generate small animated GIFs using the included Python drawing and optimization utilities.",
+      "tags": [
+        "slack-gif-creator",
+        "design"
+      ],
+      "tasks": [
+        "Generate small animated GIFs using the included Python drawing and optimization utilities."
+      ],
+      "prerequisites": [
+        "Python, Pillow, and the packages listed in the included requirements file."
+      ],
+      "example": "Use slack-gif-creator. Create a two-second looping loading animation for a Slack emoji and report its size.",
+      "expectedResult": "A GIF with checked dimensions, frame rate, loop, and file size.",
+      "limitations": [
+        "Slack upload limits may change; uploading the GIF is a separate action."
+      ]
+    },
+    "zh": {
+      "title": "制作 Slack 动图",
+      "description": "使用包内 Python 绘制和优化工具生成小体积 GIF。",
+      "tags": [
+        "slack-gif-creator",
+        "设计"
+      ],
+      "tasks": [
+        "使用包内 Python 绘制和优化工具生成小体积 GIF。"
+      ],
+      "prerequisites": [
+        "Python、Pillow 及包内 requirements 文件列出的依赖。"
+      ],
+      "example": "请使用 slack-gif-creator：制作一个循环两秒的 Slack 加载动画，并报告文件大小。",
+      "expectedResult": "已检查尺寸、帧率、循环和体积的 GIF。",
+      "limitations": [
+        "Slack 上传限制可能变化；上传动图是单独操作。"
+      ]
+    }
+  }
+}

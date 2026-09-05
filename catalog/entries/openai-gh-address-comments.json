@@ -1,0 +1,54 @@
+{
+  "slug": "openai-gh-address-comments",
+  "name": "gh-address-comments",
+  "category": "development",
+  "language": "en",
+  "author": "OpenAI",
+  "license": "Apache-2.0",
+  "sourceRepository": "openai/skills",
+  "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+  "sourcePath": "skills/.curated/gh-address-comments",
+  "path": "skills/openai/gh-address-comments",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Resolve GitHub review comments",
+      "description": "Collect pull-request review threads and turn selected comments into focused code changes.",
+      "tags": [
+        "gh-address-comments",
+        "development"
+      ],
+      "tasks": [
+        "Collect pull-request review threads and turn selected comments into focused code changes."
+      ],
+      "prerequisites": [
+        "A checked-out Git repository, Python, authenticated GitHub CLI, and repository access."
+      ],
+      "example": "Use gh-address-comments. List unresolved review threads on this branch and propose fixes for the ones I select.",
+      "expectedResult": "Numbered review threads, a focused change plan, and validation for approved fixes.",
+      "limitations": [
+        "Posting replies or pushing changes affects GitHub; review the selected actions first."
+      ]
+    },
+    "zh": {
+      "title": "处理 GitHub 评审意见",
+      "description": "收集 PR 评审讨论，将选定意见转化为具体代码修改。",
+      "tags": [
+        "gh-address-comments",
+        "开发"
+      ],
+      "tasks": [
+        "收集 PR 评审讨论，将选定意见转化为具体代码修改。"
+      ],
+      "prerequisites": [
+        "本地 Git 仓库、Python、已登录 GitHub CLI 及仓库权限。"
+      ],
+      "example": "请使用 gh-address-comments：列出当前分支未解决的评审讨论，为我选中的意见提出修改方案。",
+      "expectedResult": "编号的评审讨论、聚焦的修改计划及获准修改的验证结果。",
+      "limitations": [
+        "回复或推送会修改 GitHub 状态，先核对要执行的动作。"
+      ]
+    }
+  }
+}
