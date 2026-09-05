@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Tokens are read only from the process environment. No credentials are written to Git.
 import { readFile } from 'node:fs/promises';
+import { isDeepStrictEqual } from 'node:util';
 const apply = process.argv.includes('--apply');
 const requested = process.argv.find((arg) => arg.startsWith('--slug='))?.slice(7);
 const catalog = JSON.parse(await readFile(new URL('../catalog/index.json', import.meta.url), 'utf8'));
@@ -23,7 +24,7 @@ for (const skill of entries) {
   if (!current.ok && current.status !== 404) throw new Error(`Read failed (${current.status}) for ${skill.slug}.`);
   const existing = current.ok ? await current.json() : null;
   const payload = { schemaVersion: 1, revision: catalog.revision, published: !process.argv.includes('--withdraw'), position: catalog.entries.indexOf(skill), skill };
-  const unchanged = existing && ['schemaVersion', 'revision', 'published', 'position', 'skill'].every((key) => JSON.stringify(existing[key]) === JSON.stringify(payload[key]));
+  const unchanged = existing && ['schemaVersion', 'revision', 'published', 'position', 'skill'].every((key) => isDeepStrictEqual(existing[key], payload[key]));
   console.log(`${unchanged ? 'UNCHANGED' : existing ? 'UPDATE' : 'CREATE'} ${skill.slug}${apply ? '' : ' (dry run)'}`);
   if (!unchanged && apply) {
     const endpoint = existing ? url : new URL('/api/content/v1/agent-skills', origin);
