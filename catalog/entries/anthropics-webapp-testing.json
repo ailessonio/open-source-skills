@@ -1,0 +1,58 @@
+{
+  "slug": "anthropics-webapp-testing",
+  "name": "webapp-testing",
+  "category": "development",
+  "language": "en",
+  "author": "Anthropic",
+  "license": "Apache-2.0",
+  "sourceRepository": "anthropics/skills",
+  "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "sourcePath": "skills/webapp-testing",
+  "path": "skills/anthropics/webapp-testing",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Web app testing",
+      "description": "Inspect a local website and write Playwright checks for real user flows.",
+      "tags": [
+        "webapp-testing",
+        "development"
+      ],
+      "tasks": [
+        "Inspect a local website and write Playwright checks for real user flows."
+      ],
+      "prerequisites": [
+        "An AI agent that can read local Skill files. Provide your task context and source materials.",
+        "Python, Playwright with Chromium, and a local app you are authorized to test."
+      ],
+      "example": "Use webapp-testing for this task: Inspect a local website and write Playwright checks for real user flows. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+      "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+      "limitations": [
+        "Review factual claims and proposed actions before relying on the output.",
+        "Source and package checks are complete; no end-to-end Agent task verification is claimed."
+      ]
+    },
+    "zh": {
+      "title": "网页应用测试",
+      "description": "检查本地网站，用 Playwright 验证真实用户操作流程。",
+      "tags": [
+        "webapp-testing",
+        "development"
+      ],
+      "tasks": [
+        "检查本地网站，用 Playwright 验证真实用户操作流程。"
+      ],
+      "prerequisites": [
+        "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+        "Python、已安装 Chromium 的 Playwright，以及有权限测试的本地应用。"
+      ],
+      "example": "请使用 webapp-testing 完成以下任务：检查本地网站，用 Playwright 验证真实用户操作流程。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+      "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+      "limitations": [
+        "使用输出前核对事实依据和建议操作。",
+        "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
+      ]
+    }
+  }
+}

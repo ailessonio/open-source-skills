@@ -1,0 +1,60 @@
+{
+  "slug": "obra-systematic-debugging",
+  "name": "systematic-debugging",
+  "category": "development",
+  "language": "en",
+  "author": "Jesse Vincent",
+  "license": "MIT",
+  "sourceRepository": "obra/superpowers",
+  "sourceCommit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+  "sourcePath": "skills/systematic-debugging",
+  "path": "skills/obra/systematic-debugging",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Systematic debugging",
+      "description": "Trace unexpected behavior to a reproducible cause before changing code.",
+      "tags": [
+        "systematic-debugging",
+        "development"
+      ],
+      "tasks": [
+        "Trace unexpected behavior to a reproducible cause before changing code."
+      ],
+      "prerequisites": [
+        "An AI agent that can read local Skill files. Provide your task context and source materials.",
+        "A local code project and an agent with file editing and command execution capabilities."
+      ],
+      "example": "Use systematic-debugging for this task: Trace unexpected behavior to a reproducible cause before changing code. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+      "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+      "limitations": [
+        "Review factual claims and proposed actions before relying on the output.",
+        "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+        "The bundled diagnostic script runs project tests; review commands before using it. Other Superpowers workflows are separate installs."
+      ]
+    },
+    "zh": {
+      "title": "系统化排错",
+      "description": "先复现问题并定位根因，再修改代码。",
+      "tags": [
+        "systematic-debugging",
+        "development"
+      ],
+      "tasks": [
+        "先复现问题并定位根因，再修改代码。"
+      ],
+      "prerequisites": [
+        "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+        "本地代码项目，以及可编辑文件和执行命令的 Agent。"
+      ],
+      "example": "请使用 systematic-debugging 完成以下任务：先复现问题并定位根因，再修改代码。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+      "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+      "limitations": [
+        "使用输出前核对事实依据和建议操作。",
+        "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+        "包内诊断脚本会执行项目测试，使用前应检查命令；其他 Superpowers 流程需单独安装。"
+      ]
+    }
+  }
+}

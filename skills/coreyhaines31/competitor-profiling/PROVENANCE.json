@@ -1,0 +1,13 @@
+{
+  "repository": "coreyhaines31/marketingskills",
+  "commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+  "path": "skills/competitor-profiling",
+  "license": "MIT",
+  "changes": "Upstream files unchanged. License and provenance files added where needed.",
+  "sha256": {
+    "SKILL.md": "3e775491484a9e6fddce1db4e03415a900a5026d898ef146161f6fea017eafcf",
+    "evals/evals.json": "53c34c29378d3c16db7a43189e4d6903a4740bedc09e576246243434d4b6d89a",
+    "references/templates.md": "710d78cb519012eb7e39f63643e22d7b9026c91c569262b44c45535c10717a91",
+    "references/tool-reference.md": "37defe4f29d15a74b10e9b0c17d798f62effaa025e2ff8fece377171adbb658a"
+  }
+}

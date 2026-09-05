@@ -1,3 +1,3 @@
 # Skill sources
 
-No Skills have been imported yet. Approved imports will use `<source>/<original-skill-name>/` and preserve the complete Skill, license, and required resources.
+Complete upstream English Skill folders, grouped by original source. Each folder preserves its license and includes provenance checksums. Localized descriptions live in `catalog/entries/`; Skill files are not duplicated for translation.

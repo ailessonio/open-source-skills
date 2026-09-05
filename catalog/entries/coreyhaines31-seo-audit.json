@@ -1,0 +1,60 @@
+{
+  "slug": "coreyhaines31-seo-audit",
+  "name": "seo-audit",
+  "category": "marketing",
+  "language": "en",
+  "author": "Corey Haines",
+  "license": "MIT",
+  "sourceRepository": "coreyhaines31/marketingskills",
+  "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+  "sourcePath": "skills/seo-audit",
+  "path": "skills/coreyhaines31/seo-audit",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "SEO audit",
+      "description": "Review a website for search visibility issues and prioritize improvements.",
+      "tags": [
+        "seo-audit",
+        "marketing"
+      ],
+      "tasks": [
+        "Review a website for search visibility issues and prioritize improvements."
+      ],
+      "prerequisites": [
+        "An AI agent that can read local Skill files. Provide your task context and source materials.",
+        "Website content or research evidence; live collection needs suitable browsing tools."
+      ],
+      "example": "Use seo-audit for this task: Review a website for search visibility issues and prioritize improvements. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+      "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+      "limitations": [
+        "Review factual claims and proposed actions before relying on the output.",
+        "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+        "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+      ]
+    },
+    "zh": {
+      "title": "SEO 检查",
+      "description": "检查网站的搜索可见性问题，并排列改进优先级。",
+      "tags": [
+        "seo-audit",
+        "marketing"
+      ],
+      "tasks": [
+        "检查网站的搜索可见性问题，并排列改进优先级。"
+      ],
+      "prerequisites": [
+        "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+        "网站内容或研究证据；实时采集需要可用的网页工具。"
+      ],
+      "example": "请使用 seo-audit 完成以下任务：检查网站的搜索可见性问题，并排列改进优先级。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+      "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+      "limitations": [
+        "使用输出前核对事实依据和建议操作。",
+        "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+        "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+      ]
+    }
+  }
+}

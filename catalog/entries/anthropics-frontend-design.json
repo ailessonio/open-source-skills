@@ -1,0 +1,58 @@
+{
+  "slug": "anthropics-frontend-design",
+  "name": "frontend-design",
+  "category": "design",
+  "language": "en",
+  "author": "Anthropic",
+  "license": "Apache-2.0",
+  "sourceRepository": "anthropics/skills",
+  "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "sourcePath": "skills/frontend-design",
+  "path": "skills/anthropics/frontend-design",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Frontend design",
+      "description": "Build an intentional visual direction for a new or existing interface.",
+      "tags": [
+        "frontend-design",
+        "design"
+      ],
+      "tasks": [
+        "Build an intentional visual direction for a new or existing interface."
+      ],
+      "prerequisites": [
+        "An AI agent that can read local Skill files. Provide your task context and source materials.",
+        "A local code project and an agent with file editing and command execution capabilities."
+      ],
+      "example": "Use frontend-design for this task: Build an intentional visual direction for a new or existing interface. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+      "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+      "limitations": [
+        "Review factual claims and proposed actions before relying on the output.",
+        "Source and package checks are complete; no end-to-end Agent task verification is claimed."
+      ]
+    },
+    "zh": {
+      "title": "前端界面设计",
+      "description": "为新界面或现有页面确定清晰的视觉方向并落地。",
+      "tags": [
+        "frontend-design",
+        "design"
+      ],
+      "tasks": [
+        "为新界面或现有页面确定清晰的视觉方向并落地。"
+      ],
+      "prerequisites": [
+        "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+        "本地代码项目，以及可编辑文件和执行命令的 Agent。"
+      ],
+      "example": "请使用 frontend-design 完成以下任务：为新界面或现有页面确定清晰的视觉方向并落地。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+      "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+      "limitations": [
+        "使用输出前核对事实依据和建议操作。",
+        "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
+      ]
+    }
+  }
+}

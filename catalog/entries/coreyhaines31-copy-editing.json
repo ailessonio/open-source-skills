@@ -1,0 +1,58 @@
+{
+  "slug": "coreyhaines31-copy-editing",
+  "name": "copy-editing",
+  "category": "writing",
+  "language": "en",
+  "author": "Corey Haines",
+  "license": "MIT",
+  "sourceRepository": "coreyhaines31/marketingskills",
+  "sourceCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+  "sourcePath": "skills/copy-editing",
+  "path": "skills/coreyhaines31/copy-editing",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Copy editing",
+      "description": "Review existing copy through focused editing passes for clarity and consistency.",
+      "tags": [
+        "copy-editing",
+        "writing"
+      ],
+      "tasks": [
+        "Review existing copy through focused editing passes for clarity and consistency."
+      ],
+      "prerequisites": [
+        "An AI agent that can read local Skill files. Provide your task context and source materials."
+      ],
+      "example": "Use copy-editing for this task: Review existing copy through focused editing passes for clarity and consistency. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+      "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+      "limitations": [
+        "Review factual claims and proposed actions before relying on the output.",
+        "Source and package checks are complete; no end-to-end Agent task verification is claimed.",
+        "Related skills mentioned upstream are optional separate workflows; they are not automatically installed. Marketing examples and numerical claims need independent verification."
+      ]
+    },
+    "zh": {
+      "title": "文案编辑",
+      "description": "分轮检查已有文案，改进清晰度和表达一致性。",
+      "tags": [
+        "copy-editing",
+        "writing"
+      ],
+      "tasks": [
+        "分轮检查已有文案，改进清晰度和表达一致性。"
+      ],
+      "prerequisites": [
+        "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。"
+      ],
+      "example": "请使用 copy-editing 完成以下任务：分轮检查已有文案，改进清晰度和表达一致性。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+      "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+      "limitations": [
+        "使用输出前核对事实依据和建议操作。",
+        "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。",
+        "上游提到的相关 Skills 属于独立流程，不会自动安装。营销案例和数值结论需自行核验。"
+      ]
+    }
+  }
+}

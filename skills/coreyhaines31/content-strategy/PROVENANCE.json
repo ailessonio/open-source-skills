@@ -1,0 +1,13 @@
+{
+  "repository": "coreyhaines31/marketingskills",
+  "commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+  "path": "skills/content-strategy",
+  "license": "MIT",
+  "changes": "Upstream files unchanged. License and provenance files added where needed.",
+  "sha256": {
+    "SKILL.md": "0ad572d607884c561668810f77cd21bbe3e0508c64090f2997661a728360f946",
+    "evals/evals.json": "10167e7125ee77cbabe4f03953750dd99ea147f7461027fdbb0cf8e089e5506d",
+    "references/content-distribution.md": "1861a1aab0627ab29c279000879a9889242da1ba85e677acdc759c66a6241778",
+    "references/headless-cms.md": "c0a7b87f47c8f7af907ce73facf1ed4721ade811e53f86ddf22f4bc0d7ca324e"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "huggingface-huggingface-datasets",
+  "name": "huggingface-datasets",
+  "category": "data",
+  "language": "en",
+  "author": "Hugging Face",
+  "license": "Apache-2.0",
+  "sourceRepository": "huggingface/skills",
+  "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "sourcePath": "skills/huggingface-datasets",
+  "path": "skills/huggingface/huggingface-datasets",
+  "reviewedAt": "2026-09-05",
+  "reviewStatus": "source-reviewed",
+  "translations": {
+    "en": {
+      "title": "Explore Hugging Face datasets",
+      "description": "Inspect dataset splits, preview rows, and query the Dataset Viewer API.",
+      "tags": [
+        "huggingface-datasets",
+        "data"
+      ],
+      "tasks": [
+        "Inspect dataset splits, preview rows, and query the Dataset Viewer API."
+      ],
+      "prerequisites": [
+        "An AI agent that can read local Skill files. Provide your task context and source materials.",
+        "Network access to the Hugging Face Dataset Viewer API; restricted datasets may require access."
+      ],
+      "example": "Use huggingface-datasets for this task: Inspect dataset splits, preview rows, and query the Dataset Viewer API. First ask me for the missing context. Use only the evidence I provide or sources you can verify, and explain what I should check in the result.",
+      "expectedResult": "A task-specific draft or analysis, with assumptions, evidence gaps, and clear next steps for you to review.",
+      "limitations": [
+        "Review factual claims and proposed actions before relying on the output.",
+        "Source and package checks are complete; no end-to-end Agent task verification is claimed."
+      ]
+    },
+    "zh": {
+      "title": "探索 Hugging Face 数据集",
+      "description": "查看数据集分区、预览记录并查询 Dataset Viewer API。",
+      "tags": [
+        "huggingface-datasets",
+        "data"
+      ],
+      "tasks": [
+        "查看数据集分区、预览记录并查询 Dataset Viewer API。"
+      ],
+      "prerequisites": [
+        "可读取本地 Skill 文件的 AI Agent；准备任务背景与原始材料。",
+        "可访问 Hugging Face Dataset Viewer API；受限数据集可能需要额外权限。"
+      ],
+      "example": "请使用 huggingface-datasets 完成以下任务：查看数据集分区、预览记录并查询 Dataset Viewer API。 先询问缺少的背景信息，只使用我提供的证据或可以核验的来源，并说明结果需要检查哪些内容。",
+      "expectedResult": "得到针对任务的草稿或分析，包含假设、证据缺口和可供检查的后续步骤。",
+      "limitations": [
+        "使用输出前核对事实依据和建议操作。",
+        "已完成来源与包文件检查，尚未声明完成 Agent 端到端任务验证。"
+      ]
+    }
+  }
+}

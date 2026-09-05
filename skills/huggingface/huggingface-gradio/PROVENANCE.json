@@ -1,0 +1,11 @@
+{
+  "repository": "huggingface/skills",
+  "commit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "path": "skills/huggingface-gradio",
+  "license": "Apache-2.0",
+  "changes": "Upstream files unchanged. License and provenance files added where needed.",
+  "sha256": {
+    "examples.md": "f9f229a4ec8d426a158c2f1bafab0f0beeda10153f7938fce3a2c40b0bb3bc62",
+    "SKILL.md": "ce41c656e364a8027755a520372448036d90811f5a1d377f02bb9d549c0865a9"
+  }
+}
