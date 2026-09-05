@@ -50,5 +50,11 @@
         "创建骨架不代表所有单元已执行，需在自己的环境运行。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-jupyter-notebook.zip",
+    "sha256": "32b37a0a86b26d48b99c13e22fcbe3e4a06758a87af480265f27ca13a9b07bbd",
+    "bytes": 16643
   }
 }

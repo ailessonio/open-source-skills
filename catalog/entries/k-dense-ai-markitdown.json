@@ -50,5 +50,11 @@
         "OCR、网址、音频和云端提取可能需要额外服务与凭据。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-markitdown.zip",
+    "sha256": "f75af4491423c58db0b3395ae018f2708b993cc29637663277403e10f6812cde",
+    "bytes": 43123
   }
 }

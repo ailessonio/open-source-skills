@@ -52,5 +52,11 @@
         "上游 Codex 连接配置命令有版本差异，请使用当前宿主的 Notion 连接设置。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-notion-spec-to-implementation.zip",
+    "sha256": "6dac833cf64eb1ce3ee2ff2af752c5db98eab2248439a43d4e55d3bbbbd642e4",
+    "bytes": 48983
   }
 }

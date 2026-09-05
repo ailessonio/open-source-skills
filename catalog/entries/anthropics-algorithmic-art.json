@@ -50,5 +50,11 @@
         "需在浏览器检查画面和性能；外部库可能需要联网。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "anthropics-algorithmic-art.zip",
+    "sha256": "9c3f6c8804e06e82f0148277be813eda5d0fe9dfe685eaf8a00ab80e30a05377",
+    "bytes": 34950
   }
 }

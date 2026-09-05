@@ -50,5 +50,11 @@
         "模型许可、访问限制、内存需求与速度需单独核对。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-huggingface-local-models.zip",
+    "sha256": "ec02457e027481e2011ec506a0d2e498299942a2fd150331e9eec774e961556e",
+    "bytes": 11758
   }
 }

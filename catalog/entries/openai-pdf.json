@@ -50,5 +50,11 @@
         "文本提取无法验证版式；扫描文档可能需要额外 OCR。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-pdf.zip",
+    "sha256": "b9a5ba66d642db7854f4d6dfce005e9c07e0b17ce49d942eee4e395b2f328b9e",
+    "bytes": 7632
   }
 }

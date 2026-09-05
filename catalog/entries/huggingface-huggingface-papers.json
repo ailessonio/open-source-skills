@@ -50,5 +50,11 @@
         "缺失正文或附件应明确标注，不推测实验结果。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-huggingface-papers.zip",
+    "sha256": "4d37a1046c915cc15fb5edd284ff831f600906335946f269365c850858e43d3a",
+    "bytes": 7697
   }
 }

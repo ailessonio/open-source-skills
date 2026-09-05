@@ -50,5 +50,11 @@
         "Slack 上传限制可能变化；上传动图是单独操作。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "anthropics-slack-gif-creator.zip",
+    "sha256": "82e083853121ba091ec1d1d175bb282aa42650e42edec6531fa43988b363d134",
+    "bytes": 31766
   }
 }

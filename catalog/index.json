@@ -1,8 +1,68 @@
 {
   "schemaVersion": 1,
-  "revision": "1a3aca039c601a166ea20ed271569202811df49d",
+  "revision": "95758d6758731929ca9adee7cf0cde240cd5f888",
   "updatedAt": "2026-09-05",
   "entries": [
+    {
+      "slug": "anthropics-algorithmic-art",
+      "name": "algorithmic-art",
+      "category": "design",
+      "language": "en",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "sourceRepository": "anthropics/skills",
+      "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "sourcePath": "skills/algorithmic-art",
+      "path": "skills/anthropics/algorithmic-art",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Generative art with p5.js",
+          "description": "Create seeded generative artwork with controls for exploring visual variations.",
+          "tags": [
+            "algorithmic-art",
+            "design"
+          ],
+          "tasks": [
+            "Create seeded generative artwork with controls for exploring visual variations."
+          ],
+          "prerequisites": [
+            "An agent that writes files, a browser, and access to p5.js."
+          ],
+          "example": "Use algorithmic-art. Create a flow-field sketch with a fixed seed, adjustable density, and a reset control.",
+          "expectedResult": "An HTML viewer and JavaScript sketch with reproducible variations.",
+          "limitations": [
+            "Preview rendering and performance in your browser; external libraries require network access."
+          ]
+        },
+        "zh": {
+          "title": "p5.js 生成艺术",
+          "description": "用固定随机种子和可调参数创作生成式图形。",
+          "tags": [
+            "algorithmic-art",
+            "设计"
+          ],
+          "tasks": [
+            "用固定随机种子和可调参数创作生成式图形。"
+          ],
+          "prerequisites": [
+            "可写文件的 Agent、浏览器及 p5.js。"
+          ],
+          "example": "请使用 algorithmic-art：制作流场图形，提供固定种子、密度调节和重置按钮。",
+          "expectedResult": "HTML 查看器与 JavaScript 图形，相同种子可复现。",
+          "limitations": [
+            "需在浏览器检查画面和性能；外部库可能需要联网。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "anthropics-algorithmic-art.zip",
+        "sha256": "9c3f6c8804e06e82f0148277be813eda5d0fe9dfe685eaf8a00ab80e30a05377",
+        "bytes": 34950
+      }
+    },
     {
       "slug": "anthropics-frontend-design",
       "name": "frontend-design",
@@ -127,6 +187,186 @@
         "file": "anthropics-internal-comms.zip",
         "sha256": "d1668bd2d5b7d0c04f5fc0060e34eaf5e96b53487caf8a843205e836ec214380",
         "bytes": 25861
+      }
+    },
+    {
+      "slug": "anthropics-mcp-builder",
+      "name": "mcp-builder",
+      "category": "development",
+      "language": "en",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "sourceRepository": "anthropics/skills",
+      "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "sourcePath": "skills/mcp-builder",
+      "path": "skills/anthropics/mcp-builder",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Build MCP integrations",
+          "description": "Design and implement MCP servers that expose useful external-service tools.",
+          "tags": [
+            "mcp-builder",
+            "development"
+          ],
+          "tasks": [
+            "Design and implement MCP servers that expose useful external-service tools."
+          ],
+          "prerequisites": [
+            "Python or Node.js, the MCP SDK, API documentation, and test credentials."
+          ],
+          "example": "Use mcp-builder. Design an MCP server for our read-only issue-search API, then implement and test one tool.",
+          "expectedResult": "A tool schema, server implementation, error handling, and test cases.",
+          "limitations": [
+            "Service authentication and deployment are separate setup steps."
+          ]
+        },
+        "zh": {
+          "title": "构建 MCP 集成",
+          "description": "为外部服务设计并实现可调用的 MCP 工具。",
+          "tags": [
+            "mcp-builder",
+            "开发"
+          ],
+          "tasks": [
+            "为外部服务设计并实现可调用的 MCP 工具。"
+          ],
+          "prerequisites": [
+            "Python 或 Node.js、MCP SDK、服务 API 文档与测试凭据。"
+          ],
+          "example": "请使用 mcp-builder：为只读工单搜索 API 设计 MCP 服务，然后实现并测试一个工具。",
+          "expectedResult": "工具结构、服务代码、错误处理与测试案例。",
+          "limitations": [
+            "服务鉴权与部署需单独配置。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "anthropics-mcp-builder.zip",
+        "sha256": "507c1268e57d07622e0758bd0def5efed3c82367e1722ba220046ac089f54910",
+        "bytes": 58438
+      }
+    },
+    {
+      "slug": "anthropics-slack-gif-creator",
+      "name": "slack-gif-creator",
+      "category": "design",
+      "language": "en",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "sourceRepository": "anthropics/skills",
+      "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "sourcePath": "skills/slack-gif-creator",
+      "path": "skills/anthropics/slack-gif-creator",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Create compact Slack GIFs",
+          "description": "Generate small animated GIFs using the included Python drawing and optimization utilities.",
+          "tags": [
+            "slack-gif-creator",
+            "design"
+          ],
+          "tasks": [
+            "Generate small animated GIFs using the included Python drawing and optimization utilities."
+          ],
+          "prerequisites": [
+            "Python, Pillow, and the packages listed in the included requirements file."
+          ],
+          "example": "Use slack-gif-creator. Create a two-second looping loading animation for a Slack emoji and report its size.",
+          "expectedResult": "A GIF with checked dimensions, frame rate, loop, and file size.",
+          "limitations": [
+            "Slack upload limits may change; uploading the GIF is a separate action."
+          ]
+        },
+        "zh": {
+          "title": "制作 Slack 动图",
+          "description": "使用包内 Python 绘制和优化工具生成小体积 GIF。",
+          "tags": [
+            "slack-gif-creator",
+            "设计"
+          ],
+          "tasks": [
+            "使用包内 Python 绘制和优化工具生成小体积 GIF。"
+          ],
+          "prerequisites": [
+            "Python、Pillow 及包内 requirements 文件列出的依赖。"
+          ],
+          "example": "请使用 slack-gif-creator：制作一个循环两秒的 Slack 加载动画，并报告文件大小。",
+          "expectedResult": "已检查尺寸、帧率、循环和体积的 GIF。",
+          "limitations": [
+            "Slack 上传限制可能变化；上传动图是单独操作。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "anthropics-slack-gif-creator.zip",
+        "sha256": "82e083853121ba091ec1d1d175bb282aa42650e42edec6531fa43988b363d134",
+        "bytes": 31766
+      }
+    },
+    {
+      "slug": "anthropics-theme-factory",
+      "name": "theme-factory",
+      "category": "design",
+      "language": "en",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "sourceRepository": "anthropics/skills",
+      "sourceCommit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+      "sourcePath": "skills/theme-factory",
+      "path": "skills/anthropics/theme-factory",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Style documents with themes",
+          "description": "Choose a coordinated color and typography theme for an existing artifact.",
+          "tags": [
+            "theme-factory",
+            "design"
+          ],
+          "tasks": [
+            "Choose a coordinated color and typography theme for an existing artifact."
+          ],
+          "prerequisites": [
+            "An existing document or page and a tool able to edit its format and view PDFs."
+          ],
+          "example": "Use theme-factory. Show the theme options, then apply my selected theme to this report without changing the content.",
+          "expectedResult": "A consistently styled artifact with a documented palette and font pairing.",
+          "limitations": [
+            "This package supplies themes; it does not include a slide or document editing application."
+          ]
+        },
+        "zh": {
+          "title": "文档主题配色",
+          "description": "为已有文档或页面选择协调的颜色与字体主题。",
+          "tags": [
+            "theme-factory",
+            "设计"
+          ],
+          "tasks": [
+            "为已有文档或页面选择协调的颜色与字体主题。"
+          ],
+          "prerequisites": [
+            "已有文档或页面，以及可编辑该格式、查看 PDF 的工具。"
+          ],
+          "example": "请使用 theme-factory：展示主题选项，再把我选中的主题应用到报告，保持正文内容不变。",
+          "expectedResult": "风格一致的成品及配色、字体搭配说明。",
+          "limitations": [
+            "此包提供主题，不包含幻灯片或文档编辑应用。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "anthropics-theme-factory.zip",
+        "sha256": "b4dd99f47b9e2c510219ae3f10b00b4ff2cacc964ece7ba98d7d2202ca8a62fb",
+        "bytes": 139619
       }
     },
     {
@@ -776,6 +1016,66 @@
       }
     },
     {
+      "slug": "huggingface-hf-cli",
+      "name": "hf-cli",
+      "category": "data",
+      "language": "en",
+      "author": "Hugging Face",
+      "license": "Apache-2.0",
+      "sourceRepository": "huggingface/skills",
+      "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "sourcePath": "skills/hf-cli",
+      "path": "skills/huggingface/hf-cli",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Work with Hugging Face Hub",
+          "description": "Find, download, and manage Hub models, datasets, and repositories with hf.",
+          "tags": [
+            "hf-cli",
+            "data"
+          ],
+          "tasks": [
+            "Find, download, and manage Hub models, datasets, and repositories with hf."
+          ],
+          "prerequisites": [
+            "The hf CLI, network access, and Hub authentication for private or write operations."
+          ],
+          "example": "Use hf-cli. List the files in this model repository and download only the configuration and tokenizer.",
+          "expectedResult": "A file inventory and a scoped download with clear paths and revision.",
+          "limitations": [
+            "Uploads, deletions, deployments, and paid jobs are separate consequential operations."
+          ]
+        },
+        "zh": {
+          "title": "使用 Hugging Face Hub CLI",
+          "description": "通过 hf 查找、下载和管理 Hub 模型、数据集及仓库。",
+          "tags": [
+            "hf-cli",
+            "数据"
+          ],
+          "tasks": [
+            "通过 hf 查找、下载和管理 Hub 模型、数据集及仓库。"
+          ],
+          "prerequisites": [
+            "hf CLI、网络连接；私有资源和写入操作需要 Hub 登录。"
+          ],
+          "example": "请使用 hf-cli：列出此模型仓库的文件，只下载配置与分词器。",
+          "expectedResult": "文件清单、范围明确的下载及路径和版本记录。",
+          "limitations": [
+            "上传、删除、部署和付费任务属于需单独核对的操作。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "huggingface-hf-cli.zip",
+        "sha256": "54de602bf81ec2dd7f12bdee5faf702b254b7dc37e872d7e9b59e8f49e584e59",
+        "bytes": 11536
+      }
+    },
+    {
       "slug": "huggingface-huggingface-datasets",
       "name": "huggingface-datasets",
       "category": "data",
@@ -904,6 +1204,786 @@
       }
     },
     {
+      "slug": "huggingface-huggingface-local-models",
+      "name": "huggingface-local-models",
+      "category": "data",
+      "language": "en",
+      "author": "Hugging Face",
+      "license": "Apache-2.0",
+      "sourceRepository": "huggingface/skills",
+      "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "sourcePath": "skills/huggingface-local-models",
+      "path": "skills/huggingface/huggingface-local-models",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Run local language models",
+          "description": "Choose GGUF models and quantizations that fit local hardware with llama.cpp.",
+          "tags": [
+            "huggingface-local-models",
+            "data"
+          ],
+          "tasks": [
+            "Choose GGUF models and quantizations that fit local hardware with llama.cpp."
+          ],
+          "prerequisites": [
+            "llama.cpp, sufficient RAM/disk space, and network access for model downloads."
+          ],
+          "example": "Use huggingface-local-models. Compare suitable GGUF options for my 16 GB machine and show how to run the smallest viable model.",
+          "expectedResult": "Hardware-aware model choices and a command using a verified model filename.",
+          "limitations": [
+            "Model licenses, gated access, memory needs, and speed vary independently of this Skill."
+          ]
+        },
+        "zh": {
+          "title": "运行本地语言模型",
+          "description": "选择适合本地硬件的 GGUF 模型和量化版本，并使用 llama.cpp。",
+          "tags": [
+            "huggingface-local-models",
+            "数据"
+          ],
+          "tasks": [
+            "选择适合本地硬件的 GGUF 模型和量化版本，并使用 llama.cpp。"
+          ],
+          "prerequisites": [
+            "llama.cpp、足够内存和磁盘，以及下载模型所需网络。"
+          ],
+          "example": "请使用 huggingface-local-models：为我的 16 GB 内存电脑比较 GGUF 选项，并给出运行最小可行模型的方法。",
+          "expectedResult": "结合硬件的模型选择及使用已核对文件名的命令。",
+          "limitations": [
+            "模型许可、访问限制、内存需求与速度需单独核对。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "huggingface-huggingface-local-models.zip",
+        "sha256": "ec02457e027481e2011ec506a0d2e498299942a2fd150331e9eec774e961556e",
+        "bytes": 11758
+      }
+    },
+    {
+      "slug": "huggingface-huggingface-paper-publisher",
+      "name": "huggingface-paper-publisher",
+      "category": "research",
+      "language": "en",
+      "author": "Hugging Face",
+      "license": "Apache-2.0",
+      "sourceRepository": "huggingface/skills",
+      "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "sourcePath": "skills/huggingface-paper-publisher",
+      "path": "skills/huggingface/huggingface-paper-publisher",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Manage research paper pages",
+          "description": "Prepare and manage paper pages and model/dataset links on Hugging Face.",
+          "tags": [
+            "huggingface-paper-publisher",
+            "research"
+          ],
+          "tasks": [
+            "Prepare and manage paper pages and model/dataset links on Hugging Face."
+          ],
+          "prerequisites": [
+            "Python/uv, Hub account, and write-scoped HF_TOKEN for publishing actions."
+          ],
+          "example": "Use huggingface-paper-publisher. Prepare metadata linking my arXiv paper to this model repository; show the proposed changes first.",
+          "expectedResult": "Validated paper metadata and a reviewable linking or publication plan.",
+          "limitations": [
+            "Publishing and claiming authorship change public records and require appropriate permissions."
+          ]
+        },
+        "zh": {
+          "title": "管理研究论文页面",
+          "description": "准备并管理 Hugging Face 论文页面及模型、数据集关联。",
+          "tags": [
+            "huggingface-paper-publisher",
+            "研究"
+          ],
+          "tasks": [
+            "准备并管理 Hugging Face 论文页面及模型、数据集关联。"
+          ],
+          "prerequisites": [
+            "Python/uv、Hub 账号；发布操作需要有写入权限的 HF_TOKEN。"
+          ],
+          "example": "请使用 huggingface-paper-publisher：准备把我的 arXiv 论文关联到此模型仓库的元数据，先展示拟修改内容。",
+          "expectedResult": "核对后的论文元数据及可审阅的关联或发布计划。",
+          "limitations": [
+            "发布与认领作者身份会改变公开记录，需具备相应权限。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "huggingface-huggingface-paper-publisher.zip",
+        "sha256": "0579fde15029528c83655b4bb2b126c576bf19e39411848506930cfdeac91866",
+        "bytes": 32210
+      }
+    },
+    {
+      "slug": "huggingface-huggingface-papers",
+      "name": "huggingface-papers",
+      "category": "research",
+      "language": "en",
+      "author": "Hugging Face",
+      "license": "Apache-2.0",
+      "sourceRepository": "huggingface/skills",
+      "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "sourcePath": "skills/huggingface-papers",
+      "path": "skills/huggingface/huggingface-papers",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Read AI research papers",
+          "description": "Retrieve paper text and structured metadata from Hugging Face paper pages.",
+          "tags": [
+            "huggingface-papers",
+            "research"
+          ],
+          "tasks": [
+            "Retrieve paper text and structured metadata from Hugging Face paper pages."
+          ],
+          "prerequisites": [
+            "Network access to Hugging Face; authentication only for write endpoints."
+          ],
+          "example": "Use huggingface-papers. Summarize this paper’s method, evaluation, limitations, and links to released models.",
+          "expectedResult": "A source-linked summary separating paper claims from interpretation.",
+          "limitations": [
+            "Missing paper text or artifacts must remain explicit gaps rather than inferred results."
+          ]
+        },
+        "zh": {
+          "title": "阅读 AI 研究论文",
+          "description": "从 Hugging Face 论文页获取正文与结构化元数据。",
+          "tags": [
+            "huggingface-papers",
+            "研究"
+          ],
+          "tasks": [
+            "从 Hugging Face 论文页获取正文与结构化元数据。"
+          ],
+          "prerequisites": [
+            "可访问 Hugging Face 的网络；写入接口才需要登录。"
+          ],
+          "example": "请使用 huggingface-papers：概括此论文的方法、评估、限制及已发布模型链接。",
+          "expectedResult": "带来源链接、区分论文声明与解读的摘要。",
+          "limitations": [
+            "缺失正文或附件应明确标注，不推测实验结果。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "huggingface-huggingface-papers.zip",
+        "sha256": "4d37a1046c915cc15fb5edd284ff831f600906335946f269365c850858e43d3a",
+        "bytes": 7697
+      }
+    },
+    {
+      "slug": "huggingface-huggingface-spaces",
+      "name": "huggingface-spaces",
+      "category": "development",
+      "language": "en",
+      "author": "Hugging Face",
+      "license": "Apache-2.0",
+      "sourceRepository": "huggingface/skills",
+      "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "sourcePath": "skills/huggingface-spaces",
+      "path": "skills/huggingface/huggingface-spaces",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Build Hugging Face Spaces",
+          "description": "Plan, build, and debug Gradio, Docker, or static apps on Spaces.",
+          "tags": [
+            "huggingface-spaces",
+            "development"
+          ],
+          "tasks": [
+            "Plan, build, and debug Gradio, Docker, or static apps on Spaces."
+          ],
+          "prerequisites": [
+            "hf CLI, a Hub account, app runtime, and access to the chosen hosting hardware."
+          ],
+          "example": "Use huggingface-spaces. Inspect this Gradio app and propose a Space configuration with its dependencies and hosting needs.",
+          "expectedResult": "A Space configuration, dependency list, and deployment/debugging steps.",
+          "limitations": [
+            "Hosting eligibility, hardware availability, and charges must be checked before deployment."
+          ]
+        },
+        "zh": {
+          "title": "构建 Hugging Face Spaces",
+          "description": "规划、构建与调试 Spaces 上的 Gradio、Docker 或静态应用。",
+          "tags": [
+            "huggingface-spaces",
+            "开发"
+          ],
+          "tasks": [
+            "规划、构建与调试 Spaces 上的 Gradio、Docker 或静态应用。"
+          ],
+          "prerequisites": [
+            "hf CLI、Hub 账号、应用运行环境，以及目标托管硬件权限。"
+          ],
+          "example": "请使用 huggingface-spaces：检查此 Gradio 应用，提出 Space 配置并列出依赖与托管需求。",
+          "expectedResult": "Space 配置、依赖清单及部署和调试步骤。",
+          "limitations": [
+            "部署前需核对托管资格、硬件可用性与费用。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "huggingface-huggingface-spaces.zip",
+        "sha256": "a38cfe119c4392220fbc00edc711fee76483b0fc343afc92d9a0c91da58a8cf5",
+        "bytes": 76434
+      }
+    },
+    {
+      "slug": "huggingface-huggingface-tool-builder",
+      "name": "huggingface-tool-builder",
+      "category": "development",
+      "language": "en",
+      "author": "Hugging Face",
+      "license": "Apache-2.0",
+      "sourceRepository": "huggingface/skills",
+      "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "sourcePath": "skills/huggingface-tool-builder",
+      "path": "skills/huggingface/huggingface-tool-builder",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Build reusable Hub API tools",
+          "description": "Combine Hugging Face API calls into reusable scripts with clear inputs and outputs.",
+          "tags": [
+            "huggingface-tool-builder",
+            "development"
+          ],
+          "tasks": [
+            "Combine Hugging Face API calls into reusable scripts with clear inputs and outputs."
+          ],
+          "prerequisites": [
+            "A shell or Python/Node runtime, network access, and HF_TOKEN when required."
+          ],
+          "example": "Use huggingface-tool-builder. Build a script that finds models linked to this paper and exports their metadata as JSON.",
+          "expectedResult": "A reusable script with --help, authentication handling, and explicit output structure.",
+          "limitations": [
+            "Rate limits and private-resource permissions still apply."
+          ]
+        },
+        "zh": {
+          "title": "构建 Hub API 工具",
+          "description": "把 Hugging Face API 调用组合成输入输出清晰的可复用脚本。",
+          "tags": [
+            "huggingface-tool-builder",
+            "开发"
+          ],
+          "tasks": [
+            "把 Hugging Face API 调用组合成输入输出清晰的可复用脚本。"
+          ],
+          "prerequisites": [
+            "Shell 或 Python/Node 环境、网络，以及必要时的 HF_TOKEN。"
+          ],
+          "example": "请使用 huggingface-tool-builder：编写脚本查找与此论文关联的模型，并导出 JSON 元数据。",
+          "expectedResult": "带 --help、鉴权处理和明确输出结构的脚本。",
+          "limitations": [
+            "仍受 API 限流与私有资源权限限制。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "huggingface-huggingface-tool-builder.zip",
+        "sha256": "91a30d1374f3cb5b550cad5c0e14a57786d9c9eb23b6f32c894c7fdadbbe83be",
+        "bytes": 17358
+      }
+    },
+    {
+      "slug": "huggingface-transformers-js",
+      "name": "transformers-js",
+      "category": "development",
+      "language": "en",
+      "author": "Hugging Face",
+      "license": "Apache-2.0",
+      "sourceRepository": "huggingface/skills",
+      "sourceCommit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+      "sourcePath": "skills/transformers-js",
+      "path": "skills/huggingface/transformers-js",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Run ML in JavaScript",
+          "description": "Use Transformers.js pipelines for browser or server-side inference.",
+          "tags": [
+            "transformers-js",
+            "development"
+          ],
+          "tasks": [
+            "Use Transformers.js pipelines for browser or server-side inference."
+          ],
+          "prerequisites": [
+            "A supported JavaScript runtime, Transformers.js, and access to model files."
+          ],
+          "example": "Use transformers-js. Build a small browser demo that classifies text and shows loading and error states.",
+          "expectedResult": "A working inference example with model loading and resource cleanup.",
+          "limitations": [
+            "WebGPU support, model size, licensing, and browser memory vary."
+          ]
+        },
+        "zh": {
+          "title": "在 JavaScript 中运行模型",
+          "description": "使用 Transformers.js 在浏览器或服务端执行模型推理。",
+          "tags": [
+            "transformers-js",
+            "开发"
+          ],
+          "tasks": [
+            "使用 Transformers.js 在浏览器或服务端执行模型推理。"
+          ],
+          "prerequisites": [
+            "受支持的 JavaScript 环境、Transformers.js 及模型文件访问。"
+          ],
+          "example": "请使用 transformers-js：制作浏览器文本分类演示，展示加载和错误状态。",
+          "expectedResult": "包含模型加载和资源释放的推理示例。",
+          "limitations": [
+            "WebGPU 支持、模型体积、许可和浏览器内存各异。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "huggingface-transformers-js.zip",
+        "sha256": "97b995d44fdd3544d76e2b1a67df7c3f7d39e223e74017dc3eea4a30069b69a8",
+        "bytes": 36387
+      }
+    },
+    {
+      "slug": "k-dense-ai-citation-management",
+      "name": "citation-management",
+      "category": "research",
+      "language": "en",
+      "author": "K-Dense",
+      "license": "MIT",
+      "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+      "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "sourcePath": "skills/citation-management",
+      "path": "skills/k-dense-ai/citation-management",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Manage academic citations",
+          "description": "Find paper metadata, validate references, and prepare BibTeX entries.",
+          "tags": [
+            "citation-management",
+            "research"
+          ],
+          "tasks": [
+            "Find paper metadata, validate references, and prepare BibTeX entries."
+          ],
+          "prerequisites": [
+            "Python 3.9+, requests, and network access; scholarly for optional Google Scholar search."
+          ],
+          "example": "Use citation-management. Check these ten DOIs, identify incomplete references, and export a verified BibTeX file.",
+          "expectedResult": "A bibliography with validation notes and unresolved metadata clearly marked.",
+          "limitations": [
+            "Database coverage and rate limits vary; optional NCBI credentials raise request limits."
+          ]
+        },
+        "zh": {
+          "title": "管理学术引用",
+          "description": "查找论文元数据、核验参考文献并准备 BibTeX 条目。",
+          "tags": [
+            "citation-management",
+            "研究"
+          ],
+          "tasks": [
+            "查找论文元数据、核验参考文献并准备 BibTeX 条目。"
+          ],
+          "prerequisites": [
+            "Python 3.9+、requests 与网络；可选 Google Scholar 搜索需 scholarly。"
+          ],
+          "example": "请使用 citation-management：核对这十个 DOI，找出不完整引用，并导出已核对的 BibTeX 文件。",
+          "expectedResult": "参考文献库、核验记录及明确标注的元数据缺口。",
+          "limitations": [
+            "数据库覆盖与限流不同；可选 NCBI 凭据可提高请求额度。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "k-dense-ai-citation-management.zip",
+        "sha256": "9bdbfb4d8c5cff14f916d68a2441ec906d968ff862f4d4df4045686e4f77fe35",
+        "bytes": 97809
+      }
+    },
+    {
+      "slug": "k-dense-ai-exploratory-data-analysis",
+      "name": "exploratory-data-analysis",
+      "category": "data",
+      "language": "en",
+      "author": "K-Dense",
+      "license": "MIT",
+      "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+      "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "sourcePath": "skills/exploratory-data-analysis",
+      "path": "skills/k-dense-ai/exploratory-data-analysis",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Audit and explore datasets",
+          "description": "Profile supported local data files and document missingness, leakage, and outlier risks.",
+          "tags": [
+            "exploratory-data-analysis",
+            "data"
+          ],
+          "tasks": [
+            "Profile supported local data files and document missingness, leakage, and outlier risks."
+          ],
+          "prerequisites": [
+            "Python 3.11+ for core CLIs; optional formats need the packages listed upstream."
+          ],
+          "example": "Use exploratory-data-analysis. Profile this redacted CSV and report missing values, duplicate rows, and suspicious target leakage.",
+          "expectedResult": "A bounded data profile and report with explicit supported-format limitations.",
+          "limitations": [
+            "Unknown formats are not automatically supported; upstream core tools intentionally fail closed."
+          ]
+        },
+        "zh": {
+          "title": "审查与探索数据集",
+          "description": "分析支持的本地数据文件，记录缺失、泄漏和异常值风险。",
+          "tags": [
+            "exploratory-data-analysis",
+            "数据"
+          ],
+          "tasks": [
+            "分析支持的本地数据文件，记录缺失、泄漏和异常值风险。"
+          ],
+          "prerequisites": [
+            "核心 CLI 需 Python 3.11+；可选格式需安装上游列出的包。"
+          ],
+          "example": "请使用 exploratory-data-analysis：分析此已脱敏 CSV，报告缺失值、重复行和疑似目标泄漏。",
+          "expectedResult": "范围明确的数据概况与报告，并说明支持格式的限制。",
+          "limitations": [
+            "未知格式不会自动得到支持；上游核心工具会拒绝不支持的输入。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "k-dense-ai-exploratory-data-analysis.zip",
+        "sha256": "82cf4ad9ba46e6d372772a3e85e95c13851cd0b098aa8338297c940db4f19b2a",
+        "bytes": 75849
+      }
+    },
+    {
+      "slug": "k-dense-ai-geopandas",
+      "name": "geopandas",
+      "category": "data",
+      "language": "en",
+      "author": "K-Dense",
+      "license": "MIT",
+      "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+      "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "sourcePath": "skills/geopandas",
+      "path": "skills/k-dense-ai/geopandas",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Analyze vector geospatial data",
+          "description": "Inspect and transform vector datasets with GeoPandas and coordinate-system checks.",
+          "tags": [
+            "geopandas",
+            "data"
+          ],
+          "tasks": [
+            "Inspect and transform vector datasets with GeoPandas and coordinate-system checks."
+          ],
+          "prerequisites": [
+            "Python 3.10+, uv, and the upstream pinned GeoPandas stack."
+          ],
+          "example": "Use geopandas. Inspect these GeoJSON files, verify their CRS, and calculate overlaps in an appropriate projection.",
+          "expectedResult": "Validated geometry/CRS notes and a reproducible spatial-analysis output.",
+          "limitations": [
+            "Planar operations need a suitable projection; invalid geometries require explicit handling."
+          ]
+        },
+        "zh": {
+          "title": "分析地理空间矢量数据",
+          "description": "通过 GeoPandas 与坐标系检查处理地理空间矢量数据。",
+          "tags": [
+            "geopandas",
+            "数据"
+          ],
+          "tasks": [
+            "通过 GeoPandas 与坐标系检查处理地理空间矢量数据。"
+          ],
+          "prerequisites": [
+            "Python 3.10+、uv 与上游固定的 GeoPandas 依赖组合。"
+          ],
+          "example": "请使用 geopandas：检查这些 GeoJSON 文件及坐标系，使用合适投影计算重叠范围。",
+          "expectedResult": "几何与坐标系核验记录，以及可复现的空间分析输出。",
+          "limitations": [
+            "平面运算需要合适投影；无效几何必须显式处理。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "k-dense-ai-geopandas.zip",
+        "sha256": "19184cd34f70f421a0465c534e48ef8c1b7340c438a8f4ee893ebf620f5e447a",
+        "bytes": 56224
+      }
+    },
+    {
+      "slug": "k-dense-ai-markitdown",
+      "name": "markitdown",
+      "category": "writing",
+      "language": "en",
+      "author": "K-Dense",
+      "license": "MIT",
+      "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+      "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "sourcePath": "skills/markitdown",
+      "path": "skills/k-dense-ai/markitdown",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Convert files to Markdown",
+          "description": "Convert supported documents into Markdown for analysis, search, and retrieval workflows.",
+          "tags": [
+            "markitdown",
+            "writing"
+          ],
+          "tasks": [
+            "Convert supported documents into Markdown for analysis, search, and retrieval workflows."
+          ],
+          "prerequisites": [
+            "Python 3.10+, uv, and MarkItDown with format-specific optional dependencies."
+          ],
+          "example": "Use markitdown. Convert these local documents to Markdown, preserve source filenames, and report conversion failures.",
+          "expectedResult": "Markdown files and a conversion log with source-to-output mapping.",
+          "limitations": [
+            "OCR, URLs, audio, and cloud extraction may require additional services and credentials."
+          ]
+        },
+        "zh": {
+          "title": "将文件转换为 Markdown",
+          "description": "将支持的文档转为 Markdown，用于分析、搜索和检索流程。",
+          "tags": [
+            "markitdown",
+            "办公"
+          ],
+          "tasks": [
+            "将支持的文档转为 Markdown，用于分析、搜索和检索流程。"
+          ],
+          "prerequisites": [
+            "Python 3.10+、uv、MarkItDown 及目标格式的可选依赖。"
+          ],
+          "example": "请使用 markitdown：把这些本地文档转成 Markdown，保留来源文件名并报告转换失败项。",
+          "expectedResult": "Markdown 文件与包含输入输出映射的转换日志。",
+          "limitations": [
+            "OCR、网址、音频和云端提取可能需要额外服务与凭据。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "k-dense-ai-markitdown.zip",
+        "sha256": "f75af4491423c58db0b3395ae018f2708b993cc29637663277403e10f6812cde",
+        "bytes": 43123
+      }
+    },
+    {
+      "slug": "k-dense-ai-scientific-brainstorming",
+      "name": "scientific-brainstorming",
+      "category": "research",
+      "language": "en",
+      "author": "K-Dense",
+      "license": "MIT",
+      "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+      "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "sourcePath": "skills/scientific-brainstorming",
+      "path": "skills/k-dense-ai/scientific-brainstorming",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Explore research directions",
+          "description": "Generate and compare research ideas with explicit assumptions and evaluation criteria.",
+          "tags": [
+            "scientific-brainstorming",
+            "research"
+          ],
+          "tasks": [
+            "Generate and compare research ideas with explicit assumptions and evaluation criteria."
+          ],
+          "prerequisites": [
+            "A research question and background evidence; optional local helpers need Python 3.11+."
+          ],
+          "example": "Use scientific-brainstorming. Propose five testable directions for this research question, then compare feasibility and evidence gaps.",
+          "expectedResult": "An idea set, transparent comparison, and decision log for follow-up work.",
+          "limitations": [
+            "Ideation does not establish empirical validity or replace study-design review."
+          ]
+        },
+        "zh": {
+          "title": "探索研究方向",
+          "description": "生成并比较研究想法，明确假设与评估标准。",
+          "tags": [
+            "scientific-brainstorming",
+            "研究"
+          ],
+          "tasks": [
+            "生成并比较研究想法，明确假设与评估标准。"
+          ],
+          "prerequisites": [
+            "研究问题与背景证据；可选本地工具需 Python 3.11+。"
+          ],
+          "example": "请使用 scientific-brainstorming：为此研究问题提出五个可检验方向，并比较可行性与证据缺口。",
+          "expectedResult": "候选想法、透明的对比过程及后续决策记录。",
+          "limitations": [
+            "构思不等于实证成立，也不能替代研究设计审查。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "k-dense-ai-scientific-brainstorming.zip",
+        "sha256": "64c95296b58a5c3104d3fe5792a8016c54b61e28940e904e317d084f94fa14c2",
+        "bytes": 49548
+      }
+    },
+    {
+      "slug": "k-dense-ai-scientific-critical-thinking",
+      "name": "scientific-critical-thinking",
+      "category": "research",
+      "language": "en",
+      "author": "K-Dense",
+      "license": "MIT",
+      "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+      "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "sourcePath": "skills/scientific-critical-thinking",
+      "path": "skills/k-dense-ai/scientific-critical-thinking",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Evaluate scientific evidence",
+          "description": "Examine claims, confounders, bias, and the strength of scientific evidence.",
+          "tags": [
+            "scientific-critical-thinking",
+            "research"
+          ],
+          "tasks": [
+            "Examine claims, confounders, bias, and the strength of scientific evidence."
+          ],
+          "prerequisites": [
+            "Source papers or study descriptions; core analysis does not require network access."
+          ],
+          "example": "Use scientific-critical-thinking. Evaluate this study’s claim and explain which design choices weaken causal interpretation.",
+          "expectedResult": "A structured evidence critique with assumptions and unanswered questions.",
+          "limitations": [
+            "Optional diagrams refer to a separate scientific-schematics Skill and OpenRouter credentials, not bundled here."
+          ]
+        },
+        "zh": {
+          "title": "评估科学证据",
+          "description": "检查科学主张、混杂因素、偏差与证据强度。",
+          "tags": [
+            "scientific-critical-thinking",
+            "研究"
+          ],
+          "tasks": [
+            "检查科学主张、混杂因素、偏差与证据强度。"
+          ],
+          "prerequisites": [
+            "论文原文或研究说明；核心分析不要求联网。"
+          ],
+          "example": "请使用 scientific-critical-thinking：评估此研究的主张，解释哪些设计选择削弱了因果解释。",
+          "expectedResult": "结构化证据评述，列出假设和未解决问题。",
+          "limitations": [
+            "可选图示依赖独立 scientific-schematics Skill 与 OpenRouter 凭据，本包未包含。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "k-dense-ai-scientific-critical-thinking.zip",
+        "sha256": "11f5357674eb0e716b17a4442ef45a2143b17491cf3b1bf1216b9e6b4b8a3f8c",
+        "bytes": 43497
+      }
+    },
+    {
+      "slug": "k-dense-ai-statistical-analysis",
+      "name": "statistical-analysis",
+      "category": "data",
+      "language": "en",
+      "author": "K-Dense",
+      "license": "MIT",
+      "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+      "sourceCommit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+      "sourcePath": "skills/statistical-analysis",
+      "path": "skills/k-dense-ai/statistical-analysis",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Plan statistical analyses",
+          "description": "Choose tests, check assumptions, and report effect sizes and uncertainty.",
+          "tags": [
+            "statistical-analysis",
+            "data"
+          ],
+          "tasks": [
+            "Choose tests, check assumptions, and report effect sizes and uncertainty."
+          ],
+          "prerequisites": [
+            "Python and analysis packages such as scipy, statsmodels, pingouin, and pandas."
+          ],
+          "example": "Use statistical-analysis. Compare these two groups, explain the test assumptions, and report effect size with uncertainty.",
+          "expectedResult": "An analysis rationale, assumption checks, and interpretable result tables.",
+          "limitations": [
+            "Data quality and study design determine validity; significance alone is not a useful conclusion."
+          ]
+        },
+        "zh": {
+          "title": "规划统计分析",
+          "description": "选择检验方法、检查假设，并报告效应量与不确定性。",
+          "tags": [
+            "statistical-analysis",
+            "数据"
+          ],
+          "tasks": [
+            "选择检验方法、检查假设，并报告效应量与不确定性。"
+          ],
+          "prerequisites": [
+            "Python 及 scipy、statsmodels、pingouin、pandas 等分析包。"
+          ],
+          "example": "请使用 statistical-analysis：比较这两组数据，解释检验假设，并报告效应量和不确定性。",
+          "expectedResult": "分析依据、假设检查及可解释的结果表。",
+          "limitations": [
+            "结果有效性取决于数据质量与研究设计，显著性本身不足以构成结论。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "k-dense-ai-statistical-analysis.zip",
+        "sha256": "2424fe105038649ae7893fd4fb43f2a0b9025fa233657e52f68e7ac9763cbb7a",
+        "bytes": 45666
+      }
+    },
+    {
       "slug": "obra-systematic-debugging",
       "name": "systematic-debugging",
       "category": "development",
@@ -967,6 +2047,854 @@
         "file": "obra-systematic-debugging.zip",
         "sha256": "764fd689a1666897d2de2a332f5f67cd7cb1db7d2a995a3765000cfab969534b",
         "bytes": 21004
+      }
+    },
+    {
+      "slug": "openai-gh-address-comments",
+      "name": "gh-address-comments",
+      "category": "development",
+      "language": "en",
+      "author": "OpenAI",
+      "license": "Apache-2.0",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/gh-address-comments",
+      "path": "skills/openai/gh-address-comments",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Resolve GitHub review comments",
+          "description": "Collect pull-request review threads and turn selected comments into focused code changes.",
+          "tags": [
+            "gh-address-comments",
+            "development"
+          ],
+          "tasks": [
+            "Collect pull-request review threads and turn selected comments into focused code changes."
+          ],
+          "prerequisites": [
+            "A checked-out Git repository, Python, authenticated GitHub CLI, and repository access."
+          ],
+          "example": "Use gh-address-comments. List unresolved review threads on this branch and propose fixes for the ones I select.",
+          "expectedResult": "Numbered review threads, a focused change plan, and validation for approved fixes.",
+          "limitations": [
+            "Posting replies or pushing changes affects GitHub; review the selected actions first."
+          ]
+        },
+        "zh": {
+          "title": "处理 GitHub 评审意见",
+          "description": "收集 PR 评审讨论，将选定意见转化为具体代码修改。",
+          "tags": [
+            "gh-address-comments",
+            "开发"
+          ],
+          "tasks": [
+            "收集 PR 评审讨论，将选定意见转化为具体代码修改。"
+          ],
+          "prerequisites": [
+            "本地 Git 仓库、Python、已登录 GitHub CLI 及仓库权限。"
+          ],
+          "example": "请使用 gh-address-comments：列出当前分支未解决的评审讨论，为我选中的意见提出修改方案。",
+          "expectedResult": "编号的评审讨论、聚焦的修改计划及获准修改的验证结果。",
+          "limitations": [
+            "回复或推送会修改 GitHub 状态，先核对要执行的动作。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-gh-address-comments.zip",
+        "sha256": "507996ec1a178f30bdeb5b29ffbc1633131157c5ae446cd2f81aa016ebe9373e",
+        "bytes": 10770
+      }
+    },
+    {
+      "slug": "openai-gh-fix-ci",
+      "name": "gh-fix-ci",
+      "category": "development",
+      "language": "en",
+      "author": "OpenAI",
+      "license": "Apache-2.0",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/gh-fix-ci",
+      "path": "skills/openai/gh-fix-ci",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Diagnose GitHub Actions failures",
+          "description": "Inspect failing PR checks and GitHub Actions logs to identify actionable failures.",
+          "tags": [
+            "gh-fix-ci",
+            "development"
+          ],
+          "tasks": [
+            "Inspect failing PR checks and GitHub Actions logs to identify actionable failures."
+          ],
+          "prerequisites": [
+            "Authenticated GitHub CLI, a local checkout, and access to workflow logs."
+          ],
+          "example": "Use gh-fix-ci. Investigate the failing checks on this PR, summarize the cause, and propose a minimal fix.",
+          "expectedResult": "Failure evidence, a proposed patch, and a relevant verification command.",
+          "limitations": [
+            "External CI providers are outside this Skill’s scope; upstream asks for approval before implementing."
+          ]
+        },
+        "zh": {
+          "title": "诊断 GitHub CI 失败",
+          "description": "检查 PR 失败检查项与 GitHub Actions 日志，定位可修复原因。",
+          "tags": [
+            "gh-fix-ci",
+            "开发"
+          ],
+          "tasks": [
+            "检查 PR 失败检查项与 GitHub Actions 日志，定位可修复原因。"
+          ],
+          "prerequisites": [
+            "已登录 GitHub CLI、本地仓库及工作流日志权限。"
+          ],
+          "example": "请使用 gh-fix-ci：调查此 PR 的失败检查，概括原因并提出最小修复方案。",
+          "expectedResult": "失败证据、建议补丁及对应验证命令。",
+          "limitations": [
+            "不负责外部 CI 服务；上游流程要求修改前确认。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-gh-fix-ci.zip",
+        "sha256": "7678750f6028029dddc65435cb7d5eb5a189672f51df2bf80bd824e92a1bf7a1",
+        "bytes": 13435
+      }
+    },
+    {
+      "slug": "openai-jupyter-notebook",
+      "name": "jupyter-notebook",
+      "category": "data",
+      "language": "en",
+      "author": "OpenAI",
+      "license": "Apache-2.0",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/jupyter-notebook",
+      "path": "skills/openai/jupyter-notebook",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Create Jupyter notebooks",
+          "description": "Scaffold clean experiment and tutorial notebooks with bundled templates.",
+          "tags": [
+            "jupyter-notebook",
+            "data"
+          ],
+          "tasks": [
+            "Scaffold clean experiment and tutorial notebooks with bundled templates."
+          ],
+          "prerequisites": [
+            "Python; Jupyter to run notebooks. Upstream helpers use $CODEX_HOME/skills/jupyter-notebook/."
+          ],
+          "example": "Use jupyter-notebook. Create a notebook that loads this CSV, checks missing values, and plots three useful summaries.",
+          "expectedResult": "An .ipynb with ordered cells, explanations, and explicit data assumptions.",
+          "limitations": [
+            "Scaffolding does not execute or validate every cell; run the notebook in your environment."
+          ]
+        },
+        "zh": {
+          "title": "创建 Jupyter Notebook",
+          "description": "通过包内模板创建结构清晰的实验或教程 Notebook。",
+          "tags": [
+            "jupyter-notebook",
+            "数据"
+          ],
+          "tasks": [
+            "通过包内模板创建结构清晰的实验或教程 Notebook。"
+          ],
+          "prerequisites": [
+            "Python；运行 Notebook 需 Jupyter。上游脚本路径使用 $CODEX_HOME/skills/jupyter-notebook/。"
+          ],
+          "example": "请使用 jupyter-notebook：创建 Notebook，读取此 CSV、检查缺失值并绘制三项摘要图。",
+          "expectedResult": "单元顺序清晰、含解释与数据假设的 .ipynb 文件。",
+          "limitations": [
+            "创建骨架不代表所有单元已执行，需在自己的环境运行。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-jupyter-notebook.zip",
+        "sha256": "32b37a0a86b26d48b99c13e22fcbe3e4a06758a87af480265f27ca13a9b07bbd",
+        "bytes": 16643
+      }
+    },
+    {
+      "slug": "openai-notion-knowledge-capture",
+      "name": "notion-knowledge-capture",
+      "category": "writing",
+      "language": "en",
+      "author": "Notion Labs",
+      "license": "MIT",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/notion-knowledge-capture",
+      "path": "skills/openai/notion-knowledge-capture",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Capture knowledge in Notion",
+          "description": "Turn notes and conversations into linked wiki pages, decisions, or FAQs.",
+          "tags": [
+            "notion-knowledge-capture",
+            "writing"
+          ],
+          "tasks": [
+            "Turn notes and conversations into linked wiki pages, decisions, or FAQs."
+          ],
+          "prerequisites": [
+            "A connected Notion MCP integration with access to the target pages and databases."
+          ],
+          "example": "Use notion-knowledge-capture. Turn these meeting notes into a decision page with owners, dates, and links to supporting pages.",
+          "expectedResult": "A structured Notion draft with source links and the target database properties.",
+          "limitations": [
+            "The ZIP does not install the Notion connector; creating pages changes your workspace.",
+            "Upstream Codex connector setup commands are version-specific; use your current host’s Notion connection settings."
+          ]
+        },
+        "zh": {
+          "title": "整理 Notion 知识库",
+          "description": "将笔记与对话整理为带关联的知识页、决策或 FAQ。",
+          "tags": [
+            "notion-knowledge-capture",
+            "办公"
+          ],
+          "tasks": [
+            "将笔记与对话整理为带关联的知识页、决策或 FAQ。"
+          ],
+          "prerequisites": [
+            "已连接 Notion MCP，且可访问目标页面与数据库。"
+          ],
+          "example": "请使用 notion-knowledge-capture：把这些会议笔记整理为决策页，列明负责人、日期及依据页面链接。",
+          "expectedResult": "结构化 Notion 草稿、来源链接和目标数据库属性。",
+          "limitations": [
+            "ZIP 不会安装 Notion 连接器；创建页面会修改工作区。",
+            "上游 Codex 连接配置命令有版本差异，请使用当前宿主的 Notion 连接设置。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-notion-knowledge-capture.zip",
+        "sha256": "077e2c6e4e076c0a3b0c57ecb0fd2b514fb5e3a2ca7553fffd818d7b2ac5de23",
+        "bytes": 44854
+      }
+    },
+    {
+      "slug": "openai-notion-meeting-intelligence",
+      "name": "notion-meeting-intelligence",
+      "category": "writing",
+      "language": "en",
+      "author": "Notion Labs",
+      "license": "MIT",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/notion-meeting-intelligence",
+      "path": "skills/openai/notion-meeting-intelligence",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Prepare meetings from Notion",
+          "description": "Build agendas and pre-reads from relevant Notion context.",
+          "tags": [
+            "notion-meeting-intelligence",
+            "writing"
+          ],
+          "tasks": [
+            "Build agendas and pre-reads from relevant Notion context."
+          ],
+          "prerequisites": [
+            "Notion MCP access to relevant project pages; research tools for external context."
+          ],
+          "example": "Use notion-meeting-intelligence. Prepare a 30-minute project review agenda using these Notion pages and list unresolved decisions.",
+          "expectedResult": "A timed agenda, linked pre-read, and questions matched to meeting goals.",
+          "limitations": [
+            "Attendee context and private workspace material must be supplied through authorized access.",
+            "Upstream Codex connector setup commands are version-specific; use your current host’s Notion connection settings."
+          ]
+        },
+        "zh": {
+          "title": "使用 Notion 准备会议",
+          "description": "根据相关 Notion 内容准备议程和会前阅读材料。",
+          "tags": [
+            "notion-meeting-intelligence",
+            "办公"
+          ],
+          "tasks": [
+            "根据相关 Notion 内容准备议程和会前阅读材料。"
+          ],
+          "prerequisites": [
+            "Notion MCP 可访问相关项目页；外部背景研究需要研究工具。"
+          ],
+          "example": "请使用 notion-meeting-intelligence：根据这些 Notion 页面准备 30 分钟项目复盘议程，列出待定决策。",
+          "expectedResult": "带时间安排的议程、会前阅读链接和对应会议目标的问题。",
+          "limitations": [
+            "参会人背景和私有工作区材料需要有授权的访问。",
+            "上游 Codex 连接配置命令有版本差异，请使用当前宿主的 Notion 连接设置。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-notion-meeting-intelligence.zip",
+        "sha256": "65e21f331e8372c80f571b846b26a86aecabf7fe8e1d335e90e2e7fe3e4b1d9a",
+        "bytes": 44078
+      }
+    },
+    {
+      "slug": "openai-notion-research-documentation",
+      "name": "notion-research-documentation",
+      "category": "research",
+      "language": "en",
+      "author": "Notion Labs",
+      "license": "MIT",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/notion-research-documentation",
+      "path": "skills/openai/notion-research-documentation",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Research across Notion pages",
+          "description": "Synthesize multiple Notion sources into a cited brief or comparison.",
+          "tags": [
+            "notion-research-documentation",
+            "research"
+          ],
+          "tasks": [
+            "Synthesize multiple Notion sources into a cited brief or comparison."
+          ],
+          "prerequisites": [
+            "Connected Notion MCP and read access to the source pages."
+          ],
+          "example": "Use notion-research-documentation. Compare the three proposals in these Notion pages and cite the evidence for each trade-off.",
+          "expectedResult": "A comparison or report with traceable page links and explicit gaps.",
+          "limitations": [
+            "Unavailable pages cannot be researched; citations must be checked against current source content.",
+            "Upstream Codex connector setup commands are version-specific; use your current host’s Notion connection settings."
+          ]
+        },
+        "zh": {
+          "title": "跨 Notion 页面调研",
+          "description": "综合多个 Notion 来源，撰写带引用的简报或对比。",
+          "tags": [
+            "notion-research-documentation",
+            "研究"
+          ],
+          "tasks": [
+            "综合多个 Notion 来源，撰写带引用的简报或对比。"
+          ],
+          "prerequisites": [
+            "已连接 Notion MCP，并具备来源页面读取权限。"
+          ],
+          "example": "请使用 notion-research-documentation：对比这些 Notion 页面中的三个方案，并为各项取舍标注依据。",
+          "expectedResult": "含可追溯页面链接和资料缺口的对比或报告。",
+          "limitations": [
+            "无法访问的页面不能纳入研究，引用需与当前原文核对。",
+            "上游 Codex 连接配置命令有版本差异，请使用当前宿主的 Notion 连接设置。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-notion-research-documentation.zip",
+        "sha256": "c130e9e50360f3dbf0e97db25c1a299d779b916d2ba84a41827473a650e48c4d",
+        "bytes": 48713
+      }
+    },
+    {
+      "slug": "openai-notion-spec-to-implementation",
+      "name": "notion-spec-to-implementation",
+      "category": "development",
+      "language": "en",
+      "author": "Notion Labs",
+      "license": "MIT",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/notion-spec-to-implementation",
+      "path": "skills/openai/notion-spec-to-implementation",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Turn Notion specs into tasks",
+          "description": "Translate a product specification into an implementation plan and trackable tasks.",
+          "tags": [
+            "notion-spec-to-implementation",
+            "development"
+          ],
+          "tasks": [
+            "Translate a product specification into an implementation plan and trackable tasks."
+          ],
+          "prerequisites": [
+            "Notion MCP with access to the specification and the destination task database."
+          ],
+          "example": "Use notion-spec-to-implementation. Break this feature spec into one- or two-day tasks with acceptance criteria and dependencies.",
+          "expectedResult": "A linked implementation plan, task breakdown, and progress fields.",
+          "limitations": [
+            "Database schemas vary; review mappings and task creation before writing to Notion.",
+            "Upstream Codex connector setup commands are version-specific; use your current host’s Notion connection settings."
+          ]
+        },
+        "zh": {
+          "title": "将 Notion 需求拆成任务",
+          "description": "将产品需求转为实施计划和可跟踪任务。",
+          "tags": [
+            "notion-spec-to-implementation",
+            "开发"
+          ],
+          "tasks": [
+            "将产品需求转为实施计划和可跟踪任务。"
+          ],
+          "prerequisites": [
+            "Notion MCP 可访问需求页及目标任务数据库。"
+          ],
+          "example": "请使用 notion-spec-to-implementation：把这个功能需求拆成一至两天的任务，写明验收标准与依赖。",
+          "expectedResult": "关联需求的实施计划、任务拆分和进度字段。",
+          "limitations": [
+            "数据库结构各异，写入前需核对字段映射和任务内容。",
+            "上游 Codex 连接配置命令有版本差异，请使用当前宿主的 Notion 连接设置。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-notion-spec-to-implementation.zip",
+        "sha256": "6dac833cf64eb1ce3ee2ff2af752c5db98eab2248439a43d4e55d3bbbbd642e4",
+        "bytes": 48983
+      }
+    },
+    {
+      "slug": "openai-pdf",
+      "name": "pdf",
+      "category": "writing",
+      "language": "en",
+      "author": "OpenAI",
+      "license": "Apache-2.0",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/pdf",
+      "path": "skills/openai/pdf",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Create and inspect PDFs",
+          "description": "Generate, extract, and visually inspect PDFs with Python and page rendering.",
+          "tags": [
+            "pdf",
+            "writing"
+          ],
+          "tasks": [
+            "Generate, extract, and visually inspect PDFs with Python and page rendering."
+          ],
+          "prerequisites": [
+            "Python with reportlab, pdfplumber, pypdf; Poppler for rendering."
+          ],
+          "example": "Use pdf. Create a two-page summary PDF from these notes and render both pages to check the layout.",
+          "expectedResult": "A PDF plus rendered page previews with layout issues identified.",
+          "limitations": [
+            "Text extraction alone cannot verify layout; scanned documents may need separate OCR."
+          ]
+        },
+        "zh": {
+          "title": "创建与检查 PDF",
+          "description": "使用 Python 和页面渲染创建、提取与检查 PDF。",
+          "tags": [
+            "pdf",
+            "办公"
+          ],
+          "tasks": [
+            "使用 Python 和页面渲染创建、提取与检查 PDF。"
+          ],
+          "prerequisites": [
+            "Python 与 reportlab、pdfplumber、pypdf；页面渲染需 Poppler。"
+          ],
+          "example": "请使用 pdf：根据这些笔记制作两页摘要 PDF，并渲染两页检查版式。",
+          "expectedResult": "PDF 文件、页面预览及发现的版式问题。",
+          "limitations": [
+            "文本提取无法验证版式；扫描文档可能需要额外 OCR。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-pdf.zip",
+        "sha256": "b9a5ba66d642db7854f4d6dfce005e9c07e0b17ce49d942eee4e395b2f328b9e",
+        "bytes": 7632
+      }
+    },
+    {
+      "slug": "openai-playwright",
+      "name": "playwright",
+      "category": "development",
+      "language": "en",
+      "author": "OpenAI",
+      "license": "Apache-2.0",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/playwright",
+      "path": "skills/openai/playwright",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Automate browser workflows",
+          "description": "Drive a browser using Playwright CLI snapshots, locators, and a bundled wrapper.",
+          "tags": [
+            "playwright",
+            "development"
+          ],
+          "tasks": [
+            "Drive a browser using Playwright CLI snapshots, locators, and a bundled wrapper."
+          ],
+          "prerequisites": [
+            "Node.js/npm and browser binaries. Upstream wrapper uses $CODEX_HOME/skills/playwright/."
+          ],
+          "example": "Use playwright. Open my local app, search for an item, and capture the resulting page without submitting purchases.",
+          "expectedResult": "A reproducible interaction sequence and screenshots or extracted page state.",
+          "limitations": [
+            "Requires a host that allows browser control and terminal execution."
+          ]
+        },
+        "zh": {
+          "title": "自动化浏览器流程",
+          "description": "使用 Playwright CLI 快照、定位器和包内封装驱动浏览器。",
+          "tags": [
+            "playwright",
+            "开发"
+          ],
+          "tasks": [
+            "使用 Playwright CLI 快照、定位器和包内封装驱动浏览器。"
+          ],
+          "prerequisites": [
+            "Node.js/npm 与浏览器组件。上游封装使用 $CODEX_HOME/skills/playwright/。"
+          ],
+          "example": "请使用 playwright：打开我的本地应用，搜索一个条目并截图，不提交购买操作。",
+          "expectedResult": "可复现的操作序列、截图或页面状态。",
+          "limitations": [
+            "需要宿主允许浏览器控制与终端执行。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-playwright.zip",
+        "sha256": "47034c05cddc35872d21883e5ce2394a893d03fcee2424ecaa8ef6d4b01630d1",
+        "bytes": 12249
+      }
+    },
+    {
+      "slug": "openai-screenshot",
+      "name": "screenshot",
+      "category": "design",
+      "language": "en",
+      "author": "OpenAI",
+      "license": "Apache-2.0",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/screenshot",
+      "path": "skills/openai/screenshot",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Capture desktop screenshots",
+          "description": "Capture a screen, app window, or region using platform-specific helpers.",
+          "tags": [
+            "screenshot",
+            "design"
+          ],
+          "tasks": [
+            "Capture a screen, app window, or region using platform-specific helpers."
+          ],
+          "prerequisites": [
+            "Python and OS screenshot tools; screen-recording permission on macOS."
+          ],
+          "example": "Use screenshot. Capture only this application window and save a PNG to the folder I specify.",
+          "expectedResult": "A screenshot file with the intended window or region captured.",
+          "limitations": [
+            "Desktop permissions and supported tools differ across operating systems."
+          ]
+        },
+        "zh": {
+          "title": "截取桌面画面",
+          "description": "通过平台专用工具截取屏幕、应用窗口或指定区域。",
+          "tags": [
+            "screenshot",
+            "设计"
+          ],
+          "tasks": [
+            "通过平台专用工具截取屏幕、应用窗口或指定区域。"
+          ],
+          "prerequisites": [
+            "Python 与操作系统截图工具；macOS 需要录屏权限。"
+          ],
+          "example": "请使用 screenshot：只截取这个应用窗口，把 PNG 保存到我指定的文件夹。",
+          "expectedResult": "覆盖指定窗口或区域的截图文件。",
+          "limitations": [
+            "不同操作系统的桌面权限和可用工具不同。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-screenshot.zip",
+        "sha256": "b13f6e8f7f6dc3f167764681a22e38e8dc92bfb8f2f7a3b3366c68c5554ac4b2",
+        "bytes": 19628
+      }
+    },
+    {
+      "slug": "openai-security-best-practices",
+      "name": "security-best-practices",
+      "category": "development",
+      "language": "en",
+      "author": "OpenAI",
+      "license": "Apache-2.0",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/security-best-practices",
+      "path": "skills/openai/security-best-practices",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Review application security",
+          "description": "Review supported Python, JavaScript/TypeScript, and Go code against security guidance.",
+          "tags": [
+            "security-best-practices",
+            "development"
+          ],
+          "tasks": [
+            "Review supported Python, JavaScript/TypeScript, and Go code against security guidance."
+          ],
+          "prerequisites": [
+            "Read access to an authorized codebase and its framework/configuration files."
+          ],
+          "example": "Use security-best-practices. Review this API’s authentication and input handling, citing file locations and prioritizing fixes.",
+          "expectedResult": "A scoped findings report with evidence, severity, and concrete remediation.",
+          "limitations": [
+            "A guided review is not a penetration test or a guarantee that all vulnerabilities are found."
+          ]
+        },
+        "zh": {
+          "title": "检查应用安全实践",
+          "description": "依据安全指南检查 Python、JavaScript/TypeScript 与 Go 代码。",
+          "tags": [
+            "security-best-practices",
+            "开发"
+          ],
+          "tasks": [
+            "依据安全指南检查 Python、JavaScript/TypeScript 与 Go 代码。"
+          ],
+          "prerequisites": [
+            "获授权代码库及框架、配置文件的读取权限。"
+          ],
+          "example": "请使用 security-best-practices：检查此 API 的鉴权和输入处理，标注代码位置并排列修复优先级。",
+          "expectedResult": "包含范围、证据、严重程度和具体修复建议的报告。",
+          "limitations": [
+            "此流程不等于渗透测试，也不保证发现所有漏洞。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-security-best-practices.zip",
+        "sha256": "67972899c97a693932a1811e7ead8c76d83c6bebe253ffe18d12658255c413ec",
+        "bytes": 141739
+      }
+    },
+    {
+      "slug": "openai-security-threat-model",
+      "name": "security-threat-model",
+      "category": "development",
+      "language": "en",
+      "author": "OpenAI",
+      "license": "Apache-2.0",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/security-threat-model",
+      "path": "skills/openai/security-threat-model",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Model application threats",
+          "description": "Map assets, trust boundaries, abuse paths, and mitigations using repository evidence.",
+          "tags": [
+            "security-threat-model",
+            "development"
+          ],
+          "tasks": [
+            "Map assets, trust boundaries, abuse paths, and mitigations using repository evidence."
+          ],
+          "prerequisites": [
+            "An authorized source repository plus deployment and authentication context."
+          ],
+          "example": "Use security-threat-model. Threat-model this file-upload service, identifying trust boundaries and the highest-impact abuse paths.",
+          "expectedResult": "A repository-grounded Markdown threat model with explicit assumptions.",
+          "limitations": [
+            "The result depends on supplied architecture and deployment information."
+          ]
+        },
+        "zh": {
+          "title": "应用威胁建模",
+          "description": "依据仓库证据梳理资产、信任边界、滥用途径与缓解措施。",
+          "tags": [
+            "security-threat-model",
+            "开发"
+          ],
+          "tasks": [
+            "依据仓库证据梳理资产、信任边界、滥用途径与缓解措施。"
+          ],
+          "prerequisites": [
+            "获授权源代码仓库，以及部署和鉴权背景。"
+          ],
+          "example": "请使用 security-threat-model：为此文件上传服务建立威胁模型，识别信任边界与高影响滥用途径。",
+          "expectedResult": "基于仓库、明确列出假设的 Markdown 威胁模型。",
+          "limitations": [
+            "结果受所提供架构与部署信息完整性影响。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-security-threat-model.zip",
+        "sha256": "ad293655d58cd2d8918c9601248a150dffc450c4431a94df036971ed729e90f7",
+        "bytes": 14114
+      }
+    },
+    {
+      "slug": "openai-speech",
+      "name": "speech",
+      "category": "design",
+      "language": "en",
+      "author": "OpenAI",
+      "license": "Apache-2.0",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/speech",
+      "path": "skills/openai/speech",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Generate spoken narration",
+          "description": "Turn approved text into narration with the bundled OpenAI Audio API client.",
+          "tags": [
+            "speech",
+            "design"
+          ],
+          "tasks": [
+            "Turn approved text into narration with the bundled OpenAI Audio API client."
+          ],
+          "prerequisites": [
+            "Python, the openai package, OPENAI_API_KEY, and API billing access."
+          ],
+          "example": "Use speech. Generate a calm narration of this 150-word script and save an MP3 for review.",
+          "expectedResult": "An audio file with the requested text, delivery, and output format.",
+          "limitations": [
+            "API calls incur usage costs; custom voice creation is outside this Skill’s scope."
+          ]
+        },
+        "zh": {
+          "title": "生成语音旁白",
+          "description": "通过包内 OpenAI Audio API 客户端把确认后的文本转成旁白。",
+          "tags": [
+            "speech",
+            "设计"
+          ],
+          "tasks": [
+            "通过包内 OpenAI Audio API 客户端把确认后的文本转成旁白。"
+          ],
+          "prerequisites": [
+            "Python、openai 包、OPENAI_API_KEY 与 API 计费权限。"
+          ],
+          "example": "请使用 speech：为这段 150 字文稿生成平静的旁白，并保存 MP3 供检查。",
+          "expectedResult": "符合指定文本、表达方式与格式的音频文件。",
+          "limitations": [
+            "API 调用产生费用；此 Skill 不负责创建自定义声音。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-speech.zip",
+        "sha256": "d074820c8cc8dda90bf3acabd28c80fd4848b6e9539cd3ec78f73136d26c0557",
+        "bytes": 22950
+      }
+    },
+    {
+      "slug": "openai-transcribe",
+      "name": "transcribe",
+      "category": "writing",
+      "language": "en",
+      "author": "OpenAI",
+      "license": "Apache-2.0",
+      "sourceRepository": "openai/skills",
+      "sourceCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "sourcePath": "skills/.curated/transcribe",
+      "path": "skills/openai/transcribe",
+      "reviewedAt": "2026-09-05",
+      "reviewStatus": "source-reviewed",
+      "translations": {
+        "en": {
+          "title": "Transcribe recordings",
+          "description": "Convert audio to text with optional speaker labels using OpenAI’s API.",
+          "tags": [
+            "transcribe",
+            "writing"
+          ],
+          "tasks": [
+            "Convert audio to text with optional speaker labels using OpenAI’s API."
+          ],
+          "prerequisites": [
+            "Python, openai, OPENAI_API_KEY. Upstream CLI uses $CODEX_HOME/skills/transcribe/."
+          ],
+          "example": "Use transcribe. Transcribe this interview with speaker labels and flag words that need manual review.",
+          "expectedResult": "A transcript or diarized JSON aligned with the supplied recording.",
+          "limitations": [
+            "Audio is sent to the API and incurs usage costs; verify names and speaker attribution."
+          ]
+        },
+        "zh": {
+          "title": "转录录音",
+          "description": "通过 OpenAI API 将音频转为文本，并可添加说话人标签。",
+          "tags": [
+            "transcribe",
+            "办公"
+          ],
+          "tasks": [
+            "通过 OpenAI API 将音频转为文本，并可添加说话人标签。"
+          ],
+          "prerequisites": [
+            "Python、openai、OPENAI_API_KEY。上游 CLI 使用 $CODEX_HOME/skills/transcribe/。"
+          ],
+          "example": "请使用 transcribe：转录这段访谈，标注说话人并指出需要人工核对的词语。",
+          "expectedResult": "与录音对应的转录稿或带说话人信息的 JSON。",
+          "limitations": [
+            "音频会发送至 API 并计费；需核对姓名和说话人归属。"
+          ]
+        }
+      },
+      "download": {
+        "release": "catalog-2026-09-05-expansion",
+        "file": "openai-transcribe.zip",
+        "sha256": "b42d26175d5d789800c2db692af76c11cd8220c8b4eb61a91e4a484156edfcff",
+        "bytes": 11678
       }
     }
   ]

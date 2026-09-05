@@ -50,5 +50,11 @@
         "仍受 API 限流与私有资源权限限制。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-huggingface-tool-builder.zip",
+    "sha256": "91a30d1374f3cb5b550cad5c0e14a57786d9c9eb23b6f32c894c7fdadbbe83be",
+    "bytes": 17358
   }
 }

@@ -50,5 +50,11 @@
         "音频会发送至 API 并计费；需核对姓名和说话人归属。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-transcribe.zip",
+    "sha256": "b42d26175d5d789800c2db692af76c11cd8220c8b4eb61a91e4a484156edfcff",
+    "bytes": 11678
   }
 }

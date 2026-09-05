@@ -50,5 +50,11 @@
         "结果受所提供架构与部署信息完整性影响。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-security-threat-model.zip",
+    "sha256": "ad293655d58cd2d8918c9601248a150dffc450c4431a94df036971ed729e90f7",
+    "bytes": 14114
   }
 }

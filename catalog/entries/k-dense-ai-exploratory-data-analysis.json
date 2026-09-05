@@ -50,5 +50,11 @@
         "未知格式不会自动得到支持；上游核心工具会拒绝不支持的输入。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-exploratory-data-analysis.zip",
+    "sha256": "82cf4ad9ba46e6d372772a3e85e95c13851cd0b098aa8338297c940db4f19b2a",
+    "bytes": 75849
   }
 }

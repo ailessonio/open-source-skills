@@ -50,5 +50,11 @@
         "可选图示依赖独立 scientific-schematics Skill 与 OpenRouter 凭据，本包未包含。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-scientific-critical-thinking.zip",
+    "sha256": "11f5357674eb0e716b17a4442ef45a2143b17491cf3b1bf1216b9e6b4b8a3f8c",
+    "bytes": 43497
   }
 }

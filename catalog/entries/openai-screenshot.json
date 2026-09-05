@@ -50,5 +50,11 @@
         "不同操作系统的桌面权限和可用工具不同。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-screenshot.zip",
+    "sha256": "b13f6e8f7f6dc3f167764681a22e38e8dc92bfb8f2f7a3b3366c68c5554ac4b2",
+    "bytes": 19628
   }
 }

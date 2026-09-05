@@ -50,5 +50,11 @@
         "结果有效性取决于数据质量与研究设计，显著性本身不足以构成结论。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-statistical-analysis.zip",
+    "sha256": "2424fe105038649ae7893fd4fb43f2a0b9025fa233657e52f68e7ac9763cbb7a",
+    "bytes": 45666
   }
 }

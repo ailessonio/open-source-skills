@@ -50,5 +50,11 @@
         "API 调用产生费用；此 Skill 不负责创建自定义声音。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-speech.zip",
+    "sha256": "d074820c8cc8dda90bf3acabd28c80fd4848b6e9539cd3ec78f73136d26c0557",
+    "bytes": 22950
   }
 }

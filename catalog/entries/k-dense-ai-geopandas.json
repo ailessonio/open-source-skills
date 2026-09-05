@@ -50,5 +50,11 @@
         "平面运算需要合适投影；无效几何必须显式处理。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-geopandas.zip",
+    "sha256": "19184cd34f70f421a0465c534e48ef8c1b7340c438a8f4ee893ebf620f5e447a",
+    "bytes": 56224
   }
 }

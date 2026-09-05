@@ -50,5 +50,11 @@
         "上传、删除、部署和付费任务属于需单独核对的操作。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-hf-cli.zip",
+    "sha256": "54de602bf81ec2dd7f12bdee5faf702b254b7dc37e872d7e9b59e8f49e584e59",
+    "bytes": 11536
   }
 }

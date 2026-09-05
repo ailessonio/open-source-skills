@@ -50,5 +50,11 @@
         "此流程不等于渗透测试，也不保证发现所有漏洞。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-security-best-practices.zip",
+    "sha256": "67972899c97a693932a1811e7ead8c76d83c6bebe253ffe18d12658255c413ec",
+    "bytes": 141739
   }
 }

@@ -50,5 +50,11 @@
         "构思不等于实证成立，也不能替代研究设计审查。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-scientific-brainstorming.zip",
+    "sha256": "64c95296b58a5c3104d3fe5792a8016c54b61e28940e904e317d084f94fa14c2",
+    "bytes": 49548
   }
 }

@@ -50,5 +50,11 @@
         "需要宿主允许浏览器控制与终端执行。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-playwright.zip",
+    "sha256": "47034c05cddc35872d21883e5ce2394a893d03fcee2424ecaa8ef6d4b01630d1",
+    "bytes": 12249
   }
 }

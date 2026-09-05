@@ -50,5 +50,11 @@
         "部署前需核对托管资格、硬件可用性与费用。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-huggingface-spaces.zip",
+    "sha256": "a38cfe119c4392220fbc00edc711fee76483b0fc343afc92d9a0c91da58a8cf5",
+    "bytes": 76434
   }
 }

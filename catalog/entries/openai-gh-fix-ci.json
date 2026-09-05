@@ -50,5 +50,11 @@
         "不负责外部 CI 服务；上游流程要求修改前确认。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-gh-fix-ci.zip",
+    "sha256": "7678750f6028029dddc65435cb7d5eb5a189672f51df2bf80bd824e92a1bf7a1",
+    "bytes": 13435
   }
 }

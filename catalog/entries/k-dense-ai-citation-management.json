@@ -50,5 +50,11 @@
         "数据库覆盖与限流不同；可选 NCBI 凭据可提高请求额度。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "k-dense-ai-citation-management.zip",
+    "sha256": "9bdbfb4d8c5cff14f916d68a2441ec906d968ff862f4d4df4045686e4f77fe35",
+    "bytes": 97809
   }
 }

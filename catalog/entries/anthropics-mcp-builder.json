@@ -50,5 +50,11 @@
         "服务鉴权与部署需单独配置。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "anthropics-mcp-builder.zip",
+    "sha256": "507c1268e57d07622e0758bd0def5efed3c82367e1722ba220046ac089f54910",
+    "bytes": 58438
   }
 }

@@ -50,5 +50,11 @@
         "WebGPU 支持、模型体积、许可和浏览器内存各异。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-transformers-js.zip",
+    "sha256": "97b995d44fdd3544d76e2b1a67df7c3f7d39e223e74017dc3eea4a30069b69a8",
+    "bytes": 36387
   }
 }

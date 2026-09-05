@@ -50,5 +50,11 @@
         "发布与认领作者身份会改变公开记录，需具备相应权限。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "huggingface-huggingface-paper-publisher.zip",
+    "sha256": "0579fde15029528c83655b4bb2b126c576bf19e39411848506930cfdeac91866",
+    "bytes": 32210
   }
 }

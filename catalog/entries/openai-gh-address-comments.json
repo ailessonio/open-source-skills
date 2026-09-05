@@ -50,5 +50,11 @@
         "回复或推送会修改 GitHub 状态，先核对要执行的动作。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "openai-gh-address-comments.zip",
+    "sha256": "507996ec1a178f30bdeb5b29ffbc1633131157c5ae446cd2f81aa016ebe9373e",
+    "bytes": 10770
   }
 }

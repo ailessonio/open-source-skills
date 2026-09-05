@@ -50,5 +50,11 @@
         "此包提供主题，不包含幻灯片或文档编辑应用。"
       ]
     }
+  },
+  "download": {
+    "release": "catalog-2026-09-05-expansion",
+    "file": "anthropics-theme-factory.zip",
+    "sha256": "b4dd99f47b9e2c510219ae3f10b00b4ff2cacc964ece7ba98d7d2202ca8a62fb",
+    "bytes": 139619
   }
 }
