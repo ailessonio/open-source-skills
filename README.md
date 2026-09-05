@@ -1,50 +1,33 @@
 # AILesson Open Source Skills
 
-An open collection of practical Agent Skills, curated from existing upstream projects for [AILesson](https://ailesson.io).
+A collection of practical Agent Skills from open-source projects, with complete downloads, original author attribution, and usage guidance in English and Simplified Chinese.
 
-**Status:** 47 curated Skills with complete source folders, en/zh catalog metadata, and reproducible download packages. Source and package checks are complete; end-to-end Agent task verification is not claimed.
+**[Browse Agent Skills](https://ailesson.io/agent-skills)** · **[中文浏览](https://ailesson.io/zh/agent-skills)** · **[Downloads](https://github.com/ailessonio/open-source-skills/releases)**
 
-## What belongs here
+## What are Agent Skills?
 
-- Complete, redistributable upstream Skill folders, with their original authors and licenses preserved.
-- Localized catalog descriptions, task categories, prerequisites, and first-use guidance.
-- Source repository, path, pinned commit, license evidence, and verification status for every entry.
+Agent Skills are folders of instructions and supporting resources that an AI assistant can use for a specific task. This collection covers writing, research, marketing, design, development, and data analysis.
 
-Repository documentation is English. Skill files have one upstream English version; catalog descriptions and usage metadata have English and Simplified Chinese translations.
+Each Skill includes its upstream files, license information, and a source reference. The catalog adds descriptions, prerequisites, example requests, and usage notes to help you choose a Skill for your task. Skill files retain their upstream English version; catalog guidance is available in English and Simplified Chinese.
 
-We curate existing Skills; we do not create original Skills in this phase. Inclusion does not imply universal compatibility or a security certification.
+## Find and use a Skill
 
-## Repository structure
+1. Browse the [catalog on AILesson](https://ailesson.io/agent-skills) and choose a Skill for your task.
+2. Read its prerequisites and usage notes, then download the individual ZIP linked from its detail page.
+3. Follow the installation instructions for your AI tool and try the example request with your own material.
 
-```text
-catalog/index.json         # Published catalog
-catalog/entries/           # Localized entry metadata
-catalog/research/          # Intake evidence and deferred candidates
-skills/<source>/<name>/    # Complete upstream Skill folders
-```
+You can also browse the [source folders](skills/) and [catalog metadata](catalog/index.json) directly in this repository. Individual ZIPs are available in [GitHub Releases](https://github.com/ailessonio/open-source-skills/releases). GitHub's **Code → Download ZIP** downloads the entire collection.
 
-Use a source namespace to distinguish authors while retaining each Skill's original directory name. Never install every folder by default.
-
-## Get a Skill
-
-Browse [catalog/index.json](catalog/index.json) for source folders and usage guidance. Individual ZIP files are provided as GitHub Release assets, with a pinned source revision and checksum. GitHub's **Code → Download ZIP** downloads the whole repository, not one ready-to-upload Skill.
-
-Downloads link directly to GitHub. AILesson does not need a separate Skill file hosting service.
+Compatibility and setup requirements vary by Skill and AI tool. Check the included instructions for required software, accounts, or external services.
 
 ## Contribute
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Use an issue to suggest an existing upstream Skill, or submit a pull request with the complete source and provenance. Do not submit credentials, private material, or files without redistribution permission.
+Know a useful open-source Skill? [Open an issue](https://github.com/ailessonio/open-source-skills/issues) with its upstream link and the task it helps with. Corrections to descriptions, translations, and usage guidance are welcome too.
 
-## Licensing
+To contribute a Skill, include its complete source folder, author attribution, license, and English and Simplified Chinese catalog metadata. See the [contribution guide](CONTRIBUTING.md) for details.
 
-AILesson-authored catalog descriptions and repository maintenance materials are provided under the [MIT License](LICENSE). Third-party Skills and their accompanying resources retain their own licenses; the root license does not relicense them. Each imported directory must include its applicable license and notices. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+## License and attribution
 
-## Maintain the catalog
+Each third-party Skill retains its original license. Read the license included with that Skill for its terms; the repository's root license does not replace it. See [Third-party notices](THIRD_PARTY_NOTICES.md) for attribution.
 
-`python3 scripts/build-catalog.py --release catalog-YYYY-MM-DD --date YYYY-MM-DD` checks provenance and builds ZIP files in `dist/`. Publish the ZIPs to the matching GitHub Release before syncing their metadata.
-
-The website reads metadata from D1; Skill files stay on GitHub. Set `CONTENT_API_BASE_URL` and `CONTENT_API_TOKEN` securely in your environment. Run `node scripts/sync.mjs` for a read-only dry run, then add `--apply` to write. Use `--slug=<slug>` for one entry; combine with `--withdraw` to unpublish it. Never remove D1 entries merely because a local file is absent. Staging and production must be synced separately after the application migration is deployed.
-
-New or changed packages require a new Release tag. Unchanged packages keep their existing download URLs and checksums. Source scripts are never executed by the builder; executable file permissions are preserved in the ZIP.
-
-The September 5 expansion reviewed 48 candidates from six repositories, imported 32, and deferred 16 for unresolved licensing or supporting references. See [the intake record](catalog/research/2026-09-05-expansion.json).
+AILesson-authored catalog descriptions and repository maintenance materials are available under the [MIT License](LICENSE).

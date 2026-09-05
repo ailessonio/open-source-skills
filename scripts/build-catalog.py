@@ -12,10 +12,12 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'dist'
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--release', required=True, help='New GitHub Release tag for new or changed packages')
+parser.add_argument('--check', action='store_true', help='Validate committed catalog and packages without rewriting metadata')
+parser.add_argument('--release', help='New GitHub Release tag for new or changed packages')
 parser.add_argument('--date', default=date.today().isoformat(), help='Catalog review date (YYYY-MM-DD)')
 ARGS = parser.parse_args()
-assert re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', ARGS.release)
+assert ARGS.check or ARGS.release, '--release is required unless --check is used'
+assert ARGS.release is None or re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', ARGS.release)
 date.fromisoformat(ARGS.date)
 
 def build():
@@ -46,15 +48,29 @@ def build():
                 archive.writestr(info, file.read_bytes())
         digest = hashlib.sha256(target.read_bytes()).hexdigest()
         previous = entry.get('download')
+        if ARGS.check:
+            assert previous and previous['sha256'] == digest, f'{path}: rebuild catalog before syncing'
         if not previous or previous['sha256'] != digest:
             assert not previous or previous['release'] != ARGS.release, 'Changed packages require a new Release tag'
             entry['download'] = {'release': ARGS.release, 'file': target.name, 'sha256': digest, 'bytes': target.stat().st_size}
         else:
             assert previous['bytes'] == target.stat().st_size and previous['file'] == target.name
-        path.write_text(json.dumps(entry, ensure_ascii=False, indent=2) + '\n')
+        if not ARGS.check:
+            path.write_text(json.dumps(entry, ensure_ascii=False, indent=2) + '\n')
         entries.append(entry)
+    if ARGS.check:
+        catalog = json.loads((ROOT / 'catalog/index.json').read_text())
+        assert catalog['schemaVersion'] == 1 and re.fullmatch(r'[0-9a-f]{40}', catalog['revision'])
+        withdrawn = catalog.get('withdrawnSlugs', [])
+        assert isinstance(withdrawn, list) and all(slug in [entry['slug'] for entry in entries] for slug in withdrawn), 'Invalid withdrawnSlugs'
+        assert catalog['entries'] == entries, 'catalog/index.json is stale; rebuild it'
+        print(f'Validated {len(entries)} committed entries and ZIP files without rewriting metadata.')
+        return
+    previous_catalog = json.loads((ROOT / 'catalog/index.json').read_text()) if (ROOT / 'catalog/index.json').exists() else {}
     revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     catalog = {'schemaVersion': 1, 'revision': revision, 'updatedAt': ARGS.date, 'entries': entries}
+    if 'withdrawnSlugs' in previous_catalog:
+        catalog['withdrawnSlugs'] = previous_catalog['withdrawnSlugs']
     (ROOT / 'catalog/index.json').write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n')
     print(f"Validated {len(entries)} entries and built {len(entries)} complete ZIP files.")
 

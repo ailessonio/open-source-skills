@@ -17,3 +17,5 @@ Before an entry is published:
 Changes are reviewed through pull requests. Entries with unresolved licensing or incomplete dependencies stay out of the published catalog. Restricted source-available materials may be suggested as upstream references, but must not be copied into this collection or labeled open source.
 
 The MIT license covers AILesson-authored editorial and maintenance material. Upstream files keep their own licenses. By contributing original editorial material, you agree to its inclusion under the repository's MIT license; you must have permission to submit any third-party material.
+
+Before merging, rebuild `catalog/index.json` and run `python3 scripts/build-catalog.py --check`. Publish new ZIP assets before the staging sync can succeed.

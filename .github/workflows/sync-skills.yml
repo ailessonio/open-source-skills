@@ -1,0 +1,87 @@
+name: Sync Agent Skills
+run-name: Sync Agent Skills to ${{ inputs.environment || 'staging' }}
+
+on:
+  pull_request:
+    paths: ['catalog/**', 'skills/**', 'scripts/**', '.github/workflows/sync-skills.yml']
+  push:
+    branches: [main]
+    paths: ['catalog/**', 'skills/**', 'scripts/**', '.github/workflows/sync-skills.yml']
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment (validate staging before production)
+        type: choice
+        options: [staging, production]
+        default: staging
+
+permissions:
+  contents: read
+
+# Serialize complete catalog syncs per environment; do not interrupt partial writes.
+concurrency:
+  group: skills-${{ github.event_name == 'pull_request' && github.ref || inputs.environment || 'staging' }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event_name == 'release' && 'main' || github.sha }}
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - run: node --test scripts/publishing.test.mjs
+      - run: python3 scripts/build-catalog.py --check
+
+  sync:
+    if: github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: ${{ inputs.environment || 'staging' }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event_name == 'release' && 'main' || github.sha }}
+          fetch-depth: 0
+      - name: Reject stale revisions and non-main dispatches
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_REF: ${{ github.ref }}
+        run: |
+          if [ "$EVENT_NAME" != release ] && [ "$EVENT_REF" != refs/heads/main ]; then
+            echo 'Dispatch from main only.' >&2
+            exit 1
+          fi
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Verify all published download packages before any writes
+        run: node scripts/verify-downloads.mjs
+      - name: Sync catalog through Content API
+        env:
+          CONTENT_API_BASE_URL: ${{ vars.CONTENT_API_BASE_URL }}
+          CONTENT_API_TOKEN: ${{ secrets.CONTENT_API_TOKEN }}
+          CF_ACCESS_CLIENT_ID: ${{ secrets.CF_ACCESS_CLIENT_ID }}
+          CF_ACCESS_CLIENT_SECRET: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
+          SYNC_ENVIRONMENT: ${{ inputs.environment || 'staging' }}
+        run: |
+          if [ "$SYNC_ENVIRONMENT" = production ]; then
+            test "$CONTENT_API_BASE_URL" = https://ailesson.io
+          else
+            test "$CONTENT_API_BASE_URL" = https://ailesson.dev
+          fi
+          node scripts/sync.mjs --apply
